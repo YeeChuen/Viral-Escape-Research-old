@@ -79,7 +79,7 @@ if __name__ == "__main__":
     # extract protein sequence from all PBDIDs in the pbd_list
     pbd_sequence_list = get_sequence(pbd_list)
 
-    df = pd.DataFrame(pbd_sequence_list, columns =['PBDid', 'PBD_Sequence']) 
+    df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_Sequence']) 
     print(df)
     
     print("----------------------------------------------")
