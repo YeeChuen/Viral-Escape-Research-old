@@ -7,6 +7,7 @@
 # imports 
 import pandas as pd
 import requests
+import urllib3
 
 #____________________________________________________________________________________________________
 # functions 
@@ -23,13 +24,30 @@ def extract_pbd(PDB_list_2d):
 
 # extract all protein sequence from all PBD_ids
 def get_sequence(pbdlist):
+    http = urllib3.PoolManager()
     fronturl = "https://www.rcsb.org/fasta/entry/"
     backurl = "/display"
     # a 2d list to store PBD id in list[0] and its sequence in list[1]
     pbdAndSequence = [[],[]]
     for pbd in pbdlist:
-        url = fronturl + str(pbd) + backurl
-    return -1
+        id = str(pbd).replace(" ","")
+        url = fronturl + id + backurl
+        web_data = http.request('GET', url)
+        text_data = web_data.data.decode('utf-8')
+        text_data_list = text_data.splitlines()
+        # some PBDid has been removed, check here checks if the current pbd is removed.
+        check = text_data_list[0].split(" ")
+        if check[0] == "No":
+            print(text_data + " (PBDid: "+ id + ")")
+        else:
+            for i in range(0, len(text_data_list), 2):
+                sequence = text_data_list[i+1]
+                pbd_info = text_data_list[i].replace(">", "")
+                pbd_info_list = pbd_info.split("|")
+                pbd_id = pbd_info_list[0]
+                pbdAndSequence[0].append(pbd_id)
+                pbdAndSequence[1].append(sequence)
+    return pbdAndSequence
 # add both into a new dataframe
 
 #____________________________________________________________________________________________________
@@ -44,8 +62,10 @@ if __name__ == "__main__":
     html = requests.get(url).content
     df = pd.read_html(html)
     PDB_list_2d = df[0][2]
-    pbdlist = extract_pbd(PDB_list_2d)
-    print(pbdlist[0:3])
-    print(len(pbdlist))
+    pbd_list = extract_pbd(PDB_list_2d)     # pbd_list contain all pbd id from above url
+
+    # extract protein sequence from all PBDIDs in the pbd_list
+    pbd_sequence_list = get_sequence(pbd_list)
+    print(pbd_sequence_list)
     
     print("----------------------------------------------")

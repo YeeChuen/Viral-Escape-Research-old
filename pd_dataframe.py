@@ -44,10 +44,22 @@ if __name__ == "__main__":
 
     #print(tables_on_page)
 
-    
-    url = "https://www.rcsb.org/fasta/entry/2ITC/display"
-    html = requests.get(url).content
-    df = pd.read_html(html)
+    http = urllib3.PoolManager()
+    url = "https://www.rcsb.org/fasta/entry/1S33/display"
+    web_data = http.request('GET', url)
+    text_data = web_data.data.decode('utf-8')
+    text_data_list = text_data.splitlines()
+    check = text_data_list[0].split(" ")
+    if check[0] == "No":
+            print(text_data + " (for PBDid: "+ "1S33" + ")")
+    else:
+        for i in range(0, len(text_data_list), 2):
+            sequence = text_data_list[i+1]
+            pbd_info = text_data_list[i].replace(">", "")
+            pbd_info_list = pbd_info.split("|")
+            pbd_id = pbd_info_list[0]
+            print(pbd_id)
+            print(sequence)
 
     
     print("----------------------------------------------")
