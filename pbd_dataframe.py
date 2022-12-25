@@ -14,21 +14,29 @@ import urllib3
 
 # extract all PBD_ids into a list
 def extract_pbd(PDB_list_2d):
+    print("--- extracting PBD ids ---")
+
     pbdlist = []
     for x in range(2, len(PDB_list_2d)):
         templist = PDB_list_2d[x].split("PBDID: ")
         for y in range(1, len(templist)):
-            pbdlist.append(templist[y])
+            # make sure there is no duplicate PBDid in the list
+            if templist[y] not in pbdlist:
+                pbdlist.append(templist[y])
+                
+    print("--- extraction done PBD ids ---")
     return pbdlist
 
 
 # extract all protein sequence from all PBD_ids
 def get_sequence(pbdlist):
+    print("--- retrieving PBD sequence ---")
+
     http = urllib3.PoolManager()
     fronturl = "https://www.rcsb.org/fasta/entry/"
     backurl = "/display"
     # a 2d list to store PBD id in list[0] and its sequence in list[1]
-    pbdAndSequence = [[],[]]
+    pbdAndSequence = []
     for pbd in pbdlist:
         id = str(pbd).replace(" ","")
         url = fronturl + id + backurl
@@ -45,8 +53,12 @@ def get_sequence(pbdlist):
                 pbd_info = text_data_list[i].replace(">", "")
                 pbd_info_list = pbd_info.split("|")
                 pbd_id = pbd_info_list[0]
-                pbdAndSequence[0].append(pbd_id)
-                pbdAndSequence[1].append(sequence)
+                templist = []
+                templist.append(pbd_id)
+                templist.append(sequence)
+                pbdAndSequence.append(templist)
+
+    print("--- retrieval done PBD sequence ---")
     return pbdAndSequence
 # add both into a new dataframe
 
@@ -66,6 +78,8 @@ if __name__ == "__main__":
 
     # extract protein sequence from all PBDIDs in the pbd_list
     pbd_sequence_list = get_sequence(pbd_list)
-    print(pbd_sequence_list)
+
+    df = pd.DataFrame(pbd_sequence_list, columns =['PBDid', 'PBD_Sequence']) 
+    print(df)
     
     print("----------------------------------------------")
