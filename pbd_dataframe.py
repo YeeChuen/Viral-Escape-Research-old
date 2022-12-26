@@ -2,12 +2,22 @@
 # Title: pbd_dataframe.py
 # Project: ChowdhuryLab Datamining from website
 # Description: python script to mine protein sequence and PDB ids from webs
+# Reference:
+'''A Completely Reimplemented MPI Bioinformatics Toolkit with a New HHpred Server at its Core.
+Zimmermann L, Stephens A, Nam SZ, Rau D, Kübler J, Lozajic M, Gabler F, Söding J, Lupas AN, Alva V. J Mol Biol. 2018 Jul 20. S0022-2836(17)30587-9.
+
+Protein Sequence Analysis Using the MPI Bioinformatics Toolkit.
+Gabler F, Nam SZ, Till S, Mirdita M, Steinegger M, Söding J, Lupas AN, Alva V. Curr Protoc Bioinformatics. 2020 Dec;72(1):e108. doi: 10.1002/cpbi.108.
+
+HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment.
+Remmert M, Biegert A, Hauser A, Söding J. Nat Methods. 2011 Dec 25;9(2):173-5.'''
 
 #____________________________________________________________________________________________________
 # imports 
 import pandas as pd
 import requests
 import urllib3
+import os.path
 
 #____________________________________________________________________________________________________
 # functions 
@@ -35,8 +45,8 @@ def get_sequence(pbdlist):
     http = urllib3.PoolManager()
     fronturl = "https://www.rcsb.org/fasta/entry/"
     backurl = "/display"
-    # a 2d list to store PBD id in list[0] and its sequence in list[1]
-    pbdAndSequence = []
+    pbdAndSequence = []     # a 2d list to store PBD id in list[0] and its sequence in list[1]
+    longest = []            # store the longest sequence in the list
     for pbd in pbdlist:
         id = str(pbd).replace(" ","")
         url = fronturl + id + backurl
@@ -50,18 +60,18 @@ def get_sequence(pbdlist):
         else:
             for i in range(0, len(text_data_list), 2):
                 sequence = text_data_list[i+1]
-                pbd_info = text_data_list[i].replace(">", "")
-                pbd_info_list = pbd_info.split("|")
-                pbd_id = pbd_info_list[0]
                 templist = []
                 templist.append(id)
                 templist.append(text_data_list[i])
                 templist.append(sequence)
+                if not longest:
+                    longest = templist
+                elif len(longest[2]) < len(templist[2]):
+                    longest = templist
                 pbdAndSequence.append(templist)
 
     print("--- retrieval done PBD sequence ---")
-    return pbdAndSequence
-# add both into a new dataframe
+    return [pbdAndSequence,longest]
 
 #____________________________________________________________________________________________________
 # main 
@@ -69,18 +79,32 @@ if __name__ == "__main__":
     print("-------------------- MAIN --------------------")
     
     # url variable 
-    url = "https://tcdb.org/search/index.php?query=&type=pdb"
+    url1 = "https://tcdb.org/search/index.php?query=&type=pdb"
 
     # extraction of PBD_ids into list
-    html = requests.get(url).content
+    html = requests.get(url1).content
     df = pd.read_html(html)
     PDB_list_2d = df[0][2]
     pbd_list = extract_pbd(PDB_list_2d)     # pbd_list contain all pbd id from above url
 
     # extract protein sequence from all PBDIDs in the pbd_list
-    pbd_sequence_list = get_sequence(pbd_list)
+    return_list = get_sequence(pbd_list)
+    pbd_sequence_list = return_list[0]      #this is just reference, not a copy
+    longest = return_list[1]                # longest sequence will be used to be compared during MSA
 
     df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
+    
+    print("--- df ---")
     print(df)
+    print("--- longest ---")
+    print(longest)
+
+    # save the df as a digital csv 
+    if os.path.exists('PBDSequenceDF.csv'):     
+        os.remove('PBDSequenceDF.csv')
+    df.to_csv('PBDSequenceDF.csv')
+
+    url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
+
     
     print("----------------------------------------------")

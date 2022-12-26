@@ -44,7 +44,9 @@ if __name__ == "__main__":
 
     #print(tables_on_page)
 
+    # sequence test
     http = urllib3.PoolManager()
+    '''
     url = "https://www.rcsb.org/fasta/entry/1S33/display"
     web_data = http.request('GET', url)
     text_data = web_data.data.decode('utf-8')
@@ -59,8 +61,22 @@ if __name__ == "__main__":
             pbd_info_list = pbd_info.split("|")
             pbd_id = pbd_info_list[0]
             print(pbd_id)
-            print(sequence)
+            print(sequence)'''
 
+    # Webautomation test
+    url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
+    web_data = http.request('GET', url2)
+    text_data = web_data.data.decode('utf-8')
+    print(text_data)
+    param = {
+        1: ">1F6G_1|Chains A, B, C, D|VOLTAGE-GATED POTASSIUM CHANNEL|Streptomyces lividans (1916)\
+            \nMPPMLSGLLARLVKLLLGRHGSALHWAAAGAATVLLVIVLLAGSYLAVLAERGAPGAQLITYPAALWWSVETATTVGYGDLYPVTLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQERRGHFVRHSEKAAEEAYTRTTRALHERFDRLERMLDDNRR\
+            \n>1J95_1|Chains A, B, C, D|VOLTAGE-GATED POTASSIUM CHANNEL|Streptomyces lividans (1916)\
+            \nMPPMLSGLLARLVKLLLGRHGSALHWRAAGAATVLLVIVLLAGSYLAVLAERGAPGAQLITYPRALWWSVETATTVGYGDLYPVTLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQERRGHF\
+            \n>1JQ1_1|Chains A, B, C, D|VOLTAGE-GATED POTASSIUM CHANNEL|Streptomyces lividans (1916)\
+            \nLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQ"
+    }
+    print(param[1])
     
     print("----------------------------------------------")
 

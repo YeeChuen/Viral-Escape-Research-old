@@ -4,3 +4,4 @@ lxml
 html5lib
 BeautifulSoup4
 urllib3
+os.path2
