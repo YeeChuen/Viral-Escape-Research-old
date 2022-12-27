@@ -73,11 +73,7 @@ def get_sequence(pbdlist):
     print("--- retrieval done PBD sequence ---")
     return [pbdAndSequence,longest]
 
-#____________________________________________________________________________________________________
-# main 
-if __name__ == "__main__":
-    print("-------------------- MAIN --------------------")
-    
+def main():
     # url variable 
     url1 = "https://tcdb.org/search/index.php?query=&type=pdb"
 
@@ -92,19 +88,39 @@ if __name__ == "__main__":
     pbd_sequence_list = return_list[0]      #this is just reference, not a copy
     longest = return_list[1]                # longest sequence will be used to be compared during MSA
 
-    df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
+    list = [longest]
+    df = pd.DataFrame(list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
     
-    print("--- df ---")
-    print(df)
-    print("--- longest ---")
-    print(longest)
+    print("--- longest sequence ---")
+    for x in range(len(longest)):
+        if x == 0:
+            print("PBDID: {}".format(str(longest[x])))
+        if x == 1:
+            print("PBD INFO: {}".format(str(longest[x])))
+        if x == 2:
+            print("PBD SEQUENCE: {}".format(str(longest[x])))
+    print("Note: extract longest sequence here to be used for MSA alignment\
+        \nAll protein sequence will be used to align with this longest sequence.")
+    df.to_csv('LongestSequence.csv')
+    print("--- end longest sequence ---")
+
+    df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
 
     # save the df as a digital csv 
-    if os.path.exists('PBDSequenceDF.csv'):     
-        os.remove('PBDSequenceDF.csv')
     df.to_csv('PBDSequenceDF.csv')
+    print("---")
+    print("PBD dataframe created, also a copy version of csv file created for reference")
+    print("csvfile created: PBDSequenceDF.csv")
+    print("run \"python readcsv.py --fPath PBDSequenceDF.csv\" on terminal to read csv file")
+    print("---")
+    print("Script not fully as of done yet, TODO:")
+    print("1. implement/use MSA Tool using website")
 
-    url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
+    #url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
 
-    
-    print("----------------------------------------------")
+#____________________________________________________________________________________________________
+# main 
+if __name__ == "__main__":
+    print("\n-------------------- START of \"pbd_dataframe.py\" script --------------------")
+    main()
+    print("-------------------- END of \"pbd_dataframe.py\" script --------------------\n")

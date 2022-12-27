@@ -8,6 +8,12 @@
 import pandas as pd
 import urllib3
 import requests
+from selenium import webdriver
+import unittest
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.by import By
+import time
 
 #____________________________________________________________________________________________________
 # set ups 
@@ -33,6 +39,65 @@ import requests
 #PDB_ids_list = df[0][2]
 #print(df)
 #df.to_csv('my data.csv')
+
+# Try Selenium
+class PythonOrgSearch(unittest.TestCase):
+
+    def setUp(self):
+        self.driver = webdriver.Chrome()
+
+    def test_search_in_python_org(self):
+        driver = self.driver
+        driver.get("https://www.youtube.com/")
+        #self.assertIn("YouTube", driver.title)
+
+        elem = driver.find_element(By.ID, "sea")
+
+        elem.send_keys("maplestory bgm")
+        elem.send_keys(Keys.RETURN)
+        time.sleep(5)
+
+        window_after = driver.window_handles[0]
+        driver.switch_to.window(window_after)
+
+        elem = driver.find_element(By.NAME, "search_query")
+        elem.send_keys("maplestory class")
+        elem.send_keys(Keys.RETURN)
+        time.sleep(2)
+
+        strUrl = driver.current_url
+        print(strUrl)
+        
+        #self.assertNotIn("No results found.", driver.page_source)
+
+
+    def tearDown(self):
+        self.driver.close()
+
+def main():
+        driver = webdriver.Chrome()
+        driver.get("https://www.youtube.com/")
+
+        elem = driver.find_element(By.NAME, "search_query")
+
+        elem.send_keys("maplestory bgm")
+        elem.send_keys(Keys.RETURN)
+        time.sleep(3)
+
+        window_after = driver.window_handles[0]
+        driver.switch_to.window(window_after)
+
+        video = driver.find_element(By.LINK_TEXT, 'Maplestory BGM Compilation - Explorer\'s Journey to the Black Mage')
+        video.click()
+        time.sleep(60)
+
+        strUrl = driver.current_url
+        print("---")
+        print(strUrl)
+        print("---")
+
+        driver.close()
+
 
 #____________________________________________________________________________________________________
 # main 
@@ -67,7 +132,7 @@ if __name__ == "__main__":
     url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
     web_data = http.request('GET', url2)
     text_data = web_data.data.decode('utf-8')
-    print(text_data)
+    #print(text_data)
     param = {
         1: ">1F6G_1|Chains A, B, C, D|VOLTAGE-GATED POTASSIUM CHANNEL|Streptomyces lividans (1916)\
             \nMPPMLSGLLARLVKLLLGRHGSALHWAAAGAATVLLVIVLLAGSYLAVLAERGAPGAQLITYPAALWWSVETATTVGYGDLYPVTLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQERRGHFVRHSEKAAEEAYTRTTRALHERFDRLERMLDDNRR\
@@ -76,7 +141,10 @@ if __name__ == "__main__":
             \n>1JQ1_1|Chains A, B, C, D|VOLTAGE-GATED POTASSIUM CHANNEL|Streptomyces lividans (1916)\
             \nLWGRCVAVVVMVAGITSFGLVTAALATWFVGREQ"
     }
-    print(param[1])
+    #print(param[1])
+
+    # start test on selenium (web automation)
+    main()
     
     print("----------------------------------------------")
 
