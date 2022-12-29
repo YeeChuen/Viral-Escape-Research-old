@@ -1,0 +1,23 @@
+# Author/s: Yee Chuen Teh
+# Title: MSAalignment.py
+# Project: ChowdhuryLab Datamining from website
+# Description: Description
+# Reference:
+'''
+TODO: write your reference here
+'''
+
+#____________________________________________________________________________________________________
+# imports 
+    # TODO: write your imports here
+
+#____________________________________________________________________________________________________
+# set ups 
+    # TODO: write your functions here
+
+#____________________________________________________________________________________________________
+# main 
+if __name__ == "__main__":
+    print("\n-------------------- START of \"<PYTHON SCRIPT TITLE>\" script --------------------")
+    # TODO: write your code here
+    print("-------------------- END of \"<PYTHON SCRIPT TITLE>\" script --------------------\n")

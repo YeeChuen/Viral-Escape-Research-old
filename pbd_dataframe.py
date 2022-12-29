@@ -56,8 +56,9 @@ def get_sequence(pbdlist):
         # some PBDid has been removed, check here checks if the current pbd is removed.
         check = text_data_list[0].split(" ")
         if check[0] == "No":
-            print(text_data + " (PBDid: "+ id + ")")
+            print(text_data + " (PBDid: {})".format(id))
         else:
+            print("Scrapping data. (PBDid: {})".format(id))
             for i in range(0, len(text_data_list), 2):
                 sequence = text_data_list[i+1]
                 templist = []
@@ -69,7 +70,7 @@ def get_sequence(pbdlist):
                 elif len(longest[2]) < len(templist[2]):
                     longest = templist
                 pbdAndSequence.append(templist)
-
+    http.clear()
     print("--- retrieval done PBD sequence ---")
     return [pbdAndSequence,longest]
 
@@ -99,22 +100,22 @@ def main():
             print("PBD INFO: {}".format(str(longest[x])))
         if x == 2:
             print("PBD SEQUENCE: {}".format(str(longest[x])))
-    print("Note: extract longest sequence here to be used for MSA alignment\
+    df.to_csv('PBD_LSequence.csv')
+    print("Note: extract longest sequence here to be used for MSA alignment, saved as \"PBD_LSequence.csv\"\
+        \ncsvfile created: \"PBD_LSequence.csv\"\
         \nAll protein sequence will be used to align with this longest sequence.")
-    df.to_csv('LongestSequence.csv')
     print("--- end longest sequence ---")
 
     df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
 
     # save the df as a digital csv 
-    df.to_csv('PBDSequenceDF.csv')
+    df.to_csv('PBD_AllSequenceDF.csv')
     print("---")
-    print("PBD dataframe created, also a copy version of csv file created for reference")
-    print("csvfile created: PBDSequenceDF.csv")
-    print("run \"python readcsv.py --fPath PBDSequenceDF.csv\" on terminal to read csv file")
+    print("PBD dataframe created, saved as save as \"PBD_SequenceDF.csv\.")
+    print("csvfile created: \"PBD_SequenceDF.csv\"")
+    print("run \"python readcsv.py --fPath PBD_SequenceDF.csv\" on terminal to read csv file")
+    print("OPTIONAL: run \"python readcsv.py --fPath PBD_SequenceDF.csv --search <PBDID>\" on terminal to search specific PBD")
     print("---")
-    print("Script not fully as of done yet, TODO:")
-    print("1. implement/use MSA Tool using website")
 
     #url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
 
