@@ -101,6 +101,7 @@ def main():
         if x == 2:
             print("PBD SEQUENCE: {}".format(str(longest[x])))
     df.to_csv('PBD_LSequence.csv')
+    print("---")
     print("Note: extract longest sequence here to be used for MSA alignment, saved as \"PBD_LSequence.csv\"\
         \ncsvfile created: \"PBD_LSequence.csv\"\
         \nAll protein sequence will be used to align with this longest sequence.")
