@@ -2,7 +2,7 @@
 # Title: readcsv.py
 # Project: ChowdhuryLab Datamining from website
 # Description: python scripts to read creating csv file. 
-#               aim to check/reference the created PBD_SequenceDF.csv
+#               aim to check/reference the created PBD csv file
 
 #____________________________________________________________________________________________________
 # imports 

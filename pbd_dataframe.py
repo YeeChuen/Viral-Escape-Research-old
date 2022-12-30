@@ -112,10 +112,10 @@ def main():
     # save the df as a digital csv 
     df.to_csv('PBD_AllSequenceDF.csv')
     print("---")
-    print("PBD dataframe created, saved as save as \"PBD_SequenceDF.csv\.")
-    print("csvfile created: \"PBD_SequenceDF.csv\"")
-    print("run \"python readcsv.py --fPath PBD_SequenceDF.csv\" on terminal to read csv file")
-    print("OPTIONAL: run \"python readcsv.py --fPath PBD_SequenceDF.csv --search <PBDID>\" on terminal to search specific PBD")
+    print("PBD dataframe created, saved as save as \"PBD_AllSequenceDF.csv\.")
+    print("csvfile created: \"PBD_AllSequenceDF.csv\"")
+    print("run \"python readcsv.py --fPath PBD_AllSequenceDF.csv\" on terminal to read csv file")
+    print("OPTIONAL: run \"python readcsv.py --fPath PBD_AllSequenceDF.csv --search <PBDID>\" on terminal to search specific PBD")
     print("---")
 
     #url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"

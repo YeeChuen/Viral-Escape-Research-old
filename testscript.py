@@ -139,6 +139,29 @@ def main(input):
     http.clear()
     driver.close()
 
+def getFASTA(exportlink):
+    http = urllib3.PoolManager()
+    web_data = http.request('GET', exportlink)
+    text_data = web_data.data.decode('utf-8')
+    list_data = text_data.split("\n")
+    list_2d = []
+    templist = []
+    tempstring = ""
+    for data in list_data:
+        print(data)
+        if ">" in data:
+            if tempstring != "":
+                templist.append(tempstring)
+                list_2d.append(templist)
+                templist = []
+                tempstring = ""
+            templist.append(data)
+        else:
+            tempstring += data
+    
+    for list in list_2d:
+        for entry in list:
+            print(entry)
 
 #____________________________________________________________________________________________________
 # main 
@@ -185,7 +208,8 @@ if __name__ == "__main__":
     #print(param[1])
 
     # start test on selenium (web automation)
-    main(param[1])
+    #main(param[1])
+    getFASTA("https://toolkit.tuebingen.mpg.de/api/jobs/2406460/results/files/alignment.fas")
     
-    print("----------------------------------------------")
+    print("-------------------- END --------------------")
 
