@@ -146,6 +146,7 @@ def MSA(csvfile, compare_long, mod, file):
         inputstring += string
         count+=1
         if count == mod:
+            print("\n---------- MSA for PBD {} to {} ----------".format(str(i-mod+1), str(i)))
             templist = MSATool(inputstring)
             for list in templist:
                 pbd_list_2d.append(list)
@@ -209,10 +210,11 @@ if __name__ == "__main__":
         pass
     else:
         parser = argparse.ArgumentParser()
-        parser.add_argument('--m', type=str, required=True)
-        parser.add_argument('--w', type=str, required=False)
-        parser.add_argument('--c', type=str, required=False)
-        parser.add_argument('--f', type=str, required=False)
+        parser.add_argument('--m', type=str, required=True)     # --m argument meant that how many protein are aligned at once
+        parser.add_argument('--w', type=str, required=False)    # --w argument meant "align with <x protein>" agrument takes in a csv file with protein to be aligned with
+                                                                # on default --w align with the longest protein "PBD_LongSequence.csv"
+        parser.add_argument('--c', type=str, required=False)    # --c indicate protein csv file to do alignment on, default uses "PBD_AllSequenceDF.csv"
+        parser.add_argument('--f', type=str, required=False)    # --f argument indicate the folder name that stores the aligned proteins
         compare_long = False
         args = parser.parse_args()
         file = "MSA alignment files"
