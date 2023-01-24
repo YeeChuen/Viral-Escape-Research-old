@@ -22,25 +22,28 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import argparse
-import sys
+from selenium.webdriver.common.keys import Keys
 import time
 import os.path
 import csv
+import pyperclip as pc
+from webdriver_manager.chrome import ChromeDriverManager 
+from selenium import webdriver 
+from selenium.webdriver.chrome.service import Service as ChromeService
 
 #____________________________________________________________________________________________________
 # set ups 
 
-def MSATool(input):
-    print("--- opening broswer ---")
-    driver = webdriver.Chrome()
-    driver.get("https://toolkit.tuebingen.mpg.de/tools/msaprobs")
+def MSATool(input, driver):
+    WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.LINK_TEXT, "Search"))).click()
+    time.sleep(2)
     # potential stuck on home page screen
     
     print("--- inputing PDB sequence ---")
     WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.TAG_NAME, 'textarea')))
     elem = driver.find_element(By.TAG_NAME, 'textarea')
-    elem.send_keys(input)
+    pc.copy(input)
+    elem.send_keys(Keys.CONTROL, 'v')
     # the button being in view also affect if it becomes clickable
     driver.execute_script("window.scrollTo(0, 300)") 
     
@@ -49,7 +52,7 @@ def MSATool(input):
     xpath = '/html/body/div/div[1]/div[3]/div[2]/div/form/div/div/div[2]/div[1]/fieldset/div/button'
     WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, xpath))).click()
     
-    time.sleep(2)
+    time.sleep(5)
     # driver move to the new webpage
     window_after = driver.window_handles[0]
     driver.switch_to.window(window_after)
@@ -72,7 +75,7 @@ def MSATool(input):
 
     print("--- fetching job results ---")
     FASTA = "/html/body/div/div[1]/div[3]/div[2]/div/form/div/div/div[1]/ul/li[4]/a"
-    WebDriverWait(driver, 100).until(EC.presence_of_element_located((By.XPATH, FASTA))).click()
+    WebDriverWait(driver, 10000).until(EC.presence_of_element_located((By.XPATH, FASTA))).click()
 
     # potential stuck on loading hits... page
     time.sleep(1)
@@ -118,46 +121,46 @@ def MSATool(input):
     list_2d.append(templist)
 
     http.clear()
-    driver.close()
 
     #return list here
     return list_2d
 
-def MSA(csvfile, compare_long, mod, file):
+def MSA(csvfile, no_protein, file, MSAlink, compare_data):
     pbd_data = csv_to_list(csvfile)
-    if compare_long == True:
-        long_data = csv_to_list("PBD_LSequence.csv")
-        longstring = ""
-        for i in range(1,len(long_data)):
-            string = long_data[i][2] + "\n" + long_data[i][3] +"\n"
-            longstring += string
-        count = 0
-        inputstring = longstring
+    string = compare_data[2] + "\n" + compare_data[3] +"\n"
+    compare_string = string
+    count = 0
+    inputstring = compare_string
     # Basecase:
     # count = 0
-    # inputstring = longstring
-    else:
-        count = 0
-        inputstring = ""
-
+    # inputstring = compare_string
     pbd_list_2d = []
+
+    #open browswer here
+    print("--- opening broswer ---")
+    driver = webdriver.Chrome()
+    driver.get(MSAlink)
+
     for i in range(1,len(pbd_data)):
         string = pbd_data[i][2] + "\n" + pbd_data[i][3] +"\n"
         inputstring += string
         count+=1
-        if count == mod:
-            print("\n---------- MSA for PBD {} to {} ----------".format(str(i-mod+1), str(i)))
-            templist = MSATool(inputstring)
+        if count == no_protein or i == len(pbd_data)-1:
+            print("\n---------- MSA for PBD {} to {} ----------".format(str(i-no_protein+1), str(i)))
+            starttime = time.time()
+            #with open('current.txt', 'w') as f:
+            #    f.write(inputstring)
+            templist = MSATool(inputstring, driver)
+            print("total time: {}s".format(str(time.time()-starttime)))
             for list in templist:
                 pbd_list_2d.append(list)
             #reset to base case
             save(pbd_list_2d, file)
             count = 0
-            if compare_long == True:
-                inputstring = longstring
-            else:
-                inputstring = ""
+            inputstring = compare_string
             pbd_list_2d=[]
+
+    driver.close()
 
 def csv_to_list(csvfile):
     with open(csvfile) as file:
@@ -194,6 +197,15 @@ def save(list, file):
     csvname = str(number) + '_' + file + '.csv'
     df.to_csv(csvname)
     os.chdir(path)
+
+def main(): 
+    csvfile = "PoreDB.csv"
+    no_protein = 3999
+    MSAlink = "https://toolkit.tuebingen.mpg.de/tools/hhblits"
+    MSA(csvfile, no_protein, "MSA_long_0", MSAlink, csv_to_list("PoreDB_long.csv")[1])
+    short_list = csv_to_list("PoreDB_short.csv")
+    for i in range(1,len(short_list)):
+        MSA(csvfile, no_protein, "MSA_short_{}".format(str(i-1)), MSAlink, short_list[i])
     
 
 
@@ -201,36 +213,5 @@ def save(list, file):
 # main 
 if __name__ == "__main__":
     print("\n-------------------- START of \"MSAalignment.py\" script --------------------")
-    #TODO: MAKE SURE TO CHECK LONGEST OR COMPARE SEQUENCE
-    csvfile = "PBD_AllSequenceDF.csv"
-
-    if not os.path.exists(csvfile):
-        print("Unable to locate \"{}\".".format(csvfile))
-        print("Make sure to run \"python pbd_dataframe.py\" to generate the csv file before \"MSAalignment.py\".")
-        pass
-    else:
-        parser = argparse.ArgumentParser()
-        parser.add_argument('--m', type=str, required=True)     # --m argument meant that how many protein are aligned at once
-        parser.add_argument('--w', type=str, required=False)    # --w argument meant "align with <x protein>" agrument takes in a csv file with protein to be aligned with
-                                                                # on default --w align with the longest protein "PBD_LongSequence.csv"
-        parser.add_argument('--c', type=str, required=False)    # --c indicate protein csv file to do alignment on, default uses "PBD_AllSequenceDF.csv"
-        parser.add_argument('--f', type=str, required=False)    # --f argument indicate the folder name that stores the aligned proteins
-        compare_long = False
-        args = parser.parse_args()
-        file = "MSA alignment files"
-        if "--w" in sys.argv[1:]:
-            if str(args.w) == "l":
-                print("comparing with longest PBD")
-                compare_long = True
-                # TODO: if the compare PBD is not l, there is 1 PBD that other PBD will compare with.
-        if "--f" in sys.argv[1:]:
-            print("creating new file to store data")
-            file = str(args.f)
-
-        mod = int(args.m)
-
-        #start test on selenium (web automation)
-        list = MSA(csvfile, compare_long, mod, file)
-
-
+    main()
     print("-------------------- END of \"MSAalignment.py\" script --------------------\n")

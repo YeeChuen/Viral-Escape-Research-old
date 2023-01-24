@@ -163,10 +163,7 @@ def getFASTA(exportlink):
         for entry in list:
             print(entry)
 
-#____________________________________________________________________________________________________
-# main 
-if __name__ == "__main__":
-    print("-------------------- MAIN --------------------")
+def test1():
     #print(urllib3.__version__)
     #print(PDB_ids_list)
     #print(web_data.data.decode('utf-8'))
@@ -211,5 +208,28 @@ if __name__ == "__main__":
     #main(param[1])
     getFASTA("https://toolkit.tuebingen.mpg.de/api/jobs/2406460/results/files/alignment.fas")
     
+def count_ux(sequence):
+    ux = 0
+    for char in sequence:
+        if char == 'U' or char == 'X':
+            ux+=1
+    return (ux/len(sequence))
+
+def test2():
+    print(count_ux("UUUUUUUUUU"))
+    print(count_ux("XXXXXXXXXX"))
+    print(count_ux("UADLKJBFEL"))
+    print(count_ux("UAUUFUTUAU"))
+    print(count_ux("XHXHSDOXXX"))
+    print(count_ux("OXXXXXXXOO"))
+    print(count_ux("OUUUUUUUOO"))
+    print(count_ux("LKJSUUUUUU"))
+    print(count_ux("LASDKJFBXX"))
+
+#____________________________________________________________________________________________________
+# main 
+if __name__ == "__main__":
+    print("-------------------- MAIN --------------------")
+    test2()
     print("-------------------- END --------------------")
 

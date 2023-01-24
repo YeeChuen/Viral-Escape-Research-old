@@ -1,0 +1,964 @@
+,PBD_id,PBD_info,PBD_Sequence,PBD_Sequence_length
+0,3LV3,>3LV3_3|Chain C|9-meric peptide from Voltage-dependent L-type calcium channel subunit alpha-1D|Homo sapiens (9606),SRRWRRWNR,9
+1,6B27,">6B27_2|Chains G, H, I, J, K, L|Voltage-dependent L-type calcium channel subunit alpha-1S|Homo sapiens (9606)",EDEPEIPLSPRPRP,14
+2,5NWJ,>5NWJ_2|Chain B[auth P]|Potassium channel KAT1|Arabidopsis thaliana (3702),HLYFSSN,7
+3,3P1N,>3P1N_2|Chain B[auth P]|6-mer peptide from Potassium channel subfamily K member 9|null,KRRKSV,6
+4,3SML,>3SML_2|Chain B[auth P]|TASK-3 peptide|Homo sapiens (9606),RRKSV,5
+5,6GHP,>6GHP_2|Chain B[auth P]|Potassium channel subfamily K member 9|Homo sapiens (9606),XKRRKSV,7
+6,6S22,>6S22_2|Chain B[auth F]|Fibroblast growth factor 23|Homo sapiens (9606),NTPIPRRHTRSA,12
+7,3OQS,>3OQS_1|Chain A[auth B]|peptide of Chloride intracellular channel protein 4|Homo sapiens (9606),VKVVAKKYRN,10
+8,3GJ9,">3GJ9_2|Chains C, D|C-terminal peptide from Inward rectifier potassium channel 4|null",NISYRRESAI,10
+9,6SPZ,">6SPZ_2|Chains B[auth P], C[auth Q]|ARG-ARG-GLU-SER-GLU-ILE|Homo sapiens (9606)",RRESEI,6
+10,2G5B,">2G5B_3|Chains I, J, K, L|Bax Peptide|null",PTSSEQI,7
+11,3CYY,">3CYY_2|Chains C, D|peptide from Gap junction alpha-1 protein|null",RPRPDDLEI,9
+12,2N8T,>2N8T_2|Chain B|Cx43CT Peptide|null,APLSPMSPPGYKLV,14
+13,3SHW,>3SHW_2|Chain B|Gap junction gamma-1 protein|null,SGDGKTSVWI,10
+14,1QLS,>1QLS_2|Chain B[auth D]|ANNEXIN I|HOMO SAPIENS (9606),XAMVSAFLKQAW,12
+15,4HRH,">4HRH_2|Chains C, D|Helicase-like transcription factor|Homo sapiens (9606)",PRLSYPTFFPRFEF,14
+16,5N7G,>5N7G_2|Chain C|Ribosomal protein S6 kinase alpha-1|Homo sapiens (9606),KLPSTTL,7
+17,6TWQ,">6TWQ_2|Chains B[auth C], C[auth D]|THR-ARG-ARG-GLU-THR-GLN-LEU|Human papillomavirus type 16 (333760)",SSRTRRETQL,10
+18,6TWU,>6TWU_2|Chain C|Protein E6|Human papillomavirus type 16 (333760),SSRTRREEQL,10
+19,6TWY,>6TWY_2|Chain C|Phosphomimetic RSK1 peptide|Homo sapiens (9606),RRVRKLPETTL,11
+20,1DKX,>1DKX_2|Chain B|SUBSTRATE PEPTIDE (7 RESIDUES)|,NRLLLTG,7
+21,3DPO,">3DPO_2|Chains C, D|inhibitor peptide|null",VDKLYALPRPT,11
+22,4E81,">4E81_2|Chains C, D|apidaecin peptide fragment|Apis mellifera (7460)",NRPVYIPRPP,10
+23,4EZQ,>4EZQ_2|Chain B|Pyrrhocoricin|Pyrrhocoris apterus (37000),PPRPIYNRN,9
+24,4EZR,>4EZR_2|Chain B|Drosocin|Drosophila melanogaster (7227),SHPRPIRV,8
+25,4EZS,>4EZS_2|Chain B|Metchnikowin|Drosophila melanogaster (7227),PRPGPIYY,8
+26,4EZT,>4EZT_2|Chain B|Heliocin|Heliothis virescens (7102),PRRPVIMRR,9
+27,4EZX,">4EZX_2|Chains C, D|synthetic peptide NRLMLTG|null",NRLMLTG,7
+28,4EZY,>4EZY_2|Chain B|synthetic peptide NRLILTG|null,NRLILTG,7
+29,4EZZ,>4EZZ_2|Chain B|synthetic peptide ELPLVKI|null,ELPLVKI,7
+30,4F00,>4F00_2|Chain B|Apidaecin|Bombus pascuorum (65598),NRPVYIPPPP,10
+31,4HY9,">4HY9_2|Chains C, D|Pyrrhocoricin|Pyrrhocoris apterus (37000)",VDKLYAAPRPTT,12
+32,4HYB,">4HYB_2|Chains C, D|Pyrrhocoricin|Pyrrhocoris apterus (37000)",VDKLYAIPRPP,11
+33,4JWD,">4JWD_2|Chains C, D|Cathelicidin-3|Bos taurus (9913)",PRPLPFPRPGPRPI,14
+34,4JWI,">4JWI_2|Chains C, D|Cathelicidin-3|Ovis aries (9940)",PRPILLPWRX,10
+35,7JMM,>7JMM_2|Chain B|Alkaline phosphatase|Escherichia coli (strain K12) (83333),RAKNIILLSR,10
+36,7JN8,>7JN8_2|Chain B|Alkaline phosphatase peptide|Escherichia coli (strain K12) (83333),RGNTLVIVSR,10
+37,7JNE,>7JNE_2|Chain B|Alkaline phosphatase peptide|Escherichia coli (strain K12) (83333),RGSQLRIASR,10
+38,4DWA,>4DWA_2|Chain C[auth D]|RNA (5'-R(*CP*UP*C)-3')|,CUC,3
+39,2M3O,>2M3O_2|Chain B[auth P]|Amiloride-sensitive sodium channel subunit alpha|Homo sapiens (9606),TAPPPAYATLG,11
+40,3LOB,>3LOB_3|Chain G[auth R]|RNA (5'-R(*UP*UP*U*AP*UP*CP*UP*(P))-3')|Spodoptera frugiperda (7108),UUUAUCUG,8
+41,4FSJ,>4FSJ_3|Chain G[auth R]|Random cellular RNA fragments|Spodoptera frugiperda (7108),UUCUCUUUUAUCUU,14
+42,6S7T,>6S7T_10|Chain J[auth K]|PEPTIDE|Homo sapiens (9606),AANATAA,7
+43,4M91,>4M91_2|Chain B|Protein cereblon|Homo sapiens (9606),KRKFHCANLTSW,12
+44,4Z63,>4Z63_2|Chain B[auth P]|Phytosulfokine|Arabidopsis (3701),YIYTQ,5
+45,1ABT,>1ABT_2|Chain B|NICOTINIC RECEPTOR PEPTIDE|,KHWVYYTCCPDT,12
+46,1TOR,">1TOR_1|Chain A|ACETYLCHOLINE RECEPTOR, MAIN IMMUNOGENIC REGION|Torpedo californica (7787)",WNPADYGGIK,10
+47,1TOS,>1TOS_1|Chain A|ACETYLCHOLINE RECEPTOR [ALA76] MIR ANALOGUE|Torpedo californica (7787),WNPADYGGIA,10
+48,3D32,">3D32_2|Chains C, D|K1 peptide|synthetic construct (32630)",DATYTWEHLAWPX,13
+49,3DOW,>3DOW_2|Chain B|CRT peptide|null,SLEDDWDFLPPX,12
+50,3WIM,>3WIM_2|Chain B|WD repeat and FYVE domain-containing protein 3|Homo sapiens (9606),DEKDGFIFVNYSEG,14
+51,4XC2,">4XC2_2|Chains E, F, G, H|Kelch repeat and BTB domain-containing protein 6|Homo sapiens (9606)",SDDDFWVRVAP,11
+52,2ZLD,">2ZLD_2|Chains C, D|Colicin-E3|Escherichia coli (562)",XXXXXXX,7
+53,1E54,>1E54_2|Chain B|OMP32|COMAMONAS ACIDOVORANS (80866),DNWQNGTS,8
+54,1BY5,>1BY5_2|Chain B|FERRICHROME|Ustilago sphaerogena (5271),AAAGGG,6
+55,1XKH,">1XKH_2|Chains D[auth I], E[auth J], F[auth K]|Pyoverdin C-E|Pseudomonas aeruginosa (287)",SRSKKKTT,8
+56,2W6T,>2W6T_2|Chain C|PYOVERDINE|PSEUDOMONAS FLUORESCENS (294),SKGKSSGAKS,10
+57,2W6U,>2W6U_2|Chain C|PYOVERDIN G173|PSEUDOMONAS FLUORESCENS (136843),SAAADAS,7
+58,2W76,>2W76_2|Chain C|PYOVERDIN R|PSEUDOMONAS AERUGINOSA (208964),SAKQQKG,7
+59,2W77,>2W77_2|Chain C|PYOVERDIN 18-1|PSEUDOMONAS FLUORESCENS (294),SKGKSSGKKS,10
+60,2W78,>2W78_2|Chain C|SER-LYS-GLY-FHO-LYS-FH7-SER|PSEUDOMONAS AERUGINOSA (208964),SKGKKKS,7
+61,3JBU,>3JBU_51|Chain YA[auth X]|mRNA|Escherichia coli K-12 (83333),GCUGGCCCUCA,11
+62,3TD5,">3TD5_2|Chains I, J, K, L, M, N, O, P|peptide(L-Ala-gamma-D-Glu-m-DAP-D-Ala-D-Ala)|null",AEKAA,5
+63,1V14,">1V14_2|Chains E, F, G, H, I, J, K, L|5'-D(*GP*CP*GP*AP*TP*CP*GP*CP)-3'|",GCGATCGC,8
+64,1H26,>1H26_3|Chain E|CELLULAR TUMOR ANTIGEN P53|HOMO SAPIENS (9606),STSRHKKLMFK,11
+65,1XQH,">1XQH_2|Chains B, D[auth F]|9-mer peptide from tumor protein p53|null",LKSKKGQSTY,10
+66,2AC0,">2AC0_1|Chains A[auth E], B[auth F], C[auth G], D[auth H]|5'-D(*CP*GP*GP*GP*CP*AP*TP*GP*CP*CP*CP*G)-3'|",CGGGCATGCCCG,12
+67,2ADY,">2ADY_1|Chains A[auth E], B[auth F]|5'-D(*CP*GP*GP*AP*CP*AP*TP*GP*TP*CP*CP*G)-3'|",CGGACATGTCCG,12
+68,2ATA,">2ATA_1|Chains A[auth E], B[auth F], C[auth G], D[auth H]|5'-D(*AP*AP*GP*GP*CP*AP*TP*GP*CP*CP*TP*T)-3'|",AAGGCATGCCTT,12
+69,2FOJ,>2FOJ_2|Chain B|p53 peptide|,GARAHSS,7
+70,2FOO,>2FOO_2|Chain B|p53 peptide|,EPGGSR,6
+71,2MWP,>2MWP_2|Chain B|Cellular tumor antigen p53|Homo sapiens (9606),STSRHKKLMFKT,12
+72,2YDR,>2YDR_2|Chain B[auth P]|CELLULAR TUMOR ANTIGEN P53|HOMO SAPIENS (9606),QLWVDSTPPPG,11
+73,3LW1,>3LW1_2|Chain B[auth P]|peptide of Cellular tumor antigen p53|null,FKTEGPDSD,9
+74,3OQ5,">3OQ5_2|Chains D, E|Cellular tumor antigen p53|Homo sapiens (9606)",TSRHKKLMFK,10
+75,3TG5,>3TG5_2|Chain B|Cellular tumor antigen p53|Homo sapiens (9606),HSSHLKSKKGQ,11
+76,4BUZ,>4BUZ_2|Chain B[auth P]|CELLULAR TUMOR ANTIGEN P53|HOMO SAPIENS (9606),RHKKLMFK,8
+77,4BV2,">4BV2_2|Chains C[auth E], D[auth H]|CELLULAR TUMOR ANTIGEN P53|HOMO SAPIENS (9606)",STSRHKKLMFKTE,13
+78,4FZ3,>4FZ3_2|Chain B|peptide from Cellular tumor antigen p53|Homo sapiens (9606),XRHKKX,6
+79,4ZZJ,>4ZZJ_2|Chain B|Ac-p53|Homo sapiens (9606),RHKKLLF,7
+80,5ECG,">5ECG_3|Chains E, F|SEP-GLN-GLU-TYR|Homo sapiens (9606)",SQEY,4
+81,2V5W,>2V5W_2|Chain C[auth G]|GLYCYL-GLYCYL-GLYCINE|SYNTHETIC CONSTRUCT (32630),GGG,3
+82,4RP6,>4RP6_1|Chain A[auth Z]|LTIITLE heptapeptide segment from p53|Homo sapiens (9606),LTIITLE,7
+83,4RP7,>4RP7_1|Chain A[auth Z]|TIITLE hexapeptide segment from p53|Homo sapiens (9606),TIITLE,6
+84,5BUA,>5BUA_2|Chain B|DNA (5'-D(P*GP*GP*AP*CP*AP*TP*GP*TP*CP*C)-3')|synthetic construct (32630),GGACATGTCC,10
+85,5MHC,>5MHC_2|Chain B[auth P]|LYS-LEU-MET-PHE-LYS-TPO-GLU-GLY-PRO-ASP-SER-ASP|Homo sapiens (9606),KLMFKTEGPDSD,12
+86,6VQO,">6VQO_5|Chains I[auth P], J[auth Q]|peptide from p53 tumor suppressor|Homo sapiens (9606)",HMTEVVRHC,9
+87,6VR1,">6VR1_3|Chains E[auth P], F[auth Q]|Cellular tumor antigen p53 peptide|Homo sapiens (9606)",HMTEVVRRC,9
+88,1G5Q,">1G5Q_2|Chains B[auth M], D[auth N], F[auth O], H[auth P]|LANTIBIOTIC EPIDERMIN|null",DSYTC,5
+89,2FBS,">2FBS_1|Chain A[auth N]|Antibacterial protein FALL-39, core peptide|null",FKRIVQRIKDFLRX,14
+90,2FBU,">2FBU_1|Chain A[auth H]|Antibacterial protein FALL-39, core peptide|null",LLGDFFRKSKEK,12
+91,2NA3,>2NA3_1|Chain A|Antibacterial protein LL-37|Homo sapiens (9606),KRIVQRIKDFLR,12
+92,6BIV,>6BIV_3|Chain C|LL37_Cit91|Homo sapiens (9606),ETVCPRTTQQSPE,13
+93,6S6M,">6S6M_1|Chains A, B|Cathelicidin antimicrobial peptide|Homo sapiens (9606)",FKRIVQRIKDFLR,13
+94,1G89,>1G89_1|Chain A|INDOLICIDIN|null,ILPWKWPWWPWRRX,14
+95,1HR1,>1HR1_1|Chain A|INDOLICIDIN|BOS TAURUS (9913),ILAWKWAWWAWRRX,14
+96,1QXQ,>1QXQ_1|Chain A|INDOLICIDIN DERIVATIVE|null,ILKKWPWWPWRRKX,14
+97,5ZVF,>5ZVF_1|Chain A|non glycosylated analogue of Indolicidin|Bos taurus (9913),ILPWKWKWTPWRRX,14
+98,2QOS,>2QOS_2|Chain B[auth A]|Complement component C8 alpha chain|null,LRYDSTAERLY,11
+99,1OEH,>1OEH_1|Chain A|MAJOR PRION PROTEIN|HOMO SAPIENS (9606),HGGGWGQP,8
+100,3MD4,">3MD4_1|Chains A, B|Major prion protein|null",GYMLGS,6
+101,3MD5,">3MD5_1|Chains A, B|Major prion protein|null",GYVLGS,6
+102,3NVF,>3NVF_1|Chain A|Major prion protein|Homo sapiens (9606),IIHFGS,6
+103,4E1H,">4E1H_1|Chains A, C, E, G, I, K|Major prion protein|Homo sapiens (9606)",HDCVNI,6
+104,4E1H,">4E1H_2|Chains B, D, F, H, J, L|Major prion protein|Homo sapiens (9606)",EQMCIT,6
+105,1OQN,">1OQN_2|Chains C, D|Alzheimer's disease amyloid A4 protein homolog|null",NGYENPTYK,9
+106,1CA0,">1CA0_1|Chains A, E[auth F]|BOVINE CHYMOTRYPSIN|Bos taurus (9913)",CGVPAIQPVLSGL,13
+107,1QCM,>1QCM_1|Chain A|AMYLOID BETA PEPTIDE|Homo sapiens (9606),GSNKGAIIGLM,11
+108,1X11,">1X11_2|Chains B[auth C], D|13-MER PEPTIDE|",QNGYENPTYKFFE,13
+109,2IPU,">2IPU_3|Chains E[auth P], F[auth Q]|abeta 1-8 peptide|null",DAEFRHDS,8
+110,3GCI,>3GCI_2|Chain B[auth P]|Heptapeptide from Amyloid beta A4 protein|HOMO SAPIENS (9606),VGGVVIA,7
+111,3IFL,>3IFL_3|Chain C[auth P]|Amyloid beta A4 protein|Homo sapiens (9606),DAEFRHD,7
+112,2Y29,>2Y29_1|Chain A|AMYLOID BETA A4 PROTEIN|HOMO SAPIENS (9606),KLVFFA,6
+113,2Y3J,">2Y3J_1|Chains A, B, C, D, E, F, G, H|AMYLOID BETA A4 PROTEIN|HOMO SAPIENS (9606)",AIIGLM,6
+114,2Y3K,">2Y3K_1|Chains A, B, C, D, E, F, G, H|AMYLOID BETA A4 PROTEIN|HOMO SAPIENS (9606)",MVGGVVIA,8
+115,3AYU,>3AYU_2|Chain B|Amyloid beta A4 protein|Homo sapiens (9606),ISYGNDALMP,10
+116,3JTI,>3JTI_2|Chain B|octapeptide from Amyloid beta A4 protein|HOMO SAPIENS (9606),KGAIIGLM,8
+117,3L81,>3L81_2|Chain B|Amyloid beta A4 protein|,TYKFFEQ,7
+118,3MXC,>3MXC_2|Chain B[auth L]|AICD peptide|,QNGYENPTY,9
+119,3SV1,">3SV1_2|Chains D, E, F|Amyloid beta A4 protein|Homo sapiens (9606)",QNGYENPTYKFFEQ,14
+120,3U0T,">3U0T_3|Chains C[auth E], F|Amyloid beta A4 protein|Homo sapiens (9606)",AIIGLMVGGVV,11
+121,4MDR,>4MDR_2|Chain B|Amyloid beta A4 protein|Homo sapiens (9606),ENPTYKFFEQ,10
+122,4MVK,>4MVK_2|Chain B|Amyloid peptide fragment VFFAED|Homo sapiens (9606),XVFFAEDX,8
+123,5CSZ,">5CSZ_3|Chains E[auth D], F[auth E]|Amyloid beta A4 protein|Homo sapiens (9606)",DAEFRHDSGYE,11
+124,3MXY,>3MXY_2|Chain B[auth L]|AICD peptide E683V variant|,QNGYVNPTY,9
+125,3PZZ,">3PZZ_1|Chains A, B|Amyloid beta A4 protein|Homo sapiens (9606)",GAIIGL,6
+126,3Q2X,>3Q2X_1|Chain A|Amyloid beta A4 protein|Homo sapiens (9606),NKGAII,6
+127,5AM8,">5AM8_2|Chains E[auth P], F[auth Q], G[auth R], H[auth S]|BETA-AMYLOID PROTEIN 42|HOMO SAPIENS (9606)",FRHDSGY,7
+128,5LFY,">5LFY_1|Chains A, B|Amyloid beta A4 protein|Homo sapiens (9606)",DAEFRHHSGYX,11
+129,5LV0,">5LV0_2|Chains C, D|GLY-VAL-VAL amyloid 35-40 fragment|Homo sapiens (9606)",MVGGVV,6
+130,5MY4,>5MY4_3|Chain C|Pyroglutamate-Abeta pE3-12-PEGb|Homo sapiens (9606),QFRHDSGYEV,10
+131,5ONP,>5ONP_2|Chain B|Amyloid-beta A4 protein|Homo sapiens (9606),GAIIG,5
+132,5ONR,>5ONR_2|Chain B|Amyloid-beta A4 protein|Homo sapiens (9606),IIG,3
+133,5TXD,>5TXD_1|Chain A[auth Z]|Amyloid beta A4 protein|Homo sapiens (9606),NKGAIF,6
+134,5VOS,>5VOS_1|Chain A|Amyloid beta A4 protein|Homo sapiens (9606),VGSNKGAIIGL,11
+135,6ITU,>6ITU_2|Chain B|Amyloid beta A4 protein|Homo sapiens (9606),NGYENPTYKFFE,12
+136,6O4J,">6O4J_1|Chains A, B|Amyloid-beta precursor protein|Homo sapiens (9606)",XKLVFFAENVGSX,13
+137,6GIL,>6GIL_1|Chain A|Temporin-B|Rana temporaria (8407),LLPIVGNLLKSLL,13
+138,1BXP,>1BXP_2|Chain B|PEPTIDE MET-ARG-TYR-TYR-GLU-SER-SER-LEU-LYS-SER-TYR-PRO-ASP|,MRYYESSLKSYPD,13
+139,1HAA,>1HAA_2|Chain B|PEPTIDE|SYNTHETIC CONSTRUCT (32630),WRYYESSLEPYPD,13
+140,1HC9,">1HC9_3|Chains C, D|PEPTIDE INHIBITOR|SYNTHETIC CONSTRUCT (32630)",WRYYESSLLPYPD,13
+141,1HOY,>1HOY_2|Chain B|MIMOTOPE OF THE NICOTINIC ACETYLCHOLINE RECEPTOR|null,HRYYESSLEPWYPD,14
+142,1RGJ,>1RGJ_2|Chain B|MIMOTOPE OF THE NICOTINIC ACETYLCHOLINE RECEPTOR|null,FRYYESSLEPWDD,13
+143,1VM5,>1VM5_1|Chain A|peptide A5 or aurein 1.2|synthetic construct (32630),GLFDIIKKIAESFX,14
+144,2JN5,>2JN5_1|Chain A|Alpha-synuclein|Homo sapiens (9606),MDVFMKGLSKAK,12
+145,2X6M,>2X6M_2|Chain B|ALPHA-SYNUCLEIN PEPTIDE|HOMO SAPIENS (9606),GYQDYEPEA,9
+146,4R0U,>4R0U_1|Chain A|Alpha-synuclein|Homo sapiens (9606),TGVTAVA,7
+147,4R0W,>4R0W_1|Chain A|Alpha-synuclein|Homo sapiens (9606),VVTGVTA,7
+148,4RIK,>4RIK_1|Chain A|Alpha-synuclein|Homo sapiens (9606),AVVTGVTAV,9
+149,4RIL,>4RIL_1|Chain A|Alpha-synuclein|Homo sapiens (9606),GAVVTGVTAVA,11
+150,4ZNN,>4ZNN_1|Chain A|Alpha-synuclein|Homo sapiens (9606),GVVHGVTTVA,10
+151,5CRW,>5CRW_2|Chain B|Peptide from Alpha-synuclein|Homo sapiens (9606),GKTKEGVLYVG,11
+152,6CT7,">6CT7_3|Chains C[auth S], F[auth T]|ACE-MET-ASP-VAL-PHE-MET-LYS-GLY-LEU-SER-LYS|Homo sapiens (9606)",XMDVFMKGLSK,11
+153,6I42,>6I42_2|Chain B|Alpha-synuclein|Homo sapiens (9606),VVHGVATVAEKTK,13
+154,3BOO,>3BOO_2|Chain B|N-Ac-CRATKML inhibitory peptide|null,XCRATKML,8
+155,3C88,>3C88_2|Chain B|Inhibitor peptide RRGC|,RRGCX,5
+156,3C89,>3C89_2|Chain B|Inhibitor peptide RRGM|,RRGMX,5
+157,3C8A,>3C8A_2|Chain B|Inhibitor peptide RRGL|,RRGLX,5
+158,3C8B,>3C8B_2|Chain B|Inhibitor peptide RRGI|,RRGIX,5
+159,3DDA,>3DDA_2|Chain B|Synaptosomal-associated protein 25|null,QRATKMX,7
+160,3DDB,>3DDB_2|Chain B|Synaptosomal-associated protein 25|null,RRATKMX,7
+161,3DS9,>3DS9_2|Chain B|octapeptide I1 inhibitor|,XRWTAMLG,8
+162,2N2F,>2N2F_1|Chain A|Dynorphin A(1-13)|Homo sapiens (9606),YGGFLRRIRPKLK,13
+163,1PLW,>1PLW_1|Chain A|Met-enkephalin 1|null,YGGFM,5
+164,5E3A,>5E3A_2|Chain B|Leu-enkephalin|Homo sapiens (9606),YGGFL,5
+165,5W7I,">5W7I_2|Chains B, D|Snap25b-111-120|Homo sapiens (9606)",GVVASQPARV,10
+166,4V11,>4V11_2|Chain B|SYNAPTIC VESICLE GLYCOPROTEIN 2A|HOMO SAPIENS (9606),SDATEGHDED,10
+167,1GZL,">1GZL_2|Chains C, D|ENVELOPE GLYCOPROTEIN GP41|HUMAN IMMUNODEFICIENCY VIRUS (12721)",WEEWDREIENYT,12
+168,1MZI,>1MZI_1|Chain A|2F5 epitope of HIV-1 gp41 fusion protein|null,ELLELDKWASLWN,13
+169,3D0V,>3D0V_3|Chain C|gp41 peptide LLELDKWASLW|null,LLELDKWASLW,11
+170,4YDV,">4YDV_1|Chains A[auth P], B[auth Q]|HIV GP41 PEPTIDE GP41(596-606)|Human immunodeficiency virus 1 (11676)",XWGCSGKLICTTX,13
+171,5DD0,>5DD0_3|Chain C[auth P]|oligo peptide|Human immunodeficiency virus 1 (11676),XLLELDKWASLWX,13
+172,5IVX,>5IVX_5|Chain E[auth P]|P18-I10|Homo sapiens (9606),RGPGRAFVTI,10
+173,5TKJ,">5TKJ_3|Chains C, F, I, L|HIV-1 fusion peptide residue 512-519|Human immunodeficiency virus 1 (11676)",AVGIGAVF,8
+174,6BXP,>6BXP_3|Chain C|HIV peptide RKV-Kyn|Human immunodeficiency virus 1 (11676),RVKEKYQHLW,10
+175,6MQM,">6MQM_3|Chains C, F, I, L|HIV Env fusion peptide residue 512-519|Human immunodeficiency virus 1 (11676)",AVGIGAV,7
+176,6NCP,>6NCP_3|Chain E|HIV-1 Fusion Peptide (residues 512-520)|synthetic construct (32630),AVGIGAVFL,9
+177,6NCP,>6NCP_4|Chain F|His-tag of fusion peptide|synthetic construct (32630),HHHHH,5
+178,6RYF,>6RYF_2|Chain B[auth G]|PSE-ARG-ILE-GLN-ARG-ALA-PHE-VAL-THR-ILE|Human immunodeficiency virus 1 (11676),XRIQRGPGRAFVTI,14
+179,1KG0,>1KG0_3|Chain C[auth D]|Hemagglutinin HA Peptide|synthetic construct (32630),PKYVKQNTLKLAT,13
+180,5JWD,>5JWD_3|Chain C|Pre-glycoprotein polyprotein GP complex|Lymphocytic choriomeningitis virus (11624),WLVTNGSYL,9
+181,5JWE,">5JWE_3|Chains I[auth P], J[auth Q], K[auth R], L[auth S]|Pre-glycoprotein polyprotein GP complex|Lymphocytic choriomeningitis virus (11624)",CSANNSHHYI,10
+182,2KHH,>2KHH_2|Chain B|FxFG|Saccharomyces cerevisiae (4932),DSGFSFGSK,9
+183,1O6P,">1O6P_2|Chains C, D, E, F|SYNTHETIC GLFG PEPTIDE|SYNTHETIC CONSTRUCT (32630)",DSGGLFGSK,9
+184,4DS1,">4DS1_2|Chains B, D|Nucleoporin NUP159|Saccharomyces cerevisiae (559292)",NYAESGIQTDL,11
+185,5T6W,>5T6W_3|Chain C|Decapeptide: SER-SER-THR-ARG-GLY-ILE-SER-GLN-LEU-TRP|synthetic construct (32630),SSTRGISQLW,10
+186,2LAS,>2LAS_2|Chain B|M-IR2_peptide|Homo sapiens (9606),DNEIEVIIVWEKK,13
+187,4I79,">4I79_2|Chain C|floating chain, unknown sequence|Homo sapiens (9606)",XXXXXXXXX,9
+188,2Z5O,>2Z5O_2|Chain B|Heterogeneous nuclear ribonucleoprotein D-like|null,XXXXXXXXXX,10
+189,6XTE,>6XTE_2|Chain B[auth C]|Antipain|Actinomycetia (1760),FRVR,4
+190,3FHT,">3FHT_2|Chains C, D|RNA (5'-R(*UP*UP*UP*UP*UP*UP*UP*UP*UP*U)-3')|",UUUUUUUUUU,10
+191,3G0H,>3G0H_2|Chain B[auth E]|5'-R(P*UP*UP*UP*UP*UP*UP*U)-3'|,UUUUUUU,7
+192,5GP7,>5GP7_2|Chain B|Ubiquitin carboxyl-terminal hydrolase 25|Homo sapiens (9606),SLSRTPADGR,10
+193,3A6P,">3A6P_2|Chains B, G|13-mer peptide|Homo sapiens (9606)",XXXXXXXXXXXXX,13
+194,1EFX,>1EFX_3|Chain C|PEPTIDE FROM IMPORTIN ALPHA-2|null,GAVDPLLAL,9
+195,4WV6,">4WV6_2|Chains B, C|Transcription initiation factor TFIID subunit 8|Homo sapiens (9606)",PVKKPKIRRKKSLS,14
+196,5H43,>5H43_2|Chain B|Histone acetyltransferase KAT8|Homo sapiens (9606),RNQKRKHDEI,10
+197,3ZKE,">3ZKE_2|Chains B, D, F, H, J, L|NEK9 PROTEIN|HOMO SAPIENS (9606)",VGMHSKGTQTA,11
+198,4O2C,>4O2C_3|Chain C|Peptide from ATP-dependent RNA helicase DDX3X|Homo sapiens (9606),XSHVAVENAL,10
+199,4O2E,">4O2E_3|Chains C, F|Peptide from ATP-dependent RNA helicase DDX3X|Homo sapiens (9606)",SHVAVENAL,9
+200,4O2F,">4O2F_3|Chains C, F|Peptide from ATP-dependent RNA helicase DDX3X|Homo sapiens (9606)",HVAVENAL,8
+201,5Z2T,>5Z2T_3|Chain C[auth F]|5'-D(P*AP*AP*GP*AP*TP*TP*AP*GP*AP*TP*TP*AP*GP*T)-3'|synthetic construct (32630),AAGATTAGATTAGT,14
+202,6A8R,>6A8R_2|Chain C[auth E]|DNA (5'-D(P*TP*GP*AP*TP*GP*AP*GP*AP*TP*T)-3')|Homo sapiens (9606),TGATGAGATTA,11
+203,6A8R,>6A8R_3|Chain D[auth F]|DNA (5'-D(P*AP*AP*TP*CP*TP*CP*AP*TP*CP*A)-3')|Homo sapiens (9606),TAATCTCATCA,11
+204,6DFY,>6DFY_3|Chain C[auth F]|DNA (5'-D(*TP*TP*CP*TP*AP*AP*TP*CP*TP*AP*AP*TP*CP*A)-3')|synthetic construct (32630),TTCTAATCTAATCA,14
+205,2Q5Y,">2Q5Y_2|Chains B, D|Nuclear pore complex protein Nup96|null",SKYGLQD,7
+206,6BZM,">6BZM_1|Chains A, B|Nuclear pore complex protein Nup98-Nup96|Homo sapiens (9606)",GFGNFGTS,8
+207,4FI9,>4FI9_2|Chain B|Nesprin-2|Homo sapiens (9606),FYPMLRYTNGPPPT,14
+208,1H6W,>1H6W_2|Chain B|BACTERIOPHAGE T4 SHORT TAIL FIBRE|BACTERIOPHAGE T4 (10665),SLNYIIKVKE,10
+209,6PEK,">6PEK_2|Chain F[auth G]|substrate peptide, TYR-GLU-TYR-GLU-TYR-GLU-TYR-GLU|synthetic construct (32630)",EYEYEYEYEY,10
+210,4D2D,>4D2D_2|Chain B|ALANINE-TRIPEPTIDE|SYNTHETIC CONSTRUCT (32630),AAA,3
+211,6GHJ,>6GHJ_2|Chain B|PHE-ALA-GLN|synthetic construct (32630),FAQ,3
+212,6EZI,>6EZI_2|Chain B|Solute carrier family 15 member 2|Homo sapiens (9606),IKLETKKTKL,10
+213,1R42,>1R42_2|Chain B|disordered segment of collectrin homology domain|Homo sapiens (9606),XXXXXX,6
+214,1R42,>1R42_5|Chain E|disordered segment of collectrin homology domain|Homo sapiens (9606),XXXXXXXXXXXXXX,14
+215,6BJF,>6BJF_1|Chain A|GLY-LEU-THR-TRP-PHE-ILE-ASN-LYS-PHE-ARG-ILE-VAL-LYS|Homo sapiens (9606),GLTWFINKFRIVK,13
+216,6QK8,">6QK8_2|Chains E, F, G, H|Na(+)/H(+) antiporter|Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (559292)",RSFSLHRM,8
+217,6P64,">6P64_5|Chains I[auth C], J[auth H]|Neoantigen peptide KQWLVWLFL|Homo sapiens (9606)",KQWLVWLFL,9
+218,6UJQ,>6UJQ_3|Chain C|Protein-cysteine N-palmitoyltransferase HHAT|Homo sapiens (9606),KQWLVWLLL,9
+219,3MRR,>3MRR_3|Chain C[auth P]|10-meric peptide from Solute carrier organic anion transporter family member 2A1|Homo sapiens (9606),LLAGIGTVPI,10
+220,3VVR,>3VVR_2|Chain B|macrocyclic peptide|null,XFVYSAVCAAAA,12
+221,3VVS,>3VVS_2|Chain B|macrocyclic peptide|null,XFVYSAVCLYV,11
+222,5E4W,">5E4W_3|Chains E, F|Inner membrane protein ALBINO3, chloroplastic|Arabidopsis thaliana (3702)",SKRSKRKRT,9
+223,1T0K,>1T0K_1|Chain A[auth C]|5'-R(*GP*AP*CP*CP*GP*GP*AP*GP*UP*GP*UP*CP*C)-3'|,GACCGGAGUGUCC,13
+224,3MP1,>3MP1_2|Chain B[auth P]|H3K4me3 peptide|synthetic construct (32630),ARTKQ,5
+225,3MP6,>3MP6_2|Chain B[auth P]|H3K4me2 peptide|synthetic construct (32630),ARTK,4
+226,3RUM,">3RUM_2|Chains B, C|Ristocetin|Amycolatopsis lurida (31959)",GXXGGYY,7
+227,3VFJ,>3VFJ_2|Chain B[auth G]|MonodeChloro- Teicoplanin A2-2|Actinoplanes teichomyceticus (1867),GYXGGYX,7
+228,4RWG,">4RWG_2|Chains D, E, F|CGRP analog|synthetic construct (32630)",FVPTDVGPFAFX,12
+229,4WVH,>4WVH_2|Chain B[auth C]|substrate peptide (pep1)|Staphylococcus aureus (1280),DHDAHA,6
+230,5AZ8,>5AZ8_2|Chain B|peptide GPRLSRLLSYAGC|Rattus norvegicus (10116),GPRLSRLLSYAGC,13
+231,6HA8,>6HA8_31|Chain EA[auth 7]|mRNA|Bacillus subtilis subsp. subtilis str. 168 (224308),CUU,3
+232,2WHY,>2WHY_2|Chain B|BACILLIBACTIN|BACILLUS SUBTILIS (1423),XGTXGTXGT,9
+233,2LOB,>2LOB_2|Chain B|Cystic fibrosis transmembrane conductance regulator|Homo sapiens (9606),EEVQDTRL,8
+234,1B05,>1B05_2|Chain B|PEPTIDE LYS-CYS-LYS|,KCK,3
+235,1B0H,>1B0H_2|Chain B|LYS-ALN-LYS PEPTIDE|,KAK,3
+236,1B1H,>1B1H_2|Chain B|PROTEIN (LYS HPE LYS)|,KFK,3
+237,1B32,>1B32_2|Chain B|PROTEIN (LYS-MET-LYS)|,KMK,3
+238,1B3F,>1B3F_2|Chain B|PROTEIN (LYS-HIS-LYS)|,KHK,3
+239,1B3G,>1B3G_2|Chain B|PROTEIN (LYS-ILE-LYS)|,KIK,3
+240,1B3L,">1B3L_2|Chains B, D|PROTEIN (LYS-GLY-LYS)|",KGK,3
+241,1B46,>1B46_2|Chain B|PROTEIN (LYS-PRO-LYS)|null,KPK,3
+242,1B4Z,>1B4Z_2|Chain B|PROTEIN (PEPTIDE LYS-ASP-LYS)|null,KDK,3
+243,1B51,>1B51_2|Chain B|PROTEIN (LYS-SER-LYS)|null,KSK,3
+244,1B52,>1B52_2|Chain B|PROTEIN (LYS-THR-LYS)|null,KTK,3
+245,1B58,>1B58_2|Chain B|PROTEIN (LYS-TYR-LYS)|null,KYK,3
+246,1B5I,>1B5I_2|Chain B|PROTEIN (LYS-ASN-LYS)|,KNK,3
+247,1B5J,>1B5J_2|Chain B|PROTEIN (LYS-GLN-LYS)|,KQK,3
+248,1B6H,>1B6H_2|Chain B|LYS-NVA-LYS PEPTIDE|,KVK,3
+249,1B7H,>1B7H_2|Chain B|LYS-NLE-LYS PEPTIDE|,KLK,3
+250,1JEU,>1JEU_2|Chain B|PEPTIDE LYS GLU LYS|,KEK,3
+251,1JEV,>1JEV_2|Chain B|PEPTIDE LYS TRP LYS|,KWK,3
+252,1OLA,>1OLA_2|Chain B|PEPTIDE VAL-LYS-PRO-GLY|,VKPG,4
+253,1OLC,>1OLC_2|Chain B|LYS-LYS-LYS-ALA|,KKKA,4
+254,1QKA,>1QKA_2|Chain B|LYS-ARG-LYS|synthetic construct (32630),KRK,3
+255,2OLB,>2OLB_2|Chain B|TRIPEPTIDE LYS-LYS-LYS|,KKK,3
+256,1XOC,>1XOC_2|Chain B|Nonapeptide VDSKNTSSW|,VDSKNTSSW,9
+257,3TCF,">3TCF_2|Chains I, J, K, L, M, N, O, P|Endogenous peptide|Escherichia coli (562)",XXX,3
+258,3TCG,">3TCG_2|Chains I, J, K, L, M, N, O, P|KGE Peptide|",KGE,3
+259,3EBB,">3EBB_2|Chains E, F, G, H|TRANSITIONAL ENDOPLASMIC RETICULUM ATPASE (TER ATP|Homo sapiens (9606)",TEDNDDDLYG,10
+260,5B6C,>5B6C_2|Chain B|Peptide from Ubiquitin fusion degradation protein 1 homolog|Homo sapiens (9606),FRAFSGSGNRL,11
+261,5GLF,">5GLF_2|Chains B, D, F, H|Derlin-1|Homo sapiens (9606)",RHNWGQGFRLGD,12
+262,2HYI,">2HYI_1|Chains A[auth F], B[auth L]|5'-R(*UP*UP*UP*UP*UP*U)-3'|",UUUUUU,6
+263,2XB2,>2XB2_5|Chain E[auth F]|PUTATIVE REGULATOR OF NONSENSE TRANSCRIPTS 3B|HOMO SAPIENS (9606),AER,3
+264,6QDV,>6QDV_11|Chain K[auth E]|Ligated exons: MINX mRNA|Human adenovirus 2 (10515),GGCCUCCGAACGCU,14
+265,1JN5,>1JN5_3|Chain C|FG-repeat|null,GQSPGFGQGGSV,12
+266,2W85,>2W85_2|Chain B|PEROXIN-19|HOMO SAPIENS (9606),SQEKFFQELFDS,12
+267,6SYF,">6SYF_2|Chains E, G, I, K|ACE-LEU-ARG-LEU-ARG-GLY-CYS|Homo sapiens (9606)",XLRLRGC,7
+268,6SYF,">6SYF_3|Chains F, H, J, L|ACE-ILE-LYS-GLN-GLU|Homo sapiens (9606)",XIKQE,5
+269,3ZNI,">3ZNI_2|Chains B, F, J, N|TYROSINE-PROTEIN KINASE ZAP-70|HOMO SAPIENS (9606)",TLNSDGYTPEPA,12
+270,3CVL,>3CVL_2|Chain B|T. brucei PFK PTS1 peptide Ac-HEELAKL|,HEELAKL,7
+271,3CVN,>3CVN_2|Chain B|T. brucei GAPDH PTS1 peptide Ac-DRDAAKL|,RDRAAKL,7
+272,1N5Z,">1N5Z_2|Chains B[auth P], D[auth Q]|14-mer peptide from Peroxisomal membrane protein PEX14|null",EAMPPTLPHRDWKD,14
+273,5LYN,">5LYN_2|Chains C, D|PRO-THR-VAL-GLU-GLU-VAL-ASP|Saccharomyces cerevisiae (4932)",PTVEEVD,7
+274,5L3T,>5L3T_5|Chain F|Sac3polyAla|Saccharomyces cerevisiae (4932),XXXXXXXXXXXX,12
+275,4V3I,>4V3I_2|Chain B|VCA0115|VIBRIO CHOLERAE (666),DLTRP,5
+276,1B0G,">1B0G_3|Chains C, F|PEPTIDE P1049 (ALWGFFPVL)|",ALWGFFPVL,9
+277,6AP1,>6AP1_2|Chain F[auth G]|ACE-ASP-GLU-ILE-VAL-ASN-LYS-VAL-LEU-NH2|Saccharomyces cerevisiae (4932),XDEIVNKVLX,10
+278,3R42,>3R42_2|Chain B|Vacuolar protein sorting-associated protein 27|Saccharomyces cerevisiae (4932),QVPSDPYNY,9
+279,2YNN,>2YNN_2|Chain B[auth P]|KTKTN MOTIF|SYNTHETIC CONSTRUCT (32630),CTFKTKTN,8
+280,2YNO,>2YNO_2|Chain C[auth P]|POLY ALA|UNIDENTIFIED (32644),AAAAA,5
+281,4J73,>4J73_2|Chain B|Transmembrane emp24 domain-containing protein 9|Bos taurus (9913),FEAKKLV,7
+282,4J77,">4J77_1|Chains A[auth C], D|Wbp1|Homo sapiens (9606)",AKEKSD,6
+283,4J78,>4J78_2|Chain B|Emp47p|Saccharomyces cerevisiae (4932),KTKLL,5
+284,4J79,>4J79_2|Chain B|Spike glycoprotein|Porcine epidemic diarrhea virus (28295),EKVHVQ,6
+285,4J81,">4J81_2|Chains C, D|Insulin-induced gene 1 protein|Homo sapiens (9606)",KPHSD,5
+286,4J82,">4J82_2|Chains C, D|INSIG2|Homo sapiens (9606)",KSHQE,5
+287,4J84,">4J84_2|Chains C, D|SCYL1|Saccharomyces cerevisiae (4932)",ARKLD,5
+288,4J86,">4J86_2|Chains C, D|Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit WBP1|Saccharomyces cerevisiae (4932)",TFKKTN,6
+289,2W2U,">2W2U_2|Chains C, D|CONSERVED ARCHAEAL PROTEIN|SULFOLOBUS ACIDOCALDARIUS (2285)",VRELLPELPHPPSE,14
+290,5GAE,>5GAE_36|Chain JA[auth x]|tRNA CCA end (5'-R(P*CP*CP*A)-3')|Escherichia coli (562),CCA,3
+291,5AKA,>5AKA_7|Chain G[auth 6]|ALA-ALA-ALA-ALA-ALA-ALA-ALA-ALA|ESCHERICHIA COLI K-12 (83333),AAAAAAAA,8
+292,3ZN8,>3ZN8_5|Chain E[auth S]|DIPEPTIDYL AMINOPEPTIDASE B|SACCHAROMYCES CEREVISIAE (4932),GIILVLLIWGTVLL,14
+293,2HUG,">2HUG_2|Chain B|Signal recognition particle 54 kDa protein, chloroplast|Arabidopsis thaliana (3702)",APPGTARRKRKADS,14
+294,3DEP,>3DEP_2|Chain B|YPGGSFDPLGLA|null,YPGGSFDPLGLA,12
+295,3UI2,">3UI2_2|Chain B|Signal recognition particle 54 kDa protein, chloroplastic|Arabidopsis thaliana (3702)",QKAPPGTARRKRK,13
+296,1RY1,>1RY1_7|Chain G[auth Q]|SRP RNA|Canis lupus familiaris (9615),CGAUCGGGUGUC,12
+297,1RY1,>1RY1_8|Chain H[auth R]|SRP RNA|Canis lupus familiaris (9615),AUCGCGCCUGUG,12
+298,2wwb,>2WWB_7|Chain G|25S RRNA|TRITICUM AESTIVUM (4565),ACACGUCGCGCGGU,14
+299,3WXA,">3WXA_2|Chains C, D|Protein transport protein Sec31A|Homo sapiens (9606)",NPPPPGFIMHGN,12
+300,4YXB,>4YXB_2|Chain C|FliM::FliN fragment|Salmonella enterica subsp. enterica serovar Typhimurium (90371),VFQQLG,6
+301,2G3V,">2G3V_2|Chains E, F, G, H|(UNK)(UNK)(UNK)(UNK)(UNK)(MSE)(UNK)|null",XXXXXMX,7
+302,3VRJ,>3VRJ_3|Chain C|10-mer peptide|null,LTTKLTNTNI,10
+303,3CQU,>3CQU_2|Chain B[auth C]|Glycogen synthase kinase-3 beta|Homo sapiens (9606),GRPRTTSFAE,10
+304,6BUU,">6BUU_2|Chains C[auth F], D[auth G]|GLY-ARG-PRO-ARG-THR-THR-ZXW-PHE-ALA-GLU|Homo sapiens (9606)",GRPRTTXFAE,10
+305,2ROL,>2ROL_2|Chain B|12-meric peptide from T-cell surface glycoprotein CD3 epsilon chain|null,PPVPNPDYEPIR,12
+306,5QU2,">5QU2_2|Chains C[auth D], D[auth E]|ACE-PRO-PRO-PRO-VAL-PRO-ASN-PRO-ASP-TYR-NH2|synthetic construct (32630)",XPPPVPNPDYX,11
+307,1YGR,">1YGR_2|Chains C, D|T-cell Receptor CD3 zeta ITAM-1|null",REEYDV,6
+308,1YGU,">1YGU_2|Chains C, D|Polyoma Middle T antigen|null",PTYS,4
+309,1TCE,>1TCE_2|Chain B|PHOSPHOPEPTIDE OF THE ZETA CHAIN OF T CELL RECEPTOR|,GHDGLYQGLSTATK,14
+310,3P8F,>3P8F_2|Chain B[auth I]|Trypsin inhibitor 1|Helianthus annuus (4232),GRCTKSIPPICFPD,14
+311,4O97,>4O97_2|Chain B|Peptide CGLR|Homo sapiens (9606),CGLR,4
+312,2A25,>2A25_2|Chain B|Calcyclin-binding protein peptide|null,EKPAAVVAPITTG,13
+313,4I7B,">4I7B_2|Chains B, D|Protein phyllopod|Drosophila melanogaster (7227)",XKLRPVAMVRPTVR,14
+314,4I7C,">4I7C_2|Chains B, D|Protein phyllopod|Drosophila melanogaster (7227)",XKLRPVXMVRPWVR,14
+315,4I7D,">4I7D_2|Chains B, D|Protein phyllopod|Drosophila melanogaster (7227)",XKLRPVAMVRPXVR,14
+316,4X3G,">4X3G_2|Chains C, D|Ubiquitin carboxyl-terminal hydrolase 19|Homo sapiens (9606)",SPKPTCMVPPMPHS,14
+317,6PWC,>6PWC_2|Chain B|Neurotensin peptide|synthetic construct (32630),RRPYIL,6
+318,4N7H,>4N7H_2|Chain B|Arrestin domain-containing protein 3|Homo sapiens (9606),RPEAPPSYAEVVT,13
+319,3VIV,>3VIV_2|Chain C|PH STOMATIN PH1511|Pyrococcus horikoshii OT3 (70601),NVIVLMLPME,10
+320,1A07,">1A07_2|Chains B[auth C], D|ACE-MALONYL TYR-GLU-(N,N-DIPENTYL AMINE)|",XYEX,4
+321,1HCS,>1HCS_1|Chain A|ACETYL-PYEEIE-OH|,XYEEIE,6
+322,3VRO,>3VRO_2|Chain B|Proto-oncogene tyrosine-protein kinase Src|Homo sapiens (9606),RLIEDNEYTARQG,13
+323,3ZMP,">3ZMP_2|Chains C, D|PROTO-ONCOGENE TYROSINE-PROTEIN KINASE SRC|HOMO SAPIENS (9606)",EPQYQPGENL,10
+324,3ZMQ,>3ZMQ_2|Chain B[auth C]|PROTO-ONCOGENE TYROSINE-PROTEIN KINASE SRC|HOMO SAPIENS (9606),EAQYQPGENL,10
+325,4HXJ,>4HXJ_2|Chain C|C-terminal 3-mer peptide from Integrin beta-3|Homo sapiens (9606),RGT,3
+326,3WUT,">3WUT_2|Chains C, F, I, L|Inactive serine/threonine-protein kinase TEX14|Homo sapiens (9606)",DLAVGPPSLNYIPP,14
+327,3WUU,">3WUU_2|Chains C, F, I, L|TEX-14|Homo sapiens (9606)",DLAVGPPSLNYPGY,14
+328,2L7U,>2L7U_2|Chain B|Serum albumin peptide|Bos taurus (9913),DEFKADE,7
+329,4ZRT,>4ZRT_2|Chain B|GLY-PRO-LEU-PTR-ASP-GLU|Homo sapiens (9606),AWGPLYDEVQM,11
+330,2JKR,">2JKR_5|Chains G[auth P], H[auth Q]|CD4 PEPTIDE|HOMO SAPIENS (9606)",RMSQIKRLLSE,11
+331,2JKT,">2JKT_5|Chains G[auth P], H[auth Q]|CD4 PEPTIDE|HOMO SAPIENS (9606)",RMSEIKRLLSE,11
+332,6QH6,>6QH6_5|Chain E[auth P]|TGN38 CARGO PEPTIDE|Homo sapiens (9606),DYQRLN,6
+333,6QH6,>6QH6_6|Chain F[auth Q]|CD4 CARGO PEPTIDE|Homo sapiens (9606),RMSQIKRLLS,10
+334,2M0U,>2M0U_2|Chain B|C-terminal CFTR peptide|,QDTRL,5
+335,4E34,">4E34_2|Chains C, D|decameric peptide, iCAL36|",ANSRWPTSII,10
+336,4E35,">4E35_2|Chains C, D|iCAL50 peptide|",ANSRWPTSIL,10
+337,4JOE,">4JOE_2|Chains C, D|A-iCAL36 peptide|",ANSRAPTSII,10
+338,4JOF,">4JOF_2|Chains C, D|L-iCAL36 peptide|",ANSRLPTSII,10
+339,4JOG,">4JOG_2|Chains C, D|V-iCAL36 peptide|",ANSRVPTSII,10
+340,4JOH,">4JOH_2|Chains C, D|H-iCAL36 peptide|",ANSRHPTSII,10
+341,4JOJ,">4JOJ_2|Chains C, D|F-iCAL36 peptide|",ANSRFPTSII,10
+342,4JOK,">4JOK_2|Chains C, D|Y-iCAL36 peptide|",ANSRYPTSII,10
+343,4JOP,">4JOP_2|Chains C, D|Protein E6|Human papillomavirus type 16 (333760)",TRRETQL,7
+344,4JOR,">4JOR_2|Chains C, D|Protein E6|Human papillomavirus type 18 (333761)",RLQRRRETQV,10
+345,4K6Y,">4K6Y_2|Chains C, D|iCAL36-Q peptide|",ANSRWQTSII,10
+346,4K72,">4K72_2|Chains C, D|iCAL36-VQD peptide|",ANSRVQDSII,10
+347,4K75,>4K75_2|Chain B|iCAL36-QDTRL peptide|,ANSRWQDTRL,10
+348,4K76,">4K76_2|Chains E, F, G, H|iCAL36-TRL peptide|",ANSRWPTTRL,10
+349,4NMO,">4NMO_2|Chains C, D|iCAL36(Ac-K-1) peptide|",ANSRWPTSKI,10
+350,4NMP,">4NMP_2|Chains C, D|iCAL36(Ac-K-3) peptide|",ANSRWPKSII,10
+351,4NMQ,">4NMQ_2|Chains C, D|iCAL36(Ac-K-4) peptide|",ANSRWKTSII,10
+352,4NMR,">4NMR_2|Chains C, D|iCAL36(Ac-K-5) peptide|null",ANSRKPTSII,10
+353,4Q6H,>4Q6H_2|Chain B|iCAL36-VQDTRL peptide|null,VQDTRL,6
+354,6OV7,">6OV7_2|Chains C, D|kCAL01 peptide|synthetic construct (32630)",ANSRWQVTRV,10
+355,6XNJ,>6XNJ_2|Chain B|NleG8 peptide|Escherichia coli O157:H7 str. Sakai (386585),LATQNICTRI,10
+356,2M3M,>2M3M_2|Chain B|Protein E6|Human papillomavirus (10595),QRTRQRNETQV,11
+357,2OQS,>2OQS_2|Chain B|C-terminal HPV-18 E6 peptide|null,RRETQV,6
+358,3RL7,">3RL7_2|Chains G, H, I, J, K, L|11-mer peptide from Adenomatous polyposis coli protein|Homo sapiens (9606)",RHSGSYLVTSV,11
+359,3TSZ,>3TSZ_2|Chain B|Junctional adhesion molecule A|Homo sapiens (9606),EGEFKQTSSFLV,12
+360,1OBX,>1OBX_2|Chain B|INTERLEUKIN 5 RECEPTOR ALPHA|HOMO SAPIENS (9606),ETLEDSVF,8
+361,1OBY,">1OBY_2|Chains C[auth P], D[auth Q]|SYNDECAN-4|HOMO SAPIENS (9606)",TNEFYA,6
+362,1V1T,">1V1T_2|Chains C[auth S], D[auth T]|TNEYKV PEPTIDE|synthetic construct (32630)",TNEYKV,6
+363,1W9E,">1W9E_2|Chains C[auth R], D[auth S], E[auth T]|TNEFYF PEPTIDE|synthetic construct (32630)",TNEFYF,6
+364,1W9O,">1W9O_2|Chains C[auth S], D[auth T]|TNEYYV PEPTIDE|synthetic construct (32630)",TNEYYV,6
+365,1W9Q,>1W9Q_2|Chain C[auth S]|TNEFAF PEPTIDE|synthetic construct (32630),TNEFAF,6
+366,4Z33,">4Z33_2|Chains C, D|LYS-GLY-GLU-THR-ALA-VAL|Homo sapiens (9606)",KGETAV,6
+367,1AQC,">1AQC_2|Chains B[auth C], D|PEPTIDE|",GYENPTYKFF,10
+368,1U38,>1U38_2|Chain B|PVYI|null,PVYI,4
+369,3LL8,>3LL8_1|Chain A[auth E]|AKAP79 peptide|Homo sapiens (9606),EPIAIIITDTE,11
+370,2KPZ,>2KPZ_2|Chain B|12-mer from Gag-Pro polyprotein|Human T-cell lymphotrophic virus type 1 isolate Mel 15 (402046),SDPQIPPPYVEP,12
+371,2KQ0,>2KQ0_2|Chain B|12-mer from Matrix protein VP40|Human T-cell lymphotrophic virus type 1 isolate Mel 15 (402046),ILPTAPPEYMEA,12
+372,2EZ5,>2EZ5_2|Chain B[auth P]|Commissureless LPSY Peptide|null,TGLPSYDEALH,11
+373,1FKN,">1FKN_2|Chains C, D|inhibitor|",EVNXAEF,7
+374,1M4H,">1M4H_2|Chains C, D|Inhibitor OM00-3|synthetic construct (32630)",ELDXVEF,7
+375,1PY1,">1PY1_2|Chains E, F, G, H|Beta-secretase|null",ADDISLLK,8
+376,1UJJ,>1UJJ_2|Chain C|C-terminal peptide from Beta-secretase|null,HDDFADDISLLK,12
+377,1XN2,">1XN2_2|Chains E, F, G, H|OM03-4|",REWWSEVNXAEF,12
+378,1XN3,>1XN3_2|Chain E[auth I]|Peptidic inhibitor|,KTEEISEVNXVAEF,14
+379,1YM2,">1YM2_2|Chains D[auth X], E[auth Y], F[auth Z]|NVP-AUR200 INHIBITOR|",XLMXVX,6
+380,1YM4,">1YM4_2|Chains D[auth X], E[auth Y], F[auth Z]|NVP-AMK640 INHIBITOR|",EVNXA,5
+381,3UQP,">3UQP_2|Chain B|METHYL (2R)-1-[(6S,9S,12S,13S,17S,20S,23R)-9-(3-AMINO-3-OXOPROPYL)-12,23-DIBENZYL-13-HYDROXY-2,2,8,20,22-PENTAMETHYL-17-(2-METHYLPROPYL)-4,7,10,15,18,21,24-HEPTAOXO-6-(PROPAN-2-YL)-3-OXA-5,8,11,16,19,22-HEXAAZATETRACOSAN-24-YL]PYRROLIDINE-2-CARBOXYLATE|synthetic construct (32630)",XVXFLAXX,8
+382,3UQR,">3UQR_2|Chains D, E, F|METHYL (2S)-1-[(2R,5S,8S,12S,13S)-2,13-DIBENZYL-12-HYDROXY-3,5-DIMETHYL-15-(3-[METHYL(METHYLSULFONYL)AMINO]-5-{[(1R)-1-PHENYLETHYL]CARBAMOYL}PHENYL)-8-(2-METHYLPROPYL)-4,7,10,15-TETRAOXO-3,6,9,14-TETRAAZAPENTADECAN-1-OYL]PYRROLIDINE-2-CARBOXYLATE|synthetic construct   (32630)",XXFLAXX,7
+383,4FGX,">4FGX_2|Chain B|Inhibitor (2R,5S,8S,12S,13S,16S,19S,22S)-16-(3-amino-3-oxopropyl)-2,13-dibenzyl-12,22-dihydroxy-8-isobutyl-19-isopropyl-3,5,17-trimethyl-4,7,10,15,18,21-hexaoxo-3,6,9,14,17,20-hexaazatricosan-1-oic acid|",XVXFLAX,7
+384,4TRW,">4TRW_2|Chains D, E, F|L-alpha-glutamyl-L-isoleucyl-N-[(2R,3S)-1-{[(1S)-1-carboxybutyl]amino}-2-hydroxy-5-methylhexan-3-yl]-3-thiophen-2-yl-L-alaninamide|synthetic construct (32630)",EIAX,4
+385,5MBW,>5MBW_2|Chain B|BACE1 INHIBITOR PEPTIDE Pep#3|Homo sapiens (9606),EVNXVAEPKX,10
+386,5MCO,>5MCO_2|Chain B|BACE-1 EXOSITE PEPTIDE|Homo sapiens (9606),XALYPYFLPISAK,13
+387,2J6F,>2J6F_2|Chain B[auth C]|E3 UBIQUITIN-PROTEIN LIGASE CBL-B|HOMO SAPIENS (9606),PARPPKPRPRR,11
+388,2J6O,>2J6O_2|Chain B[auth C]|T-CELL SURFACE ANTIGEN CD2|HOMO SAPIENS (9606),KGPPLPRPRV,10
+389,2Z7X,>2Z7X_3|Chain C|Pam3CSK4|synthetic construct (32630),SKKKK,5
+390,6SLI,">6SLI_4|Chains F[auth E], L[auth K]|ASTTGGNSQRGGG|Porphyromonas gingivalis W83 (242619)",ASTTGGNSQRGGG,13
+391,6SLI,">6SLI_3|Chains C[auth H], I[auth P]|ALA-SER-THR-THR-GLY-GLY-ASN-SER-GLN-ARG-GLY-SER-GLY|Porphyromonas gingivalis W83 (242619)",ASTTGGNSQRGSG,13
+392,6SLJ,>6SLJ_3|Chain E[auth P]|ALA-SER-THR-THR-GLY-ALA-ASN-SER-GLN-ARG-GLY-SER-GLY|Porphyromonas gingivalis W83 (242619),ASTTGANSQRGSG,13
+393,6SLJ,>6SLJ_4|Chain F[auth Q]|ALA-SER-THR-THR-GLY-ALA-ASN-SER-GLN-ARG|Porphyromonas gingivalis W83 (242619),ASTTGANSQR,10
+394,6SLN,">6SLN_3|Chains E[auth P], F[auth Q]|GLN-THR-ALA-GLY-ALA-ASN-SER-GLN-ARG-GLY-SER-ALA-GLY|Porphyromonas gingivalis W83 (242619)",QTAGANSQRGSAG,13
+395,6SM3,>6SM3_3|Chain C|GLY-GLY-ALA-THR-THR-ALA-THR-THR-THR-THR-SER-THR-SER|Porphyromonas gingivalis W83 (242619),GGATTATTTTSTS,13
+396,6SML,>6SML_3|Chain C|GLY-THR-GLY-GLY-SER-THR-GLY-THR-THR-SER-ALA-GLY|Porphyromonas gingivalis W83 (242619),GTGGSTGTTSAG,12
+397,6SMQ,>6SMQ_3|Chain C|SER-GLY-ALA-THR-THR-ALA-THR-THR-THR-THR-SER-ASN-SER|Porphyromonas gingivalis W83 (242619),SGATTATTTTSNS,13
+398,1L5G,>1L5G_3|Chain C|CYCLIC ARG-GLY-ASP PEPTIDE|null,RGDFV,5
+399,4UM9,">4UM9_4|Chains E, F|TRANSFORMING GROWTH FACTOR BETA 3|HOMO SAPIENS (9606)",XHGRGDLGRLKKX,13
+400,6OM2,">6OM2_3|Chains E, F|proTGF-beta1 RGD peptide|Homo sapiens (9606)",GRRGDLATIHG,11
+401,6D8C,">6D8C_3|Chains K[auth N], L[auth O], M[auth P]|Phalloidin|Amanita phalloides (67723)",PAWXATC,7
+402,4MGX,>4MGX_2|Chain B|Platelet glycoprotein Ib alpha chain|Homo sapiens (9606),PTFRSSLFL,9
+403,1F95,">1F95_2|Chains C, D|BCL2-LIKE 11 (APOPTOSIS FACILITATOR)|null",MSCDKSTQT,9
+404,6NID,">6NID_2|Chains D, E, F|Neurexin-1|Homo sapiens (9606)",KKNKDKEYYV,10
+405,1BT6,">1BT6_2|Chains C, D|ANNEXIN II|",XSTVHEILSKLSLE,14
+406,1MQ1,">1MQ1_2|Chains C, D|F-actin capping protein alpha-1 subunit|null",TRTKIDWNKILS,12
+407,1L7Z,>1L7Z_2|Chain B|CAP-23/NAP-22|null,GGKLSKKKK,9
+408,1PD0,>1PD0_2|Chain B|COPII-binding peptide of the integral membrane protein SED5|null,TYNNSNPFMT,10
+409,3EFO,>3EFO_3|Chain C|Peptide|null,DVAIDMM,7
+410,6DDE,>6DDE_6|Chain F[auth D]|DAMGO|Homo sapiens (9606),YAGFX,5
+411,6OMM,>6OMM_2|Chain B[auth L]|Peptide agonist|synthetic construct (32630),WKYMVX,6
+412,6OS9,>6OS9_2|Chain B[auth L]|JMV449|synthetic construct (32630),KKPYIL,6
+413,3J77,>3J77_82|Chain DC[auth MR]|messenger RNA|Saccharomyces cerevisiae (4932),AAAAAUGUAAAAAA,14
+414,4V6I,">4V6I_80|Chain EC[auth CC]|MRNA, RNA (5'-R(P*AP*AP*AP*AP*GP*AP*CP*UP*UP*CP*A)-3')|Saccharomyces cerevisiae (4932)",AAAAGACUUCA,11
+415,4V7R,>4V7R_27|Chain AA[auth Af]|Unassigned secondary structure|Saccharomyces cerevisiae (4932),XXXXXXXXXXX,11
+416,4V7R,>4V7R_69|Chain SB[auth Bp]|Unassigned secondary structure|Saccharomyces cerevisiae (4932),XXXXXXXX,8
+417,4V8Z,>4V8Z_85|Chain GC[auth CX]|5'-R(*AP*UP*GP)-3'|SACCHAROMYCES CEREVISIAE (4932),AUG,3
+418,5DGV,">5DGV_85|Chains GF[auth C], HF[auth D]|DNA (5'-R(*CP*CP*(8AN)*(Pro)*(Pro))-3')|Saccharomyces cerevisiae S288c (559292)",CCAPP,5
+419,5TGM,">5TGM_89|Chains GF[auth P], HF[auth p]|Peptidyl-tRNA analog ACCA-Leu-Phe|Homo sapiens (9606)",ACCA,4
+420,6GQ1,>6GQ1_82|Chain DC[auth AY]|Messenger RNA|Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (559292),CAAUUUUU,8
+421,6GQB,>6GQB_82|Chain DC[auth AY]|Messenger RNA|Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (559292),CAAUUUU,7
+422,6T4Q,>6T4Q_81|Chain CC[auth 8]|nascent chain|Saccharomyces cerevisiae (4932),ESWMER,6
+423,6T7T,>6T7T_79|Chain AC[auth 5]|mRNA|Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (559292),AAAAAAAAAAA,11
+424,6T7T,>6T7T_81|Chain DC[auth A]|nascent chain|Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (559292),AKKK,4
+425,6TNU,>6TNU_2|Chain B[auth l]|mRNA|Saccharomyces cerevisiae (4932),AUGAAA,6
+426,5A2Q,>5A2Q_37|Chain KA[auth r]|RIBOSOMAL PROTEIN EL19|HOMO SAPIENS (9606),RRSKTKEARKRRE,13
+427,6IP5,>6IP5_81|Chain CC[auth zv]|mRNA|Homo sapiens (9606),CCGCCU,6
+428,6IP8,>6IP8_80|Chain BC[auth zv]|mRNA|Homo sapiens (9606),CCGCCUUAACUC,12
+429,6OLE,>6OLE_82|Chain DC[auth w]|mRNA|Homo sapiens (9606),UUACGGCGGU,10
+430,6Y0G,>6Y0G_3|Chain C[auth C4]|Nascent peptide|Homo sapiens (9606),XX,2
+431,1QJA,">1QJA_2|Chains C[auth Q], D[auth R]|PHOSPHOPEPTIDE|HOMO SAPIENS (9606)",RLYHSLPA,8
+432,1QJB,">1QJB_2|Chains C[auth Q], D[auth S]|PHOSPHOPEPTIDE|HOMO SAPIENS (9606)",ARSHSYPA,8
+433,2C1J,">2C1J_2|Chains C, D|HISTONE H3 ACETYLPHOSPHOPEPTIDE|Homo sapiens (9606)",ARKSTGGK,8
+434,2O02,">2O02_2|Chains C[auth P], D[auth Q]|ExoS (416-430) peptide|null",GHGQGLLDALDLAS,14
+435,3CU8,">3CU8_2|Chains C[auth P], D[auth Q]|RAF proto-oncogene serine/threonine-protein kinase|Homo sapiens (9606)",RSTSTPNVH,9
+436,3NKX,">3NKX_2|Chains C[auth P], D[auth Q]|Peptide of RAF proto-oncogene serine/threonine-protein kinase|null",QRSTSTPNVH,10
+437,4BG6,">4BG6_2|Chains C[auth Q], D[auth R]|RHO-RELATED GTP-BINDING PROTEIN RHOE|HOMO SAPIENS (9606)",DLRKDKAKSC,10
+438,4N7G,>4N7G_2|Chain B|Exoenzyme S|Pseudomonas aeruginosa (287),QGLLDALDLAS,11
+439,4N7Y,">4N7Y_2|Chains C, D|Exoenzyme S|Pseudomonas aeruginosa (287)",QGXLDLLDLAS,11
+440,4N84,">4N84_2|Chains C, D[auth E]|Exoenzyme S|Pseudomonas aeruginosa (287)",GXLDXLDLAS,10
+441,5EWZ,>5EWZ_2|Chain C|GRB2-associated-binding protein 2|Homo sapiens (9606),PRRNTLPAM,9
+442,5EWZ,>5EWZ_3|Chain D|GRB2-associated-binding protein 2|Homo sapiens (9606),RSASFS,6
+443,5EXA,">5EXA_2|Chains C, D|GRB2-associated-binding protein 2|Homo sapiens (9606)",PRRNTLPAMDQ,11
+444,5J31,">5J31_2|Chains C, D|Exoenzyme S|Pseudomonas aeruginosa (287)",GLLDXLDLAS,10
+445,5JM4,">5JM4_2|Chains C[auth D], D[auth E]|GLN-GLY-MKD-ANG-ASP-MKD-LEU-ASP-LEU-ALA-CLU|synthetic construct (32630)",QGXXDXLDLAX,11
+446,5M35,>5M35_2|Chain C|M-phase inducer phosphatase 3|Homo sapiens (9606),LYRSPSMPEN,10
+447,5M35,>5M35_3|Chain D|M-phase inducer phosphatase 3|Homo sapiens (9606),RSPSMPE,7
+448,5NAS,">5NAS_2|Chains C, D|Phosphatidylinositol 4-kinase beta|Homo sapiens (9606)",LKRTASNPK,9
+449,5ULO,">5ULO_2|Chains C, D|TBC1 domain family member 7|Homo sapiens (9606)",XESGKLPRSPSFPX,14
+450,5WXN,">5WXN_2|Chains C, D|Serine/threonine-protein kinase STK11|Homo sapiens (9606)",RWRSMTVVPYLED,13
+451,5XY9,">5XY9_2|Chains C, D|Peptide from Serine/threonine-protein kinase 26|Homo sapiens (9606)",TSRENNTHPEWS,12
+452,6EF5,">6EF5_2|Chains E[auth Q], H[auth S]|ARG-SER-LEU-SEP-ALA-PRO-GLY|Homo sapiens (9606)",RSLSAPG,7
+453,6EF5,">6EF5_3|Chains F[auth P], G[auth R]|LYS-LEU-SEP-LEU-GLN|Homo sapiens (9606)",KLSLQ,5
+454,6EJL,">6EJL_2|Chains C, D|Mitogen-activated protein kinase kinase kinase 5|Homo sapiens (9606)",RSISLPVP,8
+455,6EWW,">6EWW_2|Chains E, F, G, H|ARG-LYS-LEU-SEP-LEU-GLN-GLU-ARG|Homo sapiens (9606)",RKLSLQER,8
+456,6F08,">6F08_2|Chains C[auth D], F[auth K], G[auth N], H[auth Q]|Son of sevenless homolog 1|Homo sapiens (9606)",PRRRPESAPAESS,13
+457,6F09,">6F09_2|Chains B[auth A], D[auth B], F[auth C], H[auth D]|Ubiquitin carboxyl-terminal hydrolase 8|Homo sapiens (9606)",KLKRSYSSPDITQ,13
+458,6RLZ,">6RLZ_2|Chains C, D|EtMe|Pseudomonas aeruginosa (287)",GXLDXLDL,8
+459,4P3C,>4P3C_3|Chain C[auth M]|Matrix metalloproteinase-14|Homo sapiens (9606),FDSAEPWTVRNED,13
+460,4QXU,>4QXU_3|Chain C[auth K]|Matrix metalloproteinase-14|Homo sapiens (9606),AEPWTVRNEDL,11
+461,5H0U,>5H0U_2|Chain B|HIS-HIS-HIS-HIS-HIS-HIS|unidentified (32644),HHHHHH,6
+462,2XS3,">2XS3_2|Chains B[auth C], D|PEPTIDE ALA-PHE-THR-SER|SYNTHETIC CONSTRUCT (32630)",AFTS,4
+463,2XS4,>2XS4_2|Chain B|PEPTIDE ALA-PHE-THR|SYNTHETIC CONSTRUCT (32630),AFT,3
+464,4IN9,>4IN9_2|Chain B|Peptide SER-TRP-PHE-PRO|synthetic construct (32630),SWFP,4
+465,1WCT,>1WCT_1|Chain A|OMEGAC-TXIX|Conus textile (6494),ECCEDGWCCTAAP,13
+466,2EW4,>2EW4_1|Chain A|MrIA|Conus marmoreus (42752),NGVCCGYKLCHPCX,14
+467,2LYW,>2LYW_2|Chain B|Neurotensin|Homo sapiens (9606),QLYENKPRRPYIL,13
+468,2X72,>2X72_2|Chain B|GUANINE NUCLEOTIDE-BINDING PROTEIN G(T) SUBUNIT ALPHA-1|BOS TAURUS (9913),ILENLKDCGLF,11
+469,3PQR,>3PQR_2|Chain B|Guanine nucleotide-binding protein G(t) subunit alpha-1|Bos taurus (9913),ILENLKDVGLF,11
+470,4PXF,>4PXF_2|Chain B|S-arrestin|Bos taurus (9913),YGQEDIDVMGL,11
+471,4X1H,>4X1H_2|Chain B[auth C]|C-terminal derived peptide of guanine nucleotide-binding protein G(t) subunit alpha-1|Bos taurus (9913),VLEDLKSCGLF,11
+472,6DO1,">6DO1_3|Chains G, H|Angiotensin-like peptide S1I8|synthetic construct (32630)",GRVYIHPI,8
+473,6OS0,>6OS0_3|Chain C[auth B]|Angiotensinogen|Homo sapiens (9606),DRVYIHPF,8
+474,6OS1,>6OS1_3|Chain C[auth B]|TRV023 peptide|synthetic construct (32630),GRVYKHPA,8
+475,6OS2,>6OS2_3|Chain C[auth B]|TRV026 peptide|synthetic construct (32630),GRVYYHPX,8
+476,6C1Q,>6C1Q_2|Chain B[auth L]|PMX53|synthetic construct (32630),XFAPAWR,7
+477,1LVQ,>1LVQ_1|Chain A|Cannabinoid receptor 1|null,DIRLAKTLV,9
+478,1LVR,>1LVR_1|Chain A|Cannabinoid receptor 1|null,DIRALKTLV,9
+479,6W25,>6W25_2|Chain B|SHU9119|synthetic construct (32630),XLDHXRWKX,9
+480,5AER,">5AER_2|Chains B, C|D(2) DOPAMINE RECEPTOR|HOMO SAPIENS (9606)",NIEFRKAFLKILHS,14
+481,5cxv,>5CXV_2|Chain B[auth C]|FLAG peptide|Enterobacteria phage T4 (10665),DYKDDDD,7
+482,6PGQ,>6PGQ_2|Chain B|Calcitonin|Oncorhynchus sp. (8025),YPRTNTGSGTPX,12
+483,4Z8J,>4Z8J_2|Chain B|C-terminal PDZ binding motif from parathyroid hormone receptor (PTHR)|Homo sapiens (9606),QEEWETVM,8
+484,5EMB,>5EMB_2|Chain B|GLU-GLU-TRP-SEP-THR-VAL-MET|Homo sapiens (9606),QEEWSTVM,8
+485,2A83,>2A83_3|Chain C|THE GLUCAGON RECEPTOR (GR) PEPTIDE|null,RRRWHRWRL,9
+486,5NX2,>5NX2_2|Chain B|truncated peptide agonist|synthetic construct (32630),XXGTXTSDXX,10
+487,1OF2,>1OF2_3|Chain C|VASOACTIVE INTESTINAL POLYPEPTIDE RECEPTOR|HOMO SAPIENS (9606),RRKWRRWHL,9
+488,5LXH,">5LXH_2|Chains D[auth E], E[auth F], F[auth G]|Cysteine protease ATG4B|Homo sapiens (9606)",EDEDFEILSL,10
+489,5OSI,">5OSI_3|Chains C, F, I|Interaptin|Legionella pneumophila subsp. pneumophila ATCC 43290 (933093)",KEEYTPTIPPKAIN,14
+490,4GVC,>4GVC_2|Chain B|Syndecan-1|Homo sapiens (9606),TKQEEFYA,8
+491,6EJE,>6EJE_2|Chain B|Syndecan-1|Homo sapiens (9606),PAAEGSGEQDFT,12
+492,1Y2A,>1Y2A_2|Chain B[auth P]|decamer fragment of Phospholipid scramblase 1|null,GKISKHWTGI,10
+493,3Q5U,>3Q5U_2|Chain B|Phospholipid scramblase 4|null,NIGSIIRKWNGLL,13
+494,1S7P,>1S7P_1|Chain A[auth B]|microcin J25|Escherichia coli (562),VGIGTPISFYG,11
+495,1S7P,>1S7P_2|Chain B[auth A]|microcin J25|Escherichia coli (562),GGAGHVPEYF,10
+496,5T56,">5T56_1|Chains A, C|Microcin J25|Escherichia coli (562)",GGAGHVPEYFVR,12
+497,5T56,">5T56_2|Chains B, D|Microcin J25|Escherichia coli (562)",CGTPISFYC,9
+498,2XC7,>2XC7_2|Chain B[auth P]|5'-(AP*UP*CP*GP)-3'|,AUCG,4
+499,5FYQ,">5FYQ_2|Chains C, D|RAN AA 31-43|HOMO SAPIENS (9606)",LTGEFEKKYVATL,13
+500,6X2Y,>6X2Y_4|Chain D|Protein diaphanous homolog 3|Homo sapiens (9606),VEALLARLRAL,11
+501,3G2U,">3G2U_2|Chains C, D|C-terminal fragment of Sortilin|null",SGYHDDSDEDLLE,13
+502,1H2C,>1H2C_2|Chain B[auth R]|5'-R(*UP*GP*AP)-3'|ESCHERICHIA COLI (562),UGA,3
+503,4EJE,">4EJE_2|Chains C, D|Matrix protein VP40|Ebola virus (128952)",ILPTAPPEY,9
+504,1JK8,>1JK8_3|Chain C|insulin B peptide|null,LVEALYLVCGERGG,14
+505,1S9V,">1S9V_3|Chains C, F|alpha-I gliadin|null",LQPFPQPELPY,11
+506,4OZF,>4OZF_5|Chain E[auth J]|deamidated Gliadin-alpha2 peptide|Triticum aestivum (4565),APQPELPYPQPGS,13
+507,4OZI,">4OZI_5|Chains I, J|deamidated Gliadin-alpha1 peptide|Triticum aestivum (4565)",QPFPQPELPYPGS,13
+508,5KSA,>5KSA_5|Chain E[auth J]|DQ8.5-glia-gamma1 peptide|Triticum aestivum (4565),QPQQSFPEQEA,11
+509,5KSB,">5KSB_5|Chains I, J|DQ8.5-glia-gamma1 peptide|Triticum aestivum (4565)",GPQQSFPEQEA,11
+510,1AKJ,>1AKJ_3|Chain C|HIV REVERSE TRANSCRIPTASE EPITOPE|Human immunodeficiency virus (12721),ILKEPVHGV,9
+511,1AO7,>1AO7_3|Chain C|TAX PEPTIDE|Human T-lymphotropic virus 1 (11908),LLFGYPVYV,9
+512,1B0R,>1B0R_3|Chain C|PROTEIN (INFLUENZA MATRIX PEPTIDE)|null,GILGFVFTX,9
+513,1DUY,">1DUY_3|Chains C, F|HTLV-1 OCTAMERIC TAX PEPTIDE|null",LFGYPVYV,8
+514,1EEY,">1EEY_3|Chains C, F|GP2 PEPTIDE|null",ILSALVGIV,9
+515,1EEZ,">1EEZ_3|Chains C, F|GP2 PEPTIDE|null",ILSALVGIL,9
+516,1HHG,">1HHG_3|Chains C, F|HIV-1 GP120 ENVELOPE PROTEIN (RESIDUES 195-207)|Human immunodeficiency virus 1 (11676)",TLTSCNTSV,9
+517,1HHH,>1HHH_3|Chain C|HEPATITIS B NUCLEOCAPSID PROTEIN (RESIDUES 18-27)|Hepatitis B virus (10407),FLPSDFFPSV,10
+518,1HHI,">1HHI_3|Chains C, F|INFLUENZA A MATRIX PROTEIN M1 (RESIDUES 58-66)|Influenza A virus (11320)",GILGFVFTL,9
+519,1HSB,>1HSB_3|Chain C|BOUND PEPTIDE FRAGMENT|,AVA,3
+520,1I1F,">1I1F_3|Chains C, F|PROTEIN (HIV-RT VARIANT PEPTIDE I1F (FLKEPVHGV))|",FLKEPVHGV,9
+521,1I1Y,">1I1Y_3|Chains C, F|HIV-RT VARIANT PEPTIDE I1Y (YLKEPVHGV)|",YLKEPVHGV,9
+522,1I4F,>1I4F_3|Chain C|MELANOMA-ASSOCIATED ANTIGEN 4|null,GVYDGREHTV,10
+523,1I7R,">1I7R_3|Chains C, F|9 RESIDUE PEPTIDE|null",FAPGFFPYL,9
+524,1I7T,">1I7T_3|Chains C, F|9 RESIDUE PEPTIDE|null",ALWGVFPVL,9
+525,1I7U,">1I7U_3|Chains C, F|9 RESIDUE PEPTIDE|null",ALWGFVPVL,9
+526,1JF1,>1JF1_3|Chain C|decameric peptide ligand from the MART-1/Melan-A|null,ELAGIGILTV,10
+527,1JHT,>1JHT_3|Chain C|nonameric peptide ligand from the MART-1/Melan-A|null,ALGIGILTV,9
+528,1Q94,">1Q94_3|Chains C, F|nonamer reverse transcriptase (AIFQSSMTK)|	Human immunodeficiency virus type 1 group M subtype D (isolate Z2/CDC-Z34) (HIV-1) (11683)",AIFQSSMTK,9
+529,1QEW,>1QEW_3|Chain C|PROTEIN (MELANOMA-ASSOCIATED ANTIGEN 3)|Homo sapiens (9606),FLWGPRALV,9
+530,1QR1,">1QR1_3|Chains C, F|GP2 PEPTIDE|null",IISAVVGIL,9
+531,1QRN,>1QRN_3|Chain C|TAX PEPTIDE P6A|,LLFGYAVYV,9
+532,1QSE,>1QSE_3|Chain C|Tax Peptide V7R|null,LLFGYPRYV,9
+533,1QSF,>1QSF_3|Chain C|TAX PEPTIDE Y8A|null,LLFGYPVAV,9
+534,1QVO,">1QVO_3|Chains C, F|Negative factor|Human immunodeficiency virus 1 (11676)",QVPLRPMTYK,10
+535,1S8D,>1S8D_3|Chain C|gag peptide|null,SLANTVATL,9
+536,1S9W,>1S9W_3|Chain C|NY-ESO-1 peptide|null,SLLMWITQC,9
+537,1S9X,>1S9X_3|Chain C|NY-ESO-1 peptide analogue S9A|null,SLLMWITQA,9
+538,1S9Y,>1S9Y_3|Chain C|NY-ESO-1 peptide analogue S9S|null,SLLMWITQS,9
+539,1T1W,>1T1W_3|Chain C|GAG PEPTIDE|null,SLFNTIAVL,9
+540,1T1X,>1T1X_3|Chain C|GAG PEPTIDE|null,SLYLTVATL,9
+541,1T1Y,>1T1Y_3|Chain C|GAG PEPTIDE|null,SLYNVVATL,9
+542,1T1Z,>1T1Z_3|Chain C|GAG PEPTIDE|null,ALYNTAAAL,9
+543,1T20,>1T20_3|Chain C|GAG PEPTIDE|null,SLYNTIATL,9
+544,1T21,>1T21_3|Chain C|GAG PEPTIDE|null,SLYNTVATL,9
+545,1TMC,>1TMC_3|Chain C|DECAMERIC PEPTIDE (EVAPPEYHRK)|,EVAPPEYHRK,10
+546,1TVB,">1TVB_3|Chains C, F|epitope of Melanocyte protein Pmel 17|null",ITDQVPFSV,9
+547,1TVH,">1TVH_3|Chains C, F|epitope of Melanocyte protein Pmel 17|null",IMDQVPFSV,9
+548,1W72,">1W72_3|Chains C, F|MELANOMA-ASSOCIATED ANTIGEN 1|HOMO SAPIENS (9606)",EADPTGHSY,9
+549,1X7Q,>1X7Q_3|Chain C|SARS NUCLEOCAPSID PEPTIDE|null,KTFPPTEPK,9
+550,2BCK,">2BCK_3|Chains C, F|Telomerase reverse transcriptase|null",VYGFVRACL,9
+551,2BNQ,>2BNQ_3|Chain C|SYNTHETIC PEPTIDE|HOMO SAPIENS (9606),SLLMWITQV,9
+552,2CLR,">2CLR_3|Chains C, F|DECAMERIC PEPTIDE FROM CALRETICULIN|Homo sapiens (9606)",MLLSVPLLLG,10
+553,2GIT,">2GIT_3|Chains C, F|Transcriptional activator TAX|null",LLFGKPVYV,9
+554,2GT9,">2GT9_3|Chains C, F|Melan-A/MART-1(26-35) peptide|null",EAAGIGILTV,10
+555,2GTW,">2GTW_3|Chains C, F|octapeptide from Melan-A/MART-1|null",LAGIGILTV,9
+556,2GUO,">2GUO_3|Chains C, F|Peptide|null",AAGIGILTV,9
+557,2HN7,>2HN7_3|Chain C|DNA polymerase PEPTIDE HOMOLOGUE|null,AIMPARFYPK,10
+558,2V2X,">2V2X_3|Chains C, F|HIV P17|HUMAN IMMUNODEFICIENCY VIRUS (12721)",SLFNTVATL,9
+559,2X4N,">2X4N_3|Chains C, F|HLA-A2.1-RESTRICTED INFLUENZA A MATRIX EPITOPE|INFLUENZA A VIRUS (11320)",KILGXVFXV,9
+560,2X4O,">2X4O_3|Chains C, F|ENVELOPE GLYCOPROTEIN GP160|HUMAN IMMUNODEFICIENCY VIRUS 1 (11676)",KLTPLCVTL,9
+561,2X4P,">2X4P_3|Chains C, F|HLA-A2.1-RESTRICTED INFLUENZA A MATRIX EPITOPE|INFLUENZA A VIRUS (11320)",MILGGVFXV,9
+562,2X4R,">2X4R_3|Chains C, F|65 KDA PHOSPHOPROTEIN|HUMAN HERPESVIRUS 5 (10359)",NLVPMVATV,9
+563,2X4S,">2X4S_3|Chains C, F|H5N1 INFLUENZA A NUCLEOPROTEIN|INFLUENZA VIRUS TYPE A (11320)",AMDSNTLEL,9
+564,2X4T,">2X4T_3|Chains C, F|65 KDA PHOSPHOPROTEIN|HUMAN HERPESVIRUS 5 (10359)",NLVXMVATV,9
+565,2X70,">2X70_3|Chains C, F|HLA-A2.1-RESTRICTED INFLUENZA A MATRIX EPITOPE|INFLUENZA A VIRUS (11320)",KILGGVFXV,9
+566,2XPG,>2XPG_3|Chain C|MYELIN PROTEOLIPID PROTEIN|HOMO SAPIENS (9606),KLIETYFSK,9
+567,3BGM,>3BGM_3|Chain C|nonameric peptide from Serine/threonine-protein kinase D2|null,RQASLSISV,9
+568,3BH8,>3BH8_3|Chain C|decameric peptide from Lymphocyte-specific protein 1|null,RQASIELPSM,10
+569,3BH9,>3BH9_3|Chain C|decameric peptide from Protein POF1B|null,RTYSGPMNKV,10
+570,3BHB,>3BHB_3|Chain C|decameric peptide from NEDD4-binding protein 2|null,KMDSFLDMQL,10
+571,3D25,>3D25_3|Chain C|Nonameric peptide from HA-1|null,VLHDDLLEA,9
+572,3D39,>3D39_3|Chain C|Modified HTLV-1 TAX (Y5(4fluoro)F) peptide|null,LLFGFPVYV,9
+573,3FQN,>3FQN_3|Chain C|peptide 30-39 from beta-Catenin: YLDSGIHSGA|null,YLDSGIHSGA,10
+574,3FQT,>3FQT_3|Chain C|peptide 38-46 from cell division cycle 25b (CDC25b): GLLGSPVRA|null,GLLGSPVRA,9
+575,3FQW,>3FQW_3|Chain C|peptide 1097-1105 from insulin receptor substrate 2 (IRS2): RVASPTSGV|null,RVASPTSGV,9
+576,3FT2,>3FT2_3|Chain C[auth P]|citrulline variant HA-1 peptide|null,VLRDDLLEA,9
+577,3GIV,">3GIV_3|Chains C, F|HIV-1 peptide|null",SLFNTVATLY,10
+578,3GSQ,">3GSQ_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant M5S (NLVPSVATV)|",NLVPSVATV,9
+579,3GSR,">3GSR_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant M5V (NLVPVVATV)|",NLVPVVATV,9
+580,3GSU,">3GSU_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant M5T (NLVPTVATV)|",NLVPTVATV,9
+581,3GSV,">3GSV_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant M5Q (NLVPQVATV)|",NLVPQVATV,9
+582,3GSW,">3GSW_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant T8A (NLVPMVAAV)|",NLVPMVAAV,9
+583,3GSX,">3GSX_3|Chain C[auth P]|HCMV pp65 fragment 495-503, variant T8V (NLVPMVAVV)|",NLVPMVAVV,9
+584,3H7B,">3H7B_3|Chains C, F|Tel1p peptide|null",MLWGYLQYV,9
+585,3HPJ,">3HPJ_3|Chains C, F|WT126 peptide|human (9606)",RMFPNAPYL,9
+586,3I6G,">3I6G_3|Chains C, F|Membrane protein|null",GLMWLSYFV,9
+587,3I6K,">3I6K_3|Chains C, F[auth G]|Membrane glycoprotein peptide|SARS coronavirus TJF (284672)",TLACFVLAAV,10
+588,3I6L,>3I6L_3|Chain C[auth F]|Nucleoprotein peptide|HCoV-SARS (694009),QFKDNVILL,9
+589,3KLA,">3KLA_3|Chains C, F|NYESO-1 peptide analogue|Homo sapiens (9606)",SLLMWITQL,9
+590,3MGO,">3MGO_3|Chains C, F, I, L|10-meric peptide from Hemagglutinin|Influenza A virus (102793)",RLYQNPTTYI,10
+591,3MGT,">3MGT_3|Chains C, F, I, L|10-meric peptide from Hemagglutinin|Influenza A virus (370810)",KLYQNPTTYI,10
+592,3MR9,>3MR9_3|Chain C[auth P]|9-meric peptide from Tegument protein pp65|Human Cytomegalovirus HCMV (10359),NLVPAVATV,9
+593,3MRB,>3MRB_3|Chain C[auth P]|9-meric peptide from Tegument protein pp65|Human Cytomegalovirus HCMV (10359),NLVPMVHTV,9
+594,3MRC,>3MRC_3|Chain C[auth P]|9-meric peptide from Tegument protein pp65|Human Cytomegalovirus HCMV (10359),NLVPMCATV,9
+595,3MRD,>3MRD_3|Chain C[auth P]|9-meric peptide from Tegument protein pp65|Human Cytomegalovirus HCMV (10359),NLVPMGATV,9
+596,3MRF,>3MRF_3|Chain C[auth P]|9-meric peptide from mRNA export factor EB2|Epstein-Barr virus EBV (10376),GLCPLVAML,9
+597,3MRG,>3MRG_3|Chain C[auth P]|9-meric peptide from Serine protease/NTPase/helicase NS3|Hepatitis C virus genotype 1b (isolate HC-J1) (421877),CINGVCWTV,9
+598,3MRH,>3MRH_3|Chain C[auth P]|9-meric peptide from Serine protease/NTPase/helicase NS3|Hepatitis C virus genotype 1b (isolate HC-J1) (421877),CISGVCWTV,9
+599,3MRI,>3MRI_3|Chain C[auth P]|9-meric peptide from Serine protease/NTPase/helicase NS3|Hepatitis C virus genotype 1b (isolate HC-J1) (421877),CINMWCWTV,9
+600,3MRJ,>3MRJ_3|Chain C[auth P]|9-meric peptide from Serine protease/NTPase/helicase NS3|Hepatitis C virus genotype 1b (isolate HC-J1) (421877),CINGMCWTV,9
+601,3MRK,>3MRK_3|Chain C[auth P]|9-meric peptide from Alpha-fetoprotein|Homo sapiens (9606),PLFQVPEPV,9
+602,3MRL,>3MRL_3|Chain C[auth P]|9-meric peptide from Serine protease/NTPase/helicase NS3|Hepatitis C virus genotype 1b (isolate HC-J1) (421877),CINGVVWTV,9
+603,3MRM,>3MRM_3|Chain C[auth P]|10-meric peptide from Genome polyprotein|hepatitis C virus HCV (11103),KLVALGINAV,10
+604,3MRN,>3MRN_3|Chain C[auth P]|10-meric peptide from Genome polyprotein|hepatitis C virus HCV (11103),LLFNILGGWV,10
+605,3MRO,>3MRO_3|Chain C[auth P]|10-meric peptide from Melanoma antigen recognized by T-cells 1|Homo sapiens (9606),ELAGWGILTV,10
+606,3MRP,>3MRP_3|Chain C[auth P]|10-meric peptide from Melanoma antigen recognized by T-cells 1|Homo sapiens (9606),ELAGLGINTV,10
+607,3MYJ,">3MYJ_3|Chains C, F|Wilms tumor protein|homo sapiens (9606)",YMFPNAPYL,9
+608,3NFN,>3NFN_3|Chain C|10-mer peptide from Protein Nef|Human immunodeficiency virus 1 (11676),RYPLTFGWCF,10
+609,3O3A,">3O3A_3|Chains C, F|Peptidomimetic ELA-1|",XLAXXLTV,8
+610,3O3B,">3O3B_3|Chains C, F|Peptidomimetic ELA-1.1|",ELAXXLTV,8
+611,3PWJ,">3PWJ_3|Chains C, F|HuD (G2L,I9V) peptide|",LLYGFVNYV,9
+612,3PWL,">3PWL_3|Chains C, F|HuD peptide|",LGYGFVNYI,9
+613,3PWN,">3PWN_3|Chains C, F|HuD (G2L) peptide|",LLYGFVNYI,9
+614,3REW,">3REW_3|Chains C, F|Latent membrane protein 2|Human herpesvirus 4 (strain B95-8) (10377)",CLGGLLTMV,9
+615,3UTQ,>3UTQ_3|Chain C|Insulin|Homo sapiens (9606),ALWGPDPAAA,10
+616,3V5D,">3V5D_3|Chains C, F|HIV peptide KVAELVHFL|human (9606)",KVAELVHFL,9
+617,3V5H,">3V5H_3|Chains C, F|HIV-based altered-peptide ligand KVAEIVHFL|human (9606)",KVAEIVHFL,9
+618,3V5K,">3V5K_3|Chains C, F|HIV-based altered-peptide ligand KVAELVWFL|human (9606)",KVAELVWFL,9
+619,3VXM,>3VXM_3|Chain C|10-mer peptide from Protein Nef|Human immunodeficiency virus 1 (11676),RFPLTFGWCF,10
+620,3VXP,">3VXP_3|Chains C, F|10-mer peptide from Protein Nef|Human immunodeficiency virus 1 (11676)",RYPLTLGWCF,10
+621,3WL9,>3WL9_3|Chain C|Protein Nef|Human immunodeficiency virus 1 (11676),NYTPGPGIRF,10
+622,3WLB,>3WLB_3|Chain C|Protein Nef|Human immunodeficiency virus 1 (11676),NYTPGPGTRF,10
+623,4F7M,">4F7M_3|Chains C, F|PA polymerase subunit|Influenza A virus H3N2 (41857)",LYASPQLEGF,10
+624,4F7P,>4F7P_3|Chain C|RNA-directed RNA polymerase catalytic subunit|Influenza A virus H3N2 (41857),FYRYGFVANF,10
+625,4F7T,">4F7T_3|Chains C, F|RNA-directed RNA polymerase catalytic subunit|Influenza A virus H3N2 (41857)",RYGFVANF,8
+626,4GKN,">4GKN_3|Chains C, F|FAT Cognate peptide|Synthetic construct (32630)",FATGIGIITV,10
+627,4GKS,">4GKS_3|Chains C, F|FLT Cognate peptide|Synthetic construct (32630)",FLTGIGIITV,10
+628,4HX1,>4HX1_3|Chain C|9-mer peptide from Tyrosinase-related protein-2|Homo sapiens (9606),SVYDFFVWL,9
+629,4I4W,>4I4W_3|Chain C|Immunogenic peptide|Homo sapiens (9606),ILAKFLHRL,9
+630,4JFD,>4JFD_3|Chain C|Melanoma peptide|null,ELAAIGILTV,10
+631,4JFE,>4JFE_3|Chain C|Melanoma peptide L7A|null,ELAGIGALTV,10
+632,4JFO,">4JFO_3|Chains C, F|E1A heteroclitic Melanoma peptide|null",ALAGIGILTV,10
+633,4JFQ,">4JFQ_3|Chains C, F|L8A heteroclitic Melanoma peptide|null",ELAGIGIATV,10
+634,4K7F,">4K7F_3|Chains C, F|Core protein|Hepatitis B virus (10407)",VCWGELMNL,9
+635,4L29,">4L29_3|Chains AA[auth c], C[auth e], DA[auth f], F[auth g], GA[auth h], I[auth i], JA[auth j], L[auth k], MA[auth l], O[auth m], PA[auth n], R[auth o], U[auth p], X[auth q]|NY-ESO1 DOUBLE MUTANT (1Y, 9V)|",YLLMWITQV,9
+636,4MJ5,>4MJ5_3|Chain C|Nucleocapsid protein|Influenza A virus (1214867),TIAMELIRMIK,11
+637,4MJ6,>4MJ6_3|Chain C|Nucleoprotein|Influenza A virus (1336602),TMVMELIRMIK,11
+638,4MNQ,>4MNQ_3|Chain C|Telomerase reverse transcriptase|Homo sapiens (9606),ILAKFLHWL,9
+639,4N8V,">4N8V_4|Chains E[auth C], H[auth F]|peptide from Virion membrane protein A14|Vaccinia virus WR (10254)",MLIYSMWGK,9
+640,4NO0,>4NO0_3|Chain C|Lymphocyte-specific protein 1|Homo sapiens (9606),RQASIELPSMAV,12
+641,4NO3,>4NO3_3|Chain C|AMP deaminase 2|Homo sapiens (9606),RQISQDVKL,9
+642,4NQV,">4NQV_3|Chains M, N, O, P, Q, R|Nucleoprotein|H7N9 subtype (333278)",CTELKLSDY,9
+643,4NQX,">4NQX_3|Chains M, N, O, P, Q, R|NP44-S7N mutant peptide, CTELKLNDY|H7N9 subtype (333278)",CTELKLNDY,9
+644,4OV5,">4OV5_3|Chains M[auth C], N[auth F], O[auth I], P[auth L], Q[auth O], R|HLA class I histocompatibility antigen, A-2 alpha chain|Homo sapiens (9606)",GSDARFLRGYHLYA,14
+645,4UQ2,">4UQ2_3|Chains E, F[auth G]|AZOBENZENE-CONTAINING PEPTIDE|SYNTHETIC CONSTRUCT (32630)",AIMXYPK,7
+646,4UQ3,">4UQ3_3|Chains E, F|AZOBENZENE-CONTAINING PEPTIDE|SYNTHETIC CONSTRUCT (32630)",GLSXXL,6
+647,4WJ5,">4WJ5_3|Chains C, F|Melanoma antigen recognized by T-cells 1|Homo sapiens (9606)",XVAGIGILTX,10
+648,4WU5,">4WU5_3|Chains C, F|8-Mer peptide from Protein Nef|Human immunodeficiency virus 1 (11676)",RYPLTFGW,8
+649,4WU7,">4WU7_3|Chains C, F|8-Mer peptide from Protein Nef|Human immunodeficiency virus 1 (11676)",RFPLTFGW,8
+650,5BRZ,>5BRZ_3|Chain C|GLU-VAL-ASP-PRO-ILE-GLY-HIS-LEU-TYR|Homo sapiens (9606),EVDPIGHLY,9
+651,5BS0,>5BS0_3|Chain C|Titin|Homo sapiens (9606),ESDPIVAQY,9
+652,5C07,">5C07_3|Chains C, H|Marker peptide|Homo sapiens (9606)",YQFGPDFPIA,10
+653,5C08,">5C08_3|Chains C, H|Marker peptide|Homo sapiens (9606)",RQWGPDPAAV,10
+654,5C09,">5C09_3|Chains C, H|Marker peptide|Homo sapiens (9606)",YLGGPDFPTI,10
+655,5C0A,">5C0A_3|Chains C, H|Marker peptide|Homo sapiens (9606)",MVWGPDPLYV,10
+656,5C0B,">5C0B_3|Chains C, H|Marker peptide|Homo sapiens (9606)",RQFGPDFPTI,10
+657,5C0C,">5C0C_3|Chains C, H|Marker peptide|Homo sapiens (9606)",RQFGPDWIVA,10
+658,5C0D,>5C0D_3|Chain C|Marker peptide|Homo sapiens (9606),AQWGPDPAAA,10
+659,5D9S,>5D9S_3|Chain C|11-mer peptide F11V|Toxoplasma gondii (5811),FVLELEPEWTV,11
+660,5DDH,>5DDH_3|Chain C|12-mer peptide F12K|Toxoplasma gondii (5811),FVLELEPEWTVK,12
+661,5E00,>5E00_3|Chain C|GLY-VAL-TRP-ILE-ARG-THR-PRO-PRO-ALA|Homo sapiens (9606),GVWIRTPPA,9
+662,5ENW,>5ENW_3|Chain C|Peptide G9L|Toxoplasma gondii (5811),GLKEGIPAL,9
+663,5EOT,>5EOT_3|Chain C|Peptide G13E|Toxoplasma gondii (5811),GLLPELPAVGG,11
+664,5EU3,>5EU3_3|Chain C|GP100 peptide YLEPGPVTA|Homo sapiens (9606),YLEPGPVTA,9
+665,5EU4,">5EU4_3|Chains C, F|Peptide antigen YLAPGPVTA|synthetic construct (32630)",YLAPGPVTA,9
+666,5EU5,>5EU5_3|Chain C|Peptide antigen YLEPAPVTA|synthetic construct (32630),YLEPAPVTA,9
+667,5EU6,>5EU6_3|Chain C|TYR-LEU-GLU-PRO-GLY-PRO-VAL-THR-VAL|synthetic construct (32630),YLEPGPVTV,9
+668,5F7D,>5F7D_3|Chain C|Peptide G11N|synthetic construct (32630),GLKEGIPALD,10
+669,5F9J,>5F9J_3|Chain C|Peptide Y9L|Toxoplasma gondii (5811),YLSPIASPL,9
+670,5FA3,>5FA3_3|Chain C|G9V|Toxoplasma gondii (5811),GLLPELPAV,9
+671,5FA4,>5FA4_3|Chain C|Peptide Y16R|Toxoplasma gondii (5811),YLSPIASPLLD,11
+672,5FDW,>5FDW_3|Chain C|Peptide Y10L|Toxoplasma gondii (5811),YLSPIASPLL,10
+673,5GRD,">5GRD_3|Chain C|Epstein Barr Virus, Latent membrane protein 2 epitope|synthetic construct (32630)",SSCSSCPLSK,10
+674,5GRG,">5GRG_3|Chain C|Epstein Barr Virus, Latent Membrane Protein 2 epitope|synthetic construct (32630)",SSCSSC,6
+675,5GRG,">5GRG_4|Chain D|Epstein Barr Virus, Latent Membrane Protein 2 epitope|synthetic construct (32630)",PLSK,4
+676,5GSD,">5GSD_3|Chain C|Epstein Barr Virus, Latent membrane protein-2 epitope|synthetic construct (32630)",SSCPLSK,7
+677,5HHM,">5HHM_3|Chains C, H|M1-F5L, GILGLVFTL|synthetic construct (32630)",GILGLVFTL,9
+678,5HHO,">5HHO_5|Chain E[auth C]|M1-G4E, GILEFVFTL|synthetic construct (32630)",GILEFVFTL,9
+679,5HHQ,">5HHQ_3|Chain C|M1-L3W, GIWGFVFTL|synthetic construct (32630)",GIWGFVFTL,9
+680,5MEO,>5MEO_3|Chain C|ILE-LEU-GLY-LYS-PHE-LEU-HIS-ARG-LEU|Homo sapiens (9606),ILGKFLHRL,9
+681,5MEP,">5MEP_3|Chains C, F|ILE-LEU-GLY-LYS-PHE-LEU-HIS-TRP-LEU|Homo sapiens (9606)",ILGKFLHWL,9
+682,5MEQ,>5MEQ_3|Chain C|ILE-LEU-ALA-LYS-PHE-LEU-HIS-THR-LEU|Homo sapiens (9606),ILAKFLHTL,9
+683,5MER,">5MER_3|Chains C, F|ILE-LEU-ALA-LYS-PHE-LEU-HIS-GLU-LEU|Homo sapiens (9606)",ILAKFLHEL,9
+684,5N6B,">5N6B_3|Chains C, F|NS5|Yellow fever virus (11089)",LLWNGPMAV,9
+685,5SWQ,>5SWQ_3|Chain C|NA231 influenza epitope|unidentified influenza virus (11309),CVNGSCFTV,9
+686,5W1W,">5W1W_3|Chains C, H, M, R|leader peptide of HLA class I histocompatibility antigen, A alpha chain|Homo sapiens (9606)",VMAPRTLVL,9
+687,5WJL,">5WJL_3|Chains C, F, I|GTS1 peptide|Dengue virus 1 (11053)",GTSGSPIVNR,10
+688,5WJN,">5WJN_3|Chains C, F, I|GTS3 peptide|Dengue virus 3 (11069)",GTSGSPIINR,10
+689,5WSH,>5WSH_3|Chain C|GLY-VAL-TRP-ILE-ARG-THR-PRO-THR-ALA|Homo sapiens (9606),GVWIRTPTA,9
+690,5WWI,>5WWI_3|Chain C[auth E]|LEU-TYR-LYS-LYS-LEU-LYS-ARG-GLU-MET-THR-PHE|Influenza A virus (1774282),LYKKLKREMTF,11
+691,5WWU,>5WWU_3|Chain C[auth E]|LEU-TYR-LYS-LYS-LEU-LYS-ARG-GLU-ILE-THR-PHE|Influenza A virus (A/chicken/China/028/2014(H7N9)) (1774282),LYKKLKREITF,11
+692,6AM5,>6AM5_3|Chain C|SER-MET-LEU-GLY-ILE-GLY-ILE-VAL-PRO-VAL|synthetic construct (32630),SMLGIGIVPV,10
+693,6AMT,">6AMT_3|Chains C, F|MET-MET-TRP-ASP-ARG-GLY-LEU-GLY-MET-MET|synthetic construct (32630)",MMWDRGLGMM,10
+694,6AT9,>6AT9_3|Chain C|ALK|Homo sapiens (9606),AQDIYRASYY,10
+695,6EI2,>6EI2_3|Chain C|G1/S-specific cyclin-D2|Homo sapiens (9606),ETSPLTAEKL,10
+696,6EWC,">6EWC_3|Chains C, G|Reticulophagy regulator 2|Homo sapiens (9606)",RLSSPLHFV,9
+697,6EWO,">6EWO_3|Chains C, G|Synemin|Homo sapiens (9606)",RTFSPTYGL,9
+698,6G3J,">6G3J_3|Chains C, F|MET-THR-SER-ALA-ILE-GLY-ILE-LEU-PRO-VAL|Homo sapiens (9606)",MTSAIGILPV,10
+699,6G3K,">6G3K_3|Chains C, F|ILE-THR-SER-GLY-ILE-GLY-VAL-LEU-PRO-VAL|Homo sapiens (9606)",ITSGIGVLPV,10
+700,6J29,>6J29_2|Chain B[auth C]|MTB|Mycobacterium tuberculosis (1773),QIMYNYPAM,9
+701,6JOZ,>6JOZ_3|Chain C|ALA-THR-ILE-GLY-THR-ALA-MET-TYR-LYS|synthetic construct (32630),ATIGTAMYK,9
+702,6JP3,>6JP3_3|Chain C|ALA-THR-ILE-GLY-THR|synthetic construct (32630),ATIGT,5
+703,6JP3,>6JP3_4|Chain D|ALA-MET-TYR-LYS|synthetic construct (32630),AMYK,4
+704,6MPP,>6MPP_2|Chain B|NRAS Q61K peptide|Homo sapiens (9606),ILDTAGKEEY,10
+705,6NCA,">6NCA_1|Chains A[auth 1], B[auth 2], C[auth 3], D[auth 4], E[auth 5], F[auth 6], GB[auth 8], G[auth 7], H[auth U], I[auth V], J[auth W], K[auth X], L[auth Y], M[auth Z], N[auth u], O[auth v], P[auth w], Q[auth x], R[auth y], S[auth z]|Replication and transcription activator|Epstein-Barr virus (10376)",YVLDHLIVV,9
+706,6O9B,>6O9B_3|Chain C|Catenin beta-1|Homo sapiens (9606),TTAPSLSGK,9
+707,6O9C,>6O9C_3|Chain C|Catenin beta-1|Homo sapiens (9606),TTAPFLSGK,9
+708,6OPD,>6OPD_3|Chain C|Melanoma antigen variant|Homo sapiens (9606),ILNAMIVKI,9
+709,6PBH,>6PBH_3|Chain C|influenza A NP145-156 peptide|unidentified influenza virus (11309),DATYQRTRALVR,12
+710,6PTB,">6PTB_3|Chains C, F|HAUS augmin-like complex subunit 3|Homo sapiens (9606)",ILNAMIAKI,9
+711,6PTE,">6PTE_3|Chains C, F[auth D], I[auth G], L[auth J]|HAUS augmin-like complex subunit 3|Homo sapiens (9606)",ILNAMITKI,9
+712,6R2L,>6R2L_3|Chain C|SER-LEU-SER-LYS-ILE-LEU-ASP-THR-VAL|Homo sapiens (9606),SLSKILDTV,9
+713,6SS7,">6SS7_3|Chains C, F|LEU-LEU-TRP-ALA-GLY-PRO-MET-ALA-VAL|Yellow fever virus (11089)",LLWAGPMAV,9
+714,6SS8,">6SS8_3|Chains C, F|LEU-LEU-TRP-ASN-GLY-PRO-ILE-ALA-VAL|Yellow fever virus (11089)",LLWNGPIAV,9
+715,6SS9,">6SS9_3|Chains C, F|LEU-LEU-TRP-ASN-GLY-PRO-MET-HIS-VAL|Yellow fever virus (11089)",LLWNGPMHV,9
+716,6SSA,">6SSA_3|Chains C, F, I, L|LEU-LEU-TRP-ASN-GLY-PRO-MET-GLN-VAL|Yellow fever virus (11089)",LLWNGPMQV,9
+717,1A1M,>1A1M_3|Chain C|PEPTIDE TPYDINQML|Human immunodeficiency virus 2 (11709),TPYDINQML,9
+718,1A1N,>1A1N_3|Chain C|PEPTIDE VPLRPMTY|Human immunodeficiency virus 1 (11676),VPLRPMTY,8
+719,1A1O,>1A1O_3|Chain C|PEPTIDE LS6 (KPIVQYDNF)|Human immunodeficiency virus 1 (11676),KPIVQYDNF,9
+720,1A9B,">1A9B_3|Chains C, F|PEPTIDE LPPLDITPY|null",LPPLDITPY,9
+721,1AGB,>1AGB_3|Chain C|HIV-1 GAG PEPTIDE (GGRKKYKL - 3R MUTATION)|Human immunodeficiency virus 1 (11676),GGRKKYKL,8
+722,1AGC,>1AGC_3|Chain C|HIV-1 GAG PEPTIDE (GGKKKYQL - 7Q MUTATION)|Human immunodeficiency virus 1 (11676),GGKKKYQL,8
+723,1AGD,>1AGD_3|Chain C|HIV-1 GAG PEPTIDE (GGKKKYKL - INDEX PEPTIDE)|Human immunodeficiency virus 1 (11676),GGKKKYKL,8
+724,1AGE,>1AGE_3|Chain C|HIV-1 GAG PEPTIDE (GGKKKYRL - 7R MUTATION)|Human immunodeficiency virus 1 (11676),GGKKKYRL,8
+725,1AGF,>1AGF_3|Chain C|HIV-1 GAG PEPTIDE (GGKKRYKL - 5R MUTATION)|Human immunodeficiency virus 1 (11676),GGKKRYKL,8
+726,1CE6,>1CE6_3|Chain C|PROTEIN (SENDAI VIRUS NUCLEOPROTEIN)|null,FAPGNYPAL,9
+727,1E27,>1E27_3|Chain C|HIV-1 PEPTIDE (LPPVVAKEI)|HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 (11676),LPPVVAKEI,9
+728,1E28,>1E28_3|Chain C|PEPTIDE|HUMAN IMMUNODEFICIENCY VIRUS TYPE 1 (11676),TAFTIPSI,8
+729,1HSA,">1HSA_3|Chains C, F|MODEL PEPTIDE SEQUENCE - ARAAAAAAA|",ARAAAAAAA,9
+730,1IM9,">1IM9_3|Chains C, G|HLA-Cw4-specific peptide|null",QYDDAVYKL,9
+731,1JGD,>1JGD_3|Chain C|peptide s10R|null,RRLLRGHNQY,10
+732,1JGE,>1JGE_3|Chain C|peptide m9|null,GRFAAAIAK,9
+733,1KPR,">1KPR_3|Chains E[auth P], F[auth Q]|Peptide VMAPRTVLL|",VMAPRTVLL,9
+734,1KTL,">1KTL_3|Chains E[auth P], F[auth Q]|Peptide VTAPRTLLL|",VTAPRTLLL,9
+735,1M05,">1M05_3|Chains E, F|EBNA-3 nuclear protein|null",FLRGRAYGL,9
+736,1M6O,>1M6O_3|Chain C|HLA DPA*0201 peptide|null,EEFGRAFSF,9
+737,1QLF,>1QLF_3|Chain C|SYNTHETIC GLYCOPEPTIDE|SENDAI VIRUS (11191),FAPSNYPAL,9
+738,1SYS,>1SYS_3|Chain C|Sorting nexin 5|null,EEPTVIKKY,9
+739,1UXS,>1UXS_3|Chain C|GENE TERMINAL PROTEIN (MEMBRANE PROTEIN LMP-2A/LMP-2B)|EPSTEIN-BARR VIRUS (10376),RRRWRRLTV,9
+740,1VGK,>1VGK_3|Chain C|syvntnmgl|null,SYVNTNMGL,9
+741,1W0V,>1W0V_3|Chain C|BUTYRATE RESPONSE FACTOR 2|HOMO SAPIENS (9606),RRLPIFSRL,9
+742,1XH3,>1XH3_3|Chain C|aa 4-17 (LPAVVGLSPGEQEY) of alternative reading frame of M-CSF|null,LPAVVGLSPGEQEY,14
+743,1XR8,>1XR8_3|Chain C|EBNA-3 nuclear protein|null,LEKARGSTY,9
+744,1XR9,>1XR9_3|Chain C|Ubiquitin-conjugating enzyme E2 E1|null,ILGPPGSVY,9
+745,1YDP,>1YDP_3|Chain C[auth P]|histone 2a peptide|synthetic construct (32630),RIIPRHLQL,9
+746,1ZHK,>1ZHK_3|Chain C|EBV-peptide LPEPLPQGQLTAY|null,LPEPLPQGQLTAY,13
+747,1ZSD,>1ZSD_3|Chain C|BZLF1 trans-activator protein|,EPLPQGQLTAY,11
+748,1ZVS,">1ZVS_3|Chains C, F|Tat-Tl8|null",TTPESANL,8
+749,2AXF,>2AXF_3|Chain C|10-mer peptide from BZLF1 trans-activator protein|null,APQPAPENAY,10
+750,2BSR,>2BSR_3|Chain C|EPSTEIN-BARR NUCLEAR ANTIGEN-6|HUMAN HERPESVIRUS 4 (10376),RRIYDLIEL,9
+751,2BSS,>2BSS_3|Chain C|HIV PEPTIDE|HUMAN IMMUNODEFICIENCY VIRUS (12721),KRWIILGLNK,10
+752,2BST,>2BST_3|Chain C|INFLUENZA NUCLEOPROTEIN|INFLUENZA A VIRUS (11320),SRYWAIRTR,9
+753,2BVO,>2BVO_3|Chain C|GAG PROTEIN|HUMAN IMMUNODEFICIENCY VIRUS 1 (11676),KAFSPEVIPMF,11
+754,2BVP,>2BVP_3|Chain C|HIV-P24|HUMAN IMMUNODEFICIENCY VIRUS (12721),ISPRTLDAW,9
+755,2CIK,>2CIK_3|Chain C|PEPTIDE|HOMO SAPIENS (9606),KPIVVLHGY,9
+756,2ESV,>2ESV_3|Chain C[auth P]|VMAPRTLIL peptide from CMV gpUL40|null,VMAPRTLIL,9
+757,2F74,">2F74_3|Chains C, F|NONAMERIC PEPTIDE, GP33, DERIVED FROM LYMPHOCYTIC CHORIOMENINGITIS VIRUS|null",KAVYNFATM,9
+758,2FYY,>2FYY_3|Chain C|11-mer peptide from Epstein-Barr nuclear antigen 1|null,HPVGEADYFEY,11
+759,2HJK,>2HJK_3|Chain C|Gag protein|null,KGFNPEVIPMF,11
+760,2HJL,>2HJL_3|Chain C|Gag protein|null,KAFNPEIIPMF,11
+761,2RFX,>2RFX_3|Chain C|LSSPVTKSF|null,LSSPVTKSF,9
+762,3AM8,">3AM8_3|Chains E, F|Peptide from Glycoprotein|null",VMGPRTLIL,9
+763,3BP4,>3BP4_3|Chain C|nonameric peptide from Lysosomal protective protein|Homo sapiens (9606),IRAAPPPLF,9
+764,3BW9,>3BW9_3|Chain C|CPS peptide from 65 kDa lower matrix phosphoprotein|,CPSQEPMSIYVY,12
+765,3BWA,>3BWA_3|Chain C|FPT peptide from 65 kDa lower matrix phosphoprotein|,FPTKDVAL,8
+766,3BZE,">3BZE_3|Chains I[auth P], J[auth Q], K[auth R], L[auth S]|leader peptide of HLA class I histocompatibility antigen, alpha chain G|null",VMAPRTLFL,9
+767,3BZF,">3BZF_3|Chains C[auth P], F[auth Q]|leader peptide of HLA class I histocompatibility antigen, Cw-7 alpha chain|null",VMAPRALLL,9
+768,3C9N,>3C9N_3|Chain C|Peptide antigen|null,VQQESSFVM,9
+769,3D18,>3D18_3|Chain C|Latent membrane protein 2|Human gammaherpesvirus 4 (10376),RRRWRRLTL,9
+770,3D2U,">3D2U_4|Chains G[auth C], H[auth G]|Actin|Homo sapiens (9606)",ALPHAILRL,9
+771,3DX6,>3DX6_3|Chain C|EBV decapeptide epitope|null,EENLLDFVRF,10
+772,3JTS,">3JTS_3|Chains C, F, I|peptide of Gag-Pol polyprotein|null",GSENLKSLY,9
+773,3KPL,">3KPL_3|Chain C|EEYLQAFTY, self peptide from the ATP binding cassette protein ABCD3|",EEYLQAFTY,9
+774,3KPM,">3KPM_3|Chain C|EEYLKAWTF, mimotope peptide|",EEYLKAWTF,9
+775,3KYN,>3KYN_3|Chain C[auth P]|KGPPAALTL peptide|null,KGPPAALTL,9
+776,3KYO,">3KYO_3|Chains E[auth P], F[auth Q]|KLPAQFYIL peptide|null",KLPAQFYIL,9
+777,3L3D,>3L3D_3|Chain C|peptide from HLA-DPA1 protein|null,EEAGRAFSF,9
+778,3L3G,>3L3G_3|Chain C|peptide from HLA-DPA1 protein|null,EEFGAAFSF,9
+779,3L3I,>3L3I_3|Chain C|peptide from HLA-DPA1 protein|null,EEFGRAASF,9
+780,3L3J,>3L3J_3|Chain C|peptide from HLA-DPA1 protein|null,EEAGAAFSF,9
+781,3L3K,>3L3K_3|Chain C|peptide from HLA-DPA1 protein|null,EEFGAAASF,9
+782,3LKN,>3LKN_3|Chain C|NP418 epitope from 1918 influenza strain|,LPFERATIM,9
+783,3LKO,>3LKO_3|Chain C|NP418 epitope from 1934 influenza strain|,LPFDRTTIM,9
+784,3LKP,>3LKP_3|Chain C|NP418 epitope from 1972 influenza strain|,LPFDKSTIM,9
+785,3LKQ,>3LKQ_3|Chain C|NP418 epitope from 1977 influenza strain|,LPFDKTTIM,9
+786,3LKR,>3LKR_3|Chain C|NP418 epitope from 2009 swine-influenza strain|,LPFERATVM,9
+787,3LKS,>3LKS_3|Chain C|NP418 epitope from 1980 influenza strain|,LPFEKSTVM,9
+788,3LN5,>3LN5_3|Chain C|11-mer peptide from S-methyl-5'-thioadenosine phosphorylase|Homo sapiens (9606),HEEAVSVDRVL,11
+789,3LOZ,">3LOZ_1|Chains A, B, C, D|Beta-2-microglobulin segment LSFSKD|",LSFSKD,6
+790,3MRE,>3MRE_3|Chain C[auth P]|9-meric peptide from mRNA export factor EB2|Epstein-Barr virus EBV (10376),GLCTLVAML,9
+791,3RWJ,>3RWJ_3|Chain C|Vif HW8 peptide from Virion infectivity factor|Simian immunodeficiency virus (11723),HLEVQGYW,8
+792,3SKM,>3SKM_3|Chain C|Epstein-Barr nuclear antigen 3|Human herpesvirus 4 (10376),FLRGRAYVL,9
+793,3SPV,>3SPV_3|Chain C|peptide from Trans-activator protein BZLF1|Human herpesvirus 4 (10377),RAKFKQLL,8
+794,3TID,>3TID_3|Chain C|LCMV derived octamer peptide|Lymphocytic choriomeningitis virus (11623),AVYNFATM,8
+795,3TIE,">3TIE_3|Chains E[auth C], F|Vaccinia derived octamer peptide|Vaccinia virus (10245)",AIVNYANL,8
+796,3TO2,>3TO2_3|Chain C|Md3-C9 peptide derived from Membrane glycoprotein|SARS coronavirus TJF (284672),LACFVLAAV,9
+797,3UPR,">3UPR_2|Chains B[auth P], D[auth Q]|pep-V|",HSITYLLPV,9
+798,3VCL,>3VCL_3|Chain C|peptide from Tegument protein pp65|Human herpesvirus 5 (10359),RPHERNGFTVL,11
+799,3VFR,">3VFR_3|Chain C|LPEP peptide from EBV, P4A, LPEALPQGQLTAY|null",LPEALPQGQLTAY,13
+800,3VFS,">3VFS_3|Chain C|LPEP peptide from EBV, P5A, LPEPAPQGQLTAY|null",LPEPAPQGQLTAY,13
+801,3VFT,">3VFT_3|Chain C|LPEP peptide from EBV, P6A, LPEPLAQGQLTAY|null",LPEPLAQGQLTAY,13
+802,3VFU,">3VFU_3|Chain C|LPEP peptide from EBV, P7A, LPEPLPAGQLTAY|null",LPEPLPAGQLTAY,13
+803,3VFV,">3VFV_3|Chain C|LPEP peptide from EBV, P9A, LPEPLPQGALTAY|null",LPEPLPQGALTAY,13
+804,3VFW,">3VFW_3|Chain C|LPEP peptide from EBV, P10A, LPEPLPQGQATAY|null",LPEPLPQGQATAY,13
+805,3VRI,>3VRI_3|Chain C|10-mer peptide|null,RVAQLEQVYI,10
+806,4E0K,">4E0K_1|Chains A, B, C, D|Amyloidogenic peptide segment KDWSFY|null",KDWSFY,6
+807,4E0L,">4E0L_1|Chains A, B, C, D|Cyclic pseudo-peptide FYLLYYT(ORN)KN(HAO)SA(ORN)|null",AFYLLYYTAKNXSA,14
+808,4G8I,>4G8I_3|Chain C|Gag protein|Human immunodeficiency virus 1 (11676),KRWIIMGLNK,10
+809,4HKJ,">4HKJ_3|Chains C, G, K, O|Ovalbumin|Gallus gallus (9031)",SIINFEKL,8
+810,4JQX,>4JQX_3|Chain C[auth B]|Trans-activator protein BZLF1|Human herpesvirus 4 (10376),EECDSELEIKRY,12
+811,4LCY,">4LCY_3|Chains C, F[auth J]|dengue1 poly peptide|Dengue virus 1 (11053)",FTMRLLSPV,9
+812,4LNR,>4LNR_3|Chain C|Peptide from Protein Nef|Human immunodeficiency virus 1 (11676),RPQVPLRPMTY,11
+813,4PR5,>4PR5_3|Chain C|Epstein-Barr nuclear antigen 1|Human herpesvirus 4 (10376),HPVGDADYFEY,11
+814,4PRA,>4PRA_3|Chain C|Epstein-Barr nuclear antigen 1|Human herpesvirus 4 (10377),HPVGQADYFEY,11
+815,4PRB,>4PRB_3|Chain C|Epstein-Barr nuclear antigen 1|Epstein-barr virus (82830),HPVAEADYFEY,11
+816,4QRP,">4QRP_3|Chains C, H|NS3-4A protein|Hepatitis C virus (11103)",HSKKKCDEL,9
+817,4QRR,">4QRR_5|Chain E[auth P]|IPS peptide from CMV, IPSINVHHY|Human herpesvirus 5 (10363)",IPSINVHHY,9
+818,4QRS,>4QRS_3|Chain C|Major immediate-early protein|Human herpesvirus 5 (10359),ELKRKMIYM,9
+819,4QRT,>4QRT_3|Chain C|Major immediate-early protein|Human herpesvirus 5 (10359),ELNRKMIYM,9
+820,4QRU,>4QRU_3|Chain C|55 kDa immediate-early protein 1|Human herpesvirus 5 strain Towne (10363),ELRRKMMYM,9
+821,4U1H,>4U1H_3|Chain C|GAG protein|Human immunodeficiency virus 1 (11676),TPQDLNTML,9
+822,4U1K,">4U1K_3|Chains C, F|Protein Nef|Human immunodeficiency virus 1 (11676)",RPQVPLRPM,9
+823,4U1S,>4U1S_3|Chain C|Vpr protein|Human immunodeficiency virus 1 (11676),FPRPWLHGL,9
+824,4WDI,">4WDI_3|Chains C, F|Insulin|Homo sapiens (9606)",LYLVCGERG,9
+825,4XXC,>4XXC_3|Chain C[auth B]|ASP-GLU-LEU-GLU-ILE-LYS-ALA-TYR|Homo sapiens (9606),DELEIKAY,8
+826,4Z76,">4Z76_3|Chains C, F|Insulin|Homo sapiens (9606)",LYLVCGERV,9
+827,4Z78,">4Z78_3|Chains C, F, I|Insulin|Homo sapiens (9606)",LYLVCGERGF,10
+828,5EO0,>5EO0_3|Chain C|RFL9 peptide|synthetic construct (32630),RPMTFKGAL,9
+829,5EO1,>5EO1_3|Chain C|RL9 peptide|synthetic construct (32630),RPMTYKGAL,9
+830,5F1I,">5F1I_3|Chains C, F, I, L, O, R, U, X|9-mer peptide|Canis lupus familiaris (9615)",KLFSGELTK,9
+831,5GR7,>5GR7_3|Chain C|MERS-CoV peptide|Middle East respiratory syndrome coronavirus (1335626),YYSIIPHSI,9
+832,5GSB,>5GSB_3|Chain C|MERS-CoV peptide 37-3|Middle East respiratory syndrome coronavirus (1335626),KYYSIIPHSI,10
+833,5GSR,">5GSR_3|Chains E[auth P], F[auth Q]|9-mer peptide from Spike protein|Middle East respiratory syndrome coronavirus (1335626)",YYSIAPHSI,9
+834,5GSV,>5GSV_3|Chain C|10-mer peptide from Spike protein|Middle East respiratory syndrome coronavirus (1335626),FYAPEPITSL,10
+835,5IEH,>5IEH_3|Chain C|Inner centromere protein|Homo sapiens (9606),REFSKEPEL,9
+836,5IM7,">5IM7_3|Chains E, F|GLN-ALA-SER-GLN-GLU-VAL-LYS-ASN-TRP|synthetic construct (32630)",QASQEVKNW,9
+837,5INC,">5INC_3|Chains E, F|GLN-ALA-THR-GLN-GLU-VAL-LYS-ASN-TRP|unidentified (32644)",QATQEVKNW,9
+838,5IND,">5IND_3|Chains E, F|GLN-ALA-SER-GLN-ASP-VAL-LYS-ASN-TRP|unidentified (32644)",QASQDVKNW,9
+839,5IUE,">5IUE_3|Chains I[auth K], J[auth L], K[auth M], L[auth N]|Peptide LEU-ILE-LEU-ARG-TRP-GLU-GLN-ASP|Trichoplusia ni (7111)",LILRWEQD,8
+840,5KNM,>5KNM_4|Chain D[auth N]|Peptide ILE-LEU-ARG-TRP-GLU-GLN|Trichoplusia ni (7111),ILRWEQ,6
+841,5NQ1,">5NQ1_3|Chains C, F|ASP-PHE-GLU-ARG-GLU-GLY-TYR-SER-LEU|unidentified influenza virus (11309)",DFEREGYSL,9
+842,5NQ3,">5NQ3_3|Chains C, F|GLU-PHE-GLU-ASP-LEU-THR-PHE-LEU-ALA|unidentified influenza virus (11309)",EFEDLTFLA,9
+843,5T6X,>5T6X_3|Chain C|Decapeptide: THR-SER-THR-THR-SER-VAL-ALA-SER-SER-TRP|synthetic construct (32630),TSTTSVASSW,10
+844,5T6Y,>5T6Y_3|Chain C|Decapeptide: THR-SER-THR-PHE-GLU-ASP-VAL-LYS-ILE-LEU-ALA-PHE|synthetic construct (32630),TSTFEDVKILAF,12
+845,5T6Z,>5T6Z_3|Chain C|Decapeptide: THR-SER-THR-LEU-GLN-GLU-GLN-ILE-GLY-TRP|synthetic construct (32630),TSTLQEQIGW,10
+846,5T70,>5T70_4|Chain D[auth C]|Decapeptide: THR-SER-ASN-LEU-GLN-GLU-GLN-ILE-GLY-TRP|synthetic construct (32630),TSNLQEQIGW,10
+847,5TRZ,">5TRZ_3|Chains C[auth P], F[auth Q]|Peptide (P9) of Mtb85B (Mycobacterium tuberculosis) YQSGLSIVM|Mycobacterium tuberculosis (83332)",YQSGLSIVM,9
+848,5TS1,">5TS1_3|Chains C[auth P], F[auth Q], I[auth R], L[auth S]|Peptide (P9) of Mtb85B (Mycobacterium tuberculosis) YYQSGLSIV|Mycobacterium tuberculosis (83332)",YYQSGLSIV,9
+849,5TXS,>5TXS_3|Chain C|anapestic lymphoma kinase-derived neuroblastoma tumor antigen|Homo sapiens (9606),AQDIYRASY,9
+850,5U98,">5U98_3|Chains C, F|VAL-THR-THR-ASP-ILE-GLN-VAL-LYS-VAL|Homo sapiens (9606)",VTTDIQVKV,9
+851,5VGD,>5VGD_3|Chain C|SER-ALA-GLU-PRO-VAL-PRO-LEU-GLN-LEU|Human immunodeficiency virus 1 (11676),SAEPVPLQL,9
+852,5VGE,>5VGE_3|Chain C|ARG-TYR-ARG-PRO-GLY-THR-VAL-ALA-LEU|Homo sapiens (9606),RYRPGTVAL,9
+853,5VUD,>5VUD_3|Chain C|Nonamer peptide: LEU-SER-SER-PRO-VAL-THR-LYS-SER-TRP|synthetic construct (32630),LSSPVTKSW,9
+854,5VUE,>5VUE_3|Chain C|Nonamer peptide: LEU-THR-VAL-GLN-VAL-ALA-ARG-VAL-TRP|synthetic construct (32630),LTVQVARVW,9
+855,5VUF,>5VUF_3|Chain C|Nonamer peptide: LEU-THR-VAL-GLN-VAL-ALA-ARG-VAL-TYR|synthetic construct (32630),LTVQVARVY,9
+856,5W67,>5W67_3|Chain C|VAL-ARG-SER-ARG-ARG-ABA-LEU-ARG-LEU|synthetic construct (32630),VRSRRALRL,9
+857,5W69,">5W69_3|Chains I, J, K, L|ALA-ARG-PHE-ASN-ASP-LEU-ARG-PHE-VAL|synthetic construct (32630)",ARFNDLRFV,9
+858,5W6A,">5W6A_3|Chains E, F|ALA-ARG-THR-GLU-LEU-TYR-ARG-SER-LEU|synthetic construct (32630)",ARTELYRSL,9
+859,5WMN,">5WMN_3|Chains E, F|SPI peptide from Influenza A virus|unidentified influenza virus (11309)",SPIVPSFDM,9
+860,5WMO,>5WMO_3|Chain C|RPP peptide from EBV|Epstein-barr virus strain ag876 (82830),RPPIFIRRL,9
+861,5WMP,>5WMP_3|Chain C|TPR peptide from CMV|Cytomegalovirus (10358),TPRVTGGGAM,10
+862,5WMQ,>5WMQ_3|Chain C|ELR peptide from IAV|Influenza A virus (11320),ELRSRYWAI,9
+863,5WMR,>5WMR_3|Chain C|QIK peptide from CMV|Cytomegalovirus (10358),QIKVRVDMV,9
+864,5XOS,>5XOS_3|Chain C|An HIV reverse transcriptase epitope|Human immunodeficiency virus 1 (11676),IPLTEEAEL,9
+865,6AT5,>6AT5_3|Chain C|Cancer/testis antigen 1 peptide|Homo sapiens (9606),APRGPHGGAASGL,13
+866,6BJ8,>6BJ8_5|Chain E[auth C]|VAL-PRO-LEU-THR-GLU-ASP-ALA-GLU-LEU|synthetic construct (32630),VPLTEDAEL,9
+867,6D29,>6D29_3|Chain C|THR-SER-MET-SER-PHE-VAL-PRO-ARG-PRO-TRP|synthetic construct (32630),TSMSFVPRPW,10
+868,6D2B,>6D2B_3|Chain C|LEU-SER-ASP-SER-THR-ARG-ASP-VAL-THR-TRP|synthetic construct (32630),LSDSTARDVTW,11
+869,6D2R,>6D2R_3|Chain C|GLY-SER-PHE-ASP-TYR-SER-GLY-VAL-HIS-LEU-TRP|synthetic construct (32630),GSFDYSGVHLW,11
+870,6D2T,>6D2T_3|Chain C|LEU-ALA-LEU-LEU-THR-GLY-VAL-ARG-TRP|synthetic construct (32630),LALLTGVRW,9
+871,6GGM,">6GGM_3|Chains E[auth P], F[auth Q]|Mtb44*P2-Phe peptide variant (ARG-PHE-PRO-ALA-LYS-ALA-PRO-LEU-LEU)|Mycobacteriaceae (1762)",RFPAKAPLL,9
+872,6GH1,">6GH1_3|Chains C[auth P], F[auth Q], I[auth R], L[auth Z]|Enoyl-[acyl-carrier-protein] reductase [NADH]|Mycobacterium tuberculosis (83332)",RLPAKAPLL,9
+873,6GH4,">6GH4_3|Chains I[auth P], J[auth Q], K[auth R], L[auth Y]|ARG-GLN-PRO-ALA-LYS-ALA-PRO-LEU-LEU|Mycobacteriaceae (1762)",RQPAKAPLL,9
+874,6GHN,">6GHN_3|Chains E[auth P], F[auth Q]|ARG-LEU-PRO-ALA-LYS-ALA-PRO-LEU-PHE|Mycobacteriaceae (1762)",RLPAKAPLF,9
+875,6GL1,">6GL1_3|Chains I[auth P], J[auth Q], K[auth R], L[auth T]|ARG-MET-TYR-SER-PRO-THR-SER-ILE-LEU|Human immunodeficiency virus 1 (11676)",RMYSPTSIL,9
+876,6IEX,>6IEX_3|Chain C|GLY-GLU-THR-ALA-LEU-ALA-LEU-LEU-LEU-LEU|SARS coronavirus (694009),GETALALLLL,10
+877,6J2E,">6J2E_3|Chains C, F|EBOV-NP1|Ebola virus sp. (205488)",DFQESADSFL,10
+878,6J2G,">6J2G_3|Chains C, F|EBOV-NP2|Ebola virus sp. (205488)",DFQESADSFLL,11
+879,6J2H,">6J2H_3|Chains C, F|HeV1|Hendra virus (63330)",DFANTFLP,8
+880,6J2I,">6J2I_3|Chains C, F|H17N10-NP|H17N10 subtype (1129344)",DFEKEGYSL,9
+881,6J2J,">6J2J_3|Chains C, F|MERS-CoV-S3|Middle East respiratory syndrome coronavirus (1335626)",DFTCSQISP,9
+882,6JTN,>6JTN_3|Chain C|10-mer peptide|Homo sapiens (9606),GADGVGKSAL,10
+883,6JTP,>6JTP_3|Chain C|9-mer peptide|Homo sapiens (9606),GADGVGKSA,9
+884,6M24,>6M24_3|Chain C|VP60-2|Rabbit hemorrhagic disease virus (11976),ALMPGQFFV,9
+885,6M2J,>6M2J_3|Chain C|VP60-1|Rabbit hemorrhagic disease virus (11976),TLIDLTELI,9
+886,6M2K,>6M2K_1|Chain A[auth C]|VP60-10|Rabbit hemorrhagic disease virus (11976),FVPFNSPNI,9
+887,6MT3,>6MT3_2|Chain B|NP338 peptide|unidentified influenza virus (11309),FEDLRVLSF,9
+888,6MT4,>6MT4_3|Chain C|NP338-L7S peptide|unidentified influenza virus (11309),FEDLRVSSF,9
+889,6MT5,>6MT5_3|Chain C|NP338-V6L peptide|unidentified influenza virus (11309),FEDLRLLSF,9
+890,6O4Y,>6O4Y_3|Chain C|Peptide MM91|Homo sapiens (9606),KLVVGAVGV,9
+891,6O4Z,>6O4Z_3|Chain C|MM92|Actinomyces radingae (131110),KLVVVAVGV,9
+892,6O51,>6O51_3|Chain C|MM90|Actinomyces radingae (131110),YLVVVGAVGV,10
+893,6O53,>6O53_3|Chain C|MM96|Actinomyces radingae (131110),KLVVVGAVGV,10
+894,6P23,>6P23_3|Chain C|MHC I-peptide|Human immunodeficiency virus 1 (11676),RARAAAKKKYCL,12
+895,6P2F,>6P2F_3|Chain C|MHC I-peptide|Human immunodeficiency virus 1 (11676),RARARAAAKKGYCL,14
+896,6P2S,>6P2S_3|Chain C|MHC I-peptide|Human immunodeficiency virus 1 (11676),RXAAAKKKYCL,11
+897,6PYJ,>6PYJ_3|Chain C|LRN peptide|Homo sapiens (9606),LRNQSVFNF,9
+898,6TRN,>6TRN_3|Chain C|MAGE-A4 peptide (amino acids 230-239) variant|Homo sapiens (9606),AVYDGREHTV,10
+899,6V2O,>6V2O_3|Chain C|Peptide ALA-SER-LEU-ASN-LEU-PRO-ALA-VAL-SER-TRP|synthetic construct (32630),ASLNLPAVSW,10
+900,6WZY,>6WZY_3|Chain C|Epitope from Neuraminidase Protein (NA-181-190)|Influenza A virus (11320),SGPDNGAVAV,10
+901,6X00,>6X00_3|Chain C|Epitope from Neuraminidase Protein (NA-181-191)|Influenza A virus (11320),SGPDNGAVAVL,11
+902,2WJG,>2WJG_2|Chain C|POLYALANINE|synthetic construct (32630),AAAAAAA,7
+903,2YPT,">2YPT_2|Chains E[auth F], F[auth G], G[auth H], H[auth I]|PRELAMIN-A/C|HOMO SAPIENS (9606)",CSIM,4
+904,4qnz,>4QNZ_2|Chain B|ACE-PHE-ALA-THR-ALA-0QE|,XFATAX,6
+905,5F5B,>5F5B_2|Chain B|peptidic derivative of Gurken: ACE-VAL-ARG-MET-ALA-aldehyde|Drosophila melanogaster (7227),XVRMX,5
+906,5F5G,>5F5G_2|Chain B|ACE-ARG-MET-ALA-aldehyde|Drosophila melanogaster (7227),XRMX,4
+907,5F5K,>5F5K_2|Chain B|Peptidic derivative of Gurken: ACE-ARG-LYS-VAL-ARG-MET-ALA-aldehyde|Drosophila melanogaster (7227),XRKVRMX,7
+908,5MT6,>5MT6_2|Chain B|ACE-ARG-VAL-ARG-HIS-ALA-V9C|Providencia stuartii (588),XRVRHAX,7
+909,5MT7,>5MT7_2|Chain B|ACE-VAL-ARG-HIS-ALA-0QE|Providencia stuartii (588),XVRHAX,6
+910,6PJ4,>6PJ4_2|Chain B|Peptide aldehyde inhibitor|Drosophila melanogaster (7227),VRM,3
+911,6PJ5,>6PJ5_2|Chain B|Peptide aldehyde inhibitor|Drosophila melanogaster (7227),VRMA,4
+912,6PJ8,>6PJ8_2|Chain B|Peptide aldehyde inhibitor|Drosophila melanogaster (7227),AVRMA,5
+913,6PJA,>6PJA_2|Chain B|Peptide aldehyde inhibitor|Drosophila melanogaster (7227),VRMAA,5
+914,6PJP,>6PJP_2|Chain B|Peptide aldehyde inhibitor|Drosophila melanogaster (7227),RKVRMAAIVFSFP,13
+915,5KYN,>5KYN_2|Chain C|Melanoma inhibitory activity protein 3|Homo sapiens (9606),GPRPLPPP,8
+916,5KYW,>5KYW_3|Chain C|TANGO1 peptide3|Homo sapiens (9606),LPPPFGPGM,9
+917,6M9I,>6M9I_1|Chain A|Ice nucleation protein|Pseudomonas syringae pv. syringae (321),GSTSTA,6
+918,3RCE,>3RCE_2|Chain B|Substrate Mimic Peptide|null,GDQNATFG,8
+919,6GXC,>6GXC_2|Chain B|GLY-ASP-GLN-DAB-ALA-THR-PPN-GLY|Campylobacter lari RM2100 (306263),GDQAATFG,8
+920,6P25,>6P25_3|Chain C[auth D]|acceptor peptide|Saccharomyces cerevisiae W303 (580240),PYTV,4
+921,4C2C,>4C2C_3|Chain C|PEPTIDE2|ESCHERICHIA COLI (511693),AVPA,4
+922,4C2D,">4C2D_2|Chains E, F, G, H|PEPTIDE1|ESCHERICHIA COLI (511693)",AASLSA,6
+923,4C2D,>4C2D_3|Chain I[auth M]|PEPTIDE2|ESCHERICHIA COLI (511693),AAPQA,5
+924,4C2D,">4C2D_4|Chains J[auth N], K[auth O], L[auth P]|PEPTIDE2|ESCHERICHIA COLI (511693)",PQTA,4
+925,4C2F,>4C2F_3|Chain C|PEPTIDE2|ESCHERICHIA COLI (511693),AAAASAA,7
+926,4C2G,>4C2G_2|Chain B|PEPTIDE1|ESCHERICHIA COLI (511693),AAAA,4
+927,4C2G,>4C2G_3|Chain C|CARBOXY-TERMINAL PROCESSING PROTEASE CTPB|BACILLUS SUBTILIS SUBSP. SUBTILIS STR. 168 (224308),EMDKPQTAAVPA,12
+928,5WQL,>5WQL_5|Chain H[auth G]|LEU-SER-ARG-SER|Escherichia coli K-12 (83333),LSRS,4
+929,5WQL,">5WQL_3|Chains E[auth F], F[auth H]|ALA-ALA-ALA-ALA-ALA-ALA|Escherichia coli K-12 (83333)",AAAAAA,6
+930,6I6H,>6I6H_2|Chain B|AEKDEL peptide|Homo sapiens (9606),AEKDEL,6
+931,1YOK,">1YOK_2|Chains B, C|Nuclear receptor coactivator 2|null",KENALLRYLLDKDD,14
+932,1YUC,">1YUC_2|Chains C, D|Nuclear receptor 0B2|null",ASRPAILYALLSSS,14
+933,1ZDU,">1ZDU_2|Chains B[auth P], C[auth Q]|Nuclear receptor coactivator 2|null",ENALLRYLLDK,11
+934,2A66,>2A66_1|Chain A[auth B]|5'-D(*GP*TP*TP*CP*AP*AP*GP*GP*CP*CP*AP*G)-3'|Homo sapiens (9606),GTTCAAGGCCAG,12
+935,2A66,>2A66_2|Chain B[auth C]|5'-D(*CP*TP*GP*GP*CP*CP*TP*TP*GP*AP*AP*C)-3'|Homo sapiens (9606),CTGGCCTTGAAC,12
+936,5L0M,>5L0M_2|Chain B[auth C]|DNA (5'-D(*CP*TP*AP*GP*CP*CP*TP*TP*GP*AP*CP*C)-3')|Mus musculus (10090),CTAGCCTTGACC,12
+937,5L0M,>5L0M_3|Chain C[auth B]|DNA (5'-D(*GP*GP*TP*CP*AP*AP*GP*GP*CP*TP*AP*G)-3')|Mus musculus (10090),GGTCAAGGCTAG,12
+938,5UNJ,>5UNJ_2|Chain B[auth C]|Peroxisome proliferator-activated gamma coactivator 1-alpha|Homo sapiens (9606),EEPSLLKKLLLAPA,14
+939,1JUQ,">1JUQ_2|Chains B[auth E], D[auth F], F[auth G], H|Cation-dependent mannose-6-phosphate receptor|null",EESEERDDHLLPM,13
+940,1JPL,">1JPL_2|Chains B[auth E], D[auth F], F[auth G], H|Cation-Independent Mannose 6-phosphate receptor|null",FHDDSDEDLLHI,12
+941,1JWG,">1JWG_2|Chains B[auth C], D|Cation-independent mannose-6-phosphate receptor|null",SFHDDSDEDLLHI,13
+942,2MK7,>2MK7_1|Chain A|Alpha-dystroglycan|Homo sapiens (9606),XPPTTTTKKPX,11
+943,5GGP,">5GGP_2|Chains C, D|10-mer Peptide from Dystroglycan|Homo sapiens (9606)",ATPTPVTAIG,10
+944,2DWX,">2DWX_2|Chains E[auth P], F[auth Q]|hinge peptide from ADP-ribosylation factor binding protein GGA1|null",SLDGTGWNSFQSS,13
+945,3G2S,">3G2S_2|Chains C, D|C-terminal fragment of Sortilin-related receptor|null",ITGFSDDVPMVIA,13
+946,3G2W,">3G2W_2|Chains C, D|Internal peptide of the Hinge domain of ADP-ribosylation factor-binding protein GGA1|null",SASVSLLDDELMSL,14
+947,1P4U,>1P4U_2|Chain B|Rabaptin-5|null,DESDFGPLVGADS,13
+948,2G30,>2G30_3|Chain C[auth S]|peptide sequence AAF|null,AAF,3
+949,2IV9,>2IV9_2|Chain C[auth P]|EPIDERMAL GROWTH FACTOR RECEPTOR SUBSTRATE 15 ISOFORM B|RATTUS NORVEGICUS (10116),SFGDGFADFSTL,12
+950,5M5R,">5M5R_2|Chains B[auth C], C[auth D]|AP-2 complex subunit beta|Homo sapiens (9606)",CGDLLNLDLG,10
+951,1H6E,>1H6E_2|Chain B[auth P]|CYTOTOXIC T-LYMPHOCYTE PROTEIN 4|HOMO SAPIENS (9606),TTGVYVKMPPT,11
+952,6I2P,>6I2P_3|Chain E[auth C]|UNK-UNK-UNK-UNK-UNK|Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) (83332),XXXXX,5
+953,1RVS,>1RVS_1|Chain A|Transthyretin|Rattus norvegicus (10116),YTIAALLSPYS,11
+954,1CZY,">1CZY_2|Chains D, E|LATENT MEMBRANE PROTEIN 1|null",XPQQATDD,8
+955,2JO9,>2JO9_2|Chain B|Latent membrane protein 2|null,EEPPPPYED,9
+956,4dcb,>4DCB_2|Chain B[auth F]|Plasminogen|Homo sapiens (9606),KCPGRVVGGCK,11
+957,4TJX,>4TJX_2|Chain B|Aleurain peptide|Hordeum vulgare (4513),ADSNPIRPVT,10
+958,3WSZ,>3WSZ_2|Chain B[auth C]|10-mer peptide|Homo sapiens (9606),AAAAAAAAAA,10
+959,3VI4,">3VI4_5|Chains I[auth G], J[auth I]|RGD peptide|null",RGDNP,5
+960,4WK0,>4WK0_3|Chain C|ARG-GLY-ASP|Homo sapiens (9606),RGD,3
+961,4WK2,>4WK2_3|Chain C|GLY-ARG-GLY-ASP-SER-PRO|Homo sapiens (9606),GRGDSP,6
+962,4WK4,>4WK4_3|Chain C|ALA-CYS-ARG-GLY-ASP-GLY-TRP-CYS|Homo sapiens (9606),ACRGDGWC,8

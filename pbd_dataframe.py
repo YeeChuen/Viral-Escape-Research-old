@@ -47,6 +47,13 @@ def get_sequence(pbdlist):
     backurl = "/display"
     pbdAndSequence = []     # a 2d list to store PBD id in list[0] and its sequence in list[1]
     longest = []            # store the longest sequence in the list
+    shortest = []           # a shortest sequence in the list
+    ux50 = []               # store sequence with 50% or more U or X
+    ux100 = []              # store sequence with 100% U or X
+    duplicates = []         # store duplicate sequence
+    less_15 = []            # store sequence with less than 15 length
+    short_list = []         # store shortest sequence 
+    memory = set()
     for pbd in pbdlist:
         id = str(pbd).replace(" ","")
         url = fronturl + id + backurl
@@ -58,21 +65,71 @@ def get_sequence(pbdlist):
         if check[0] == "No":
             print(text_data + " (PBDid: {})".format(id))
         else:
-            print("Scrapping data. (PBDid: {})".format(id))
             for i in range(0, len(text_data_list), 2):
                 sequence = text_data_list[i+1]
+                # check for duplicates
+                checkduplicate = len(memory)
+                memory.add(str(sequence))                
                 templist = []
                 templist.append(id)
                 templist.append(text_data_list[i])
                 templist.append(sequence)
-                if not longest:
-                    longest = templist
-                elif len(longest[2]) < len(templist[2]):
-                    longest = templist
-                pbdAndSequence.append(templist)
+                templist.append(len(str(sequence)))
+
+                if checkduplicate == len(memory):
+                    print("duplicate sequence, added to duplicates. (PBDid: {})".format(id))
+                    duplicates.append(templist)
+                    continue
+
+                if len(str(sequence)) >= 15:
+                    if count_ux(str(sequence)) == 1:
+                        ux100.append(templist)
+                        print("Scrapping data, added to PoreDB_100ux. (PBDid: {})".format(id))
+                    elif  count_ux(str(sequence)) >= 0.5:
+                        ux50.append(templist)
+                        print("Scrapping data, added to PoreDB_50ux. (PBDid: {})".format(id))
+                    else:    
+                        if not shortest:
+                            shortest = templist
+                        elif len(shortest[2]) >= len(templist[2]):
+                            shortest = templist
+                            if len(shortest[2]) == 15:
+                                short_list.append(shortest)                     
+                        if not longest:
+                            longest = templist
+                        elif len(longest[2]) < len(templist[2]):
+                            longest = templist
+                        pbdAndSequence.append(templist)
+                        print("Scrapping data, added to PoreDB. (PBDid: {})".format(id))
+                else:
+                    less_15.append(templist)
+                    print("Protein sequence length <15. (PBDid: {})".format(id))
     http.clear()
     print("--- retrieval done PBD sequence ---")
-    return [pbdAndSequence,longest]
+    return [pbdAndSequence,longest,short_list, ux100, ux50, duplicates, less_15]
+
+def count_ux(sequence):
+    ux = 0
+    for char in sequence:
+        if char == 'U' or char == 'X':
+            ux+=1
+    return (ux/len(sequence))
+
+def convertcsv(single_protein_list, filename):
+    list = [single_protein_list]
+    df = pd.DataFrame(list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence', 'PBD_Sequence_length']) 
+    print("--- converting single sequence into csv ---")
+    df.to_csv(filename)
+    print("---")
+    print("csvfile created: \"{}\"".format(str(filename)))
+
+def convercsv2d(protein_list_2D, filename):
+    df = pd.DataFrame(protein_list_2D, columns =['PBD_id', 'PBD_info', 'PBD_Sequence', 'PBD_Sequence_length']) 
+    # save the df as a digital csv 
+    df.to_csv(filename)
+    print("---")
+    print("csvfile created: \"{}\"".format(str(filename)))
+
 
 def main():
     # url variable 
@@ -88,37 +145,24 @@ def main():
     return_list = get_sequence(pbd_list)
     pbd_sequence_list = return_list[0]      #this is just reference, not a copy
     longest = return_list[1]                # longest sequence will be used to be compared during MSA
+    shortest = return_list[2]               # shortest sequence from PDB
+    ux100 = return_list[3]                  # ux100 sequence from PDB
+    ux50 = return_list[4]                   # ux50 sequence from PDB
+    duplicates = return_list[5]             # duplicates sequence from PDB
+    less_15 = return_list[6]                # lessthan 15 length sequence from PDB
 
-    list = [longest]
-    df = pd.DataFrame(list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
-    
-    print("--- longest sequence ---")
-    for x in range(len(longest)):
-        if x == 0:
-            print("PBDID: {}".format(str(longest[x])))
-        if x == 1:
-            print("PBD INFO: {}".format(str(longest[x])))
-        if x == 2:
-            print("PBD SEQUENCE: {}".format(str(longest[x])))
-    df.to_csv('PBD_LSequence.csv')
+    convertcsv(longest, 'PoreDB_long.csv')
+    convercsv2d(shortest, 'PoreDB_short.csv')
+    convercsv2d(pbd_sequence_list, 'PoreDB.csv')
+    convercsv2d(ux100, 'PoreDB_100ux.csv')
+    convercsv2d(ux50, 'PoreDB_50ux.csv')
+    convercsv2d(duplicates, 'PoreDB_duplicates.csv')
+    convercsv2d(less_15, 'PoreDB_less15.csv')
+
     print("---")
-    print("Note: extract longest sequence here to be used for MSA alignment, saved as \"PBD_LSequence.csv\"\
-        \ncsvfile created: \"PBD_LSequence.csv\"\
-        \nAll protein sequence will be used to align with this longest sequence.")
-    print("--- end longest sequence ---")
+    print("run \"python readcsv.py --fPath PoreDB.csv\" on terminal to read csv file")
+    print("OPTIONAL: run \"python readcsv.py --fPath PoreDB.csv --search <PBDID>\" on terminal to search specific PBD")
 
-    df = pd.DataFrame(pbd_sequence_list, columns =['PBD_id', 'PBD_info', 'PBD_Sequence']) 
-
-    # save the df as a digital csv 
-    df.to_csv('PBD_AllSequenceDF.csv')
-    print("---")
-    print("PBD dataframe created, saved as save as \"PBD_AllSequenceDF.csv\.")
-    print("csvfile created: \"PBD_AllSequenceDF.csv\"")
-    print("run \"python readcsv.py --fPath PBD_AllSequenceDF.csv\" on terminal to read csv file")
-    print("OPTIONAL: run \"python readcsv.py --fPath PBD_AllSequenceDF.csv --search <PBDID>\" on terminal to search specific PBD")
-    print("---")
-
-    #url2 = "https://toolkit.tuebingen.mpg.de/tools/msaprobs"
 
 #____________________________________________________________________________________________________
 # main 
