@@ -1,7 +1,7 @@
 # Author/s: Yee Chuen Teh
-# Title: MSAalignment.py
-# Project: ChowdhuryLab Datamining from website
-# Description: Description
+# Title: TODO: script name
+# Project: TODO: project title
+# Description: TODO: Description
 # Reference:
 '''
 TODO: write your reference here
@@ -14,10 +14,13 @@ TODO: write your reference here
 #____________________________________________________________________________________________________
 # set ups 
     # TODO: write your functions here
+def main():
+    pass
 
 #____________________________________________________________________________________________________
 # main 
 if __name__ == "__main__":
     print("\n-------------------- START of \"<PYTHON SCRIPT TITLE>\" script --------------------")
     # TODO: write your code here
+    main()
     print("-------------------- END of \"<PYTHON SCRIPT TITLE>\" script --------------------\n")

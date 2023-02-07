@@ -5,7 +5,9 @@ html5lib
 BeautifulSoup4
 urllib3
 os.path2
-selenium
 argparse
 pyperclip
+selenium
 webdriver-manager
+matplotlib
+biopython
