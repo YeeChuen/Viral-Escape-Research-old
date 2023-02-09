@@ -46,7 +46,7 @@ def fas_to_list(path):
     for i in range(len(fas_list)):
         if i%2 == 0:
             if fas_list[i][0] != ">":
-                print("file read is not FASTA, converting the list to FAS")
+                #print("file read is not FASTA, converting the list to FAS")
                 FAS = False
                 break
     if FAS == False:   
