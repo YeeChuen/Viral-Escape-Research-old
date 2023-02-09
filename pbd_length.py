@@ -28,12 +28,42 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 # set ups 
     # TODO: write your functions here
 def fas_to_list(path):
+    fas_list = []
     with open (path, "r") as f:
         a_temp = f.read()
         b_temp = a_temp.split("\n")
         if b_temp[len(b_temp)-1] == "":
             b_temp.pop()
-        return b_temp
+        fas_list =  b_temp
+    
+    # check if the file is in FAS format, if yes, odd index description, even index sequence
+    FAS = True
+    for i in range(len(fas_list)):
+        if i%2 == 0:
+            if fas_list[i][0] != ">":
+                print("file read is not FASTA, converting the list to FAS")
+                FAS = False
+                break
+    if FAS == False:   
+        c_temp = []
+        sequence = ""
+        for p in fas_list:
+            if p == "":
+                continue
+            if p[0] == ">":
+                if sequence != "":
+                    c_temp.append(sequence)
+                    sequence = ""
+                c_temp.append(p)
+            else:
+                sequence += p
+        c_temp.append(sequence)
+        fas_list = c_temp
+    else:
+        print("file read is FASTA, proceed as usual")
+    
+    return fas_list
+
 
 def split_des_seq(fas_list):
     seq_list = []
@@ -113,6 +143,7 @@ def extract_length(c_temp, name, length, type):
             f.write(p+"\n")            
 
 def barchart(c_temp, target_length, show):
+    '''c_temp is a list where index 0 is name, index 1 is seq'''
     seq = c_temp[1]
     dict = {}
     target = 0

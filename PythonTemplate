@@ -1,13 +1,14 @@
-# Author/s: Yee Chuen Teh
-# Title: TODO: script name
-# Project: TODO: project title
-# Description: TODO: Description
+# Author/s: Yee Chuen Teh           (Author that contribute to the script)
+# Title: TODO: script name          (the name of the script)
+# Project: TODO: project title      (the main project name, what project this script is apart of?)
+# Description: TODO: Description    (summary of what the script does)
 # Reference:
 '''
 TODO: write your reference here
 '''
 # Updates:  (date)
 '''
+TODO: write your updates here
 date
     - some update on this date
 '''
@@ -17,15 +18,17 @@ date
     # TODO: write your imports here
 
 #____________________________________________________________________________________________________
-# set ups 
+# functions/set ups 
     # TODO: write your functions here
+    
 def main():
+    # TODO: write your main here
     pass
 
 #____________________________________________________________________________________________________
 # main 
 if __name__ == "__main__":
+    # TODO: change your python script title
     print("\n-------------------- START of \"<PYTHON SCRIPT TITLE>\" script --------------------")
-    # TODO: write your code here
     main()
     print("-------------------- END of \"<PYTHON SCRIPT TITLE>\" script --------------------\n")

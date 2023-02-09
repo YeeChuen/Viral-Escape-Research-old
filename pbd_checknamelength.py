@@ -5,7 +5,8 @@
 # Reference:
 '''
 TODO: write your reference here
-usage: python pbd_checknamelength.py --f PoreDB_old/PoreDB.fas
+Usage: 
+python pbd_checknamelength.py --f PoreDB_old/PoreDB.fas
 '''
 
 #____________________________________________________________________________________________________
@@ -16,6 +17,7 @@ from pbd_length import *
 # set ups 
     # TODO: write your functions here
 def extract_name(fas_list):
+    '''fas_list is a list where even index is description, odd index is sequence'''
     name_list = []
     for i in range(0,len(fas_list), 2):
         description = fas_list[i]

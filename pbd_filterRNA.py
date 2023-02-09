@@ -5,6 +5,8 @@
 # Reference:
 '''
 TODO: write your reference here
+Usage: 
+python pbd_filterRNA.py --i PoreDB_old/PoreDB_20.fas --o PoreDB_nonRNA
 '''
 '''
 TODO:

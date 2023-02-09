@@ -1,5 +1,5 @@
 # Author/s: Yee Chuen Teh
-# Title: pbd_dataframe.py (no update record)
+# Title: pbd_df.py (no update record)
 # Project: ChowdhuryLab Datamining from website
 # Description: python script to mine protein sequence and PDB ids from webs
 # Reference:
@@ -10,7 +10,11 @@ Protein Sequence Analysis Using the MPI Bioinformatics Toolkit.
 Gabler F, Nam SZ, Till S, Mirdita M, Steinegger M, Söding J, Lupas AN, Alva V. Curr Protoc Bioinformatics. 2020 Dec;72(1):e108. doi: 10.1002/cpbi.108.
 
 HHblits: lightning-fast iterative protein sequence searching by HMM-HMM alignment.
-Remmert M, Biegert A, Hauser A, Söding J. Nat Methods. 2011 Dec 25;9(2):173-5.'''
+Remmert M, Biegert A, Hauser A, Söding J. Nat Methods. 2011 Dec 25;9(2):173-5.
+
+Usage: 
+python pbd_df.py
+'''
 
 #____________________________________________________________________________________________________
 # imports 

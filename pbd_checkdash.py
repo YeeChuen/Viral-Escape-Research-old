@@ -5,7 +5,7 @@
 # Reference:
 '''
 TODO: write your reference here
-usage: 
+Usage: 
 python pbd_checkdash.py --p muscle_long_1/3W5B_1_output --id 5YX9_1
 '''
 
@@ -72,8 +72,8 @@ def plot_2d(seq_list, longname, alignname):
     plt.xlabel('size of aligned protein (excluding "-")')
     plt.ylabel('number of dashes in the long protein')
     plt.title('no. dashes in {} and original size of {}'.format(longname, alignname))
-    plt.xticks([target_alph-2, target_alph-1, target_alph, target_alph+1, target_alph+2])
-    plt.yticks([long_dash-2, long_dash-1, long_dash, long_dash+1, long_dash+2])
+    plt.xticks(np.arange(min(x), max(x)+1, 1.0))
+    plt.yticks(np.arange(min(y), max(y)+1, 1.0))
     plt.show()
 
 def extract_name(fas_list):
@@ -105,7 +105,8 @@ def main():
     file_path = path + "/"+target_file
     a_temp = fas_to_list(file_path)
     b_temp = split_des_seq(a_temp)
-    name_list = extract_name(b_temp[0])
+    name_list = extract_name(a_temp)
+    print(name_list)
     seq_list = b_temp[1]
     plot_2d(seq_list, name_list[0], name_list[1])
 

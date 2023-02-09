@@ -6,7 +6,7 @@
 # Reference:
 '''
 TODO: write your reference here
-usage: 
+Usage: 
 python pbd_heatmap.py --f PoreDB_nonRNA/Muscle_3W5B_1_eq1000.fas --s 0 --r 50
 '''
 
