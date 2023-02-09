@@ -1,10 +1,16 @@
 # Author/s: Yee Chuen Teh
-# Title: pbd_length.py
+# Title: pbd_length.py 
 # Project: Chowdhury Lab Viral Escape
-# Description: TODO: Description
+# Description: filter dataset base of sequence length, equal, less than, and able to plot barchart based on selection
 # Reference:
 '''
 TODO: write your reference here
+Usage:
+python pbd_length.py --f PoreDB_nonRNA/PoreDB_nonRNA_le1000.fas --t non --s n --l 1000
+'''
+# Updates:  (2/8/2023)
+'''
+    - fixed split_des_seq() function where the last index of name_list is a sequence.
 '''
 
 #____________________________________________________________________________________________________
@@ -29,7 +35,7 @@ def fas_to_list(path):
             b_temp.pop()
         return b_temp
 
-def convertfas(fas_list):
+def split_des_seq(fas_list):
     seq_list = []
     name_list = []
     sequence = ""
@@ -44,12 +50,14 @@ def convertfas(fas_list):
         else:
             sequence += p
     seq_list.append(sequence)
-    name_list.append(p)
+    #name_list.append(p)
+
     return [name_list, seq_list]
 
 def check_length(c_temp):
     '''count the frequence of the protein sequence length, and then report it.
     lastly return the highest frequency (int)'''
+    ''' input is 2D list, c_temp[0] is description, c_temp[1] is sequence only'''
     dict = {}
     seq_list = c_temp[1]
     max_freq = 0
@@ -165,7 +173,8 @@ def main():
     os.chdir(to_path)
 
     fas_list = fas_to_list(a_temp[1])
-    c_temp = convertfas(fas_list)
+    c_temp = split_des_seq(fas_list)
+
     d_temp = check_length(c_temp)
     max_freq = d_temp[0]
     max_length = d_temp[1]

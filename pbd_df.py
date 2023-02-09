@@ -1,5 +1,5 @@
 # Author/s: Yee Chuen Teh
-# Title: pbd_dataframe.py
+# Title: pbd_dataframe.py (no update record)
 # Project: ChowdhuryLab Datamining from website
 # Description: python script to mine protein sequence and PDB ids from webs
 # Reference:
