@@ -7,6 +7,9 @@
 TODO: write your reference here
 Usage:
 python pbd_length.py --f PoreDB_nonRNA/PoreDB_nonRNA_le1000.fas --t non --s n --l 1000
+python pbd_length.py --f PoreDB_old/PoreDB.fas --t non --s y
+python pbd_length.py --f PoreDB_nonRNA/PoreDB_nonRNA_le1000.fas --t non --s n
+python pbd_length.py --f PoreDB_nonRNA/Muscle_3W5B_1 --t non --s y
 '''
 # Updates:  (2/8/2023)
 '''
@@ -36,6 +39,8 @@ def fas_to_list(path):
             b_temp.pop()
         fas_list =  b_temp
     
+    while "" in fas_list:
+        fas_list.remove("")
     # check if the file is in FAS format, if yes, odd index description, even index sequence
     FAS = True
     for i in range(len(fas_list)):

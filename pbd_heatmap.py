@@ -22,6 +22,8 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 import math
 import copy
 import argparse
+from tqdm import tqdm
+import time
 
 
 #____________________________________________________________________________________________________
@@ -52,12 +54,15 @@ def heatmap(list_2d, start, end, size, seq_length):
     cax = divider.append_axes('right', size='5%', pad=0.05)
     im = ax.imshow(data, cmap='viridis',interpolation='nearest', origin='lower')
     fig.colorbar(im, cax=cax, orientation='vertical')
-    for i in range(len(tvalue)):
+    for i in tqdm(range(0, len(tvalue)),
+               desc="Generating heatmap...",
+               ascii=False, ncols=100):
         for j in range(size):
             ax.annotate(str(data[i][j]), xy=(j, i), ha="center", va="center", fontsize=6, color='red')
             rect = patches.Rectangle((j-0.5, i-0.5), 1, 1, linewidth=1, edgecolor='black', facecolor='none')
             ax.add_patch(rect)
-    ax.set_title("Frequency of Protein Residue Type in Sequence Index out of {} sequence".format(str(seq_length)))
+        time.sleep(0.0001)
+    ax.set_title("Frequency of Protein Residue Type in Sequence Index out of length {} sequence".format(str(seq_length)))
 
     fig.tight_layout()
     plt.show()
@@ -87,20 +92,22 @@ def normalize(seq_list):
     norm = math.floor(same_length/100)
 
     if norm >= 1:
-        for s in seq_list:
-            if same_length != len(s):
+        for j in tqdm(range(0, len(seq_list)),
+               desc="normalizing sequence...",
+               ascii=False, ncols=100):
+            if same_length != len(seq_list[j]):
                 print("check FASTA file sequence, must be in same length")
                 break
             condense = True
             n_index = 0
             counter = -1
             percent = 1
+            s = seq_list[j]
             for i in range(len(s)):
                 #print("iter {}".format(str(i)))
                 #print("counter: {}".format(str(counter)))
-                if s[i] == "-":
-                    continue
-                norm_list[n_index][seq_dict[s[i]]]+=1
+                if s[i] != "-":
+                    norm_list[n_index][seq_dict[s[i]]]+=1
                 if condense == True:
                     if (len(s))%(100) == n_index:
                         condense = False
@@ -116,14 +123,19 @@ def normalize(seq_list):
                     n_index+=1
                 else:
                     counter +=1
+            time.sleep(0.0001)
     else:
-        for s in seq_list:
+        for j in tqdm(range(0, len(seq_list)),
+               desc="normalizing sequence...",
+               ascii=False, ncols=100):
+            s = seq_list[j]
             for i in range(len(s)):
                 if s[i] == "-":
                     continue
                 #print("iter {}".format(str(i)))
                 #print("counter: {}".format(str(counter)))
                 norm_list[i][seq_dict[s[i]]]+=1
+            time.sleep(0.0001)
 
     #print(norm_list)
 
